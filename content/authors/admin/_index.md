@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Jakob (Jake) Helton
+title: Jakob M. Helton
 
 # Name pronunciation (optional)
-name_pronunciation: JAY-kuhb (JAYK) HEL-ten
+name_pronunciation: JAY-kuhb EM HEL-ten
 
 # Full name (for SEO)
 first_name: Jakob M.
@@ -40,10 +40,10 @@ profiles:
     url: https://orcid.org/0000-0003-4337-6211
   - icon: brands/github
     url: https://github.com/jakobhelton
-  - icon: brands/instagram
-    url: https://www.instagram.com/jakehelton_/
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/jakobhelton/
+  - icon: brands/instagram
+    url: https://www.instagram.com/jakehelton_/
   - icon: brands/youtube
     url: https://www.youtube.com/channel/UCeW6Y2b5igWkbRLBIBbtGzQ
 
