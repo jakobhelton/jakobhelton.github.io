@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ""
-date: 2022-10-24
+date: 2024-11-07
 type: landing
 
 design:
@@ -17,14 +17,14 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/JMH_CV.pdf
     design:
       css_class: dark
       background:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: JWST_Carina_Nebula_Small.png
+          filename: JADES_GS_z14_0_Small.png
           filters:
             brightness: 1.0
           size: cover
@@ -32,7 +32,7 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: 'My Research'
       subtitle: ''
       text: |-
         When, how, and why did the first stars, galaxies, and galaxy clusters form? In what ways did large-scale structure influence these first structures? And what sources of radiation reionized the Universe? These questions, which drive modern extragalactic astronomy (see Section 2.3 and Box 2.3 of the Astro2020 Decadel Survey) are core to my research. Using data from the James Webb Space Telescope (JWST), I have worked to: (#1) identify, characterize, and understand galaxies and galaxy clusters in the very early Universe; while (#2) connecting the physical properties of the most distant known galaxies and galaxy clusters with their large-scale environment. I have extensive experience interpreting observations from three out of the four instruments on JWST: the Mid-Infrared Instrument (MIRI), the Near Infrared Camera (NIRCam), and the Near Infrared Spectrograph (NIRSpec). My contributions to extragalactic astronomy have been featured in national and international press, and I have worked to share my work and acquired knowledge with the broader community.
@@ -41,7 +41,7 @@ sections:
   - block: collection
     id: papers
     content:
-      title: Featured Publications
+      title: First-Author Publications
       filters:
         folders:
           - publication
@@ -51,7 +51,7 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: Recent Publications
+      title: Co-Author Publications
       text: ""
       filters:
         folders:
@@ -59,45 +59,45 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+#   - block: collection
+#     id: talks
+#     content:
+#       title: Recent & Upcoming Talks
+#       filters:
+#         folders:
+#           - event
+#     design:
+#       view: article-grid
+#       columns: 1
+#   - block: collection
+#     id: news
+#     content:
+#       title: Recent News
+#       subtitle: ''
+#       text: ''
+#       # Page type to display. E.g. post, talk, publication...
+#       page_type: post
+#       # Choose how many pages you would like to display (0 = all pages)
+#       count: 5
+#       # Filter on criteria
+#       filters:
+#         author: ""
+#         category: ""
+#         tag: ""
+#         exclude_featured: false
+#         exclude_future: false
+#         exclude_past: false
+#         publication_type: ""
+#       # Choose how many pages you would like to offset by
+#       offset: 0
+#       # Page order: descending (desc) or ascending (asc) date.
+#       order: desc
+#     design:
+#       # Choose a layout view
+#       view: date-title-summary
+#       # Reduce spacing
+#       spacing:
+#         padding: [0, 0, 0, 0]
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
