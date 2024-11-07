@@ -1,6 +1,5 @@
 ---
-title: 'JADES Imaging of GN-z11: Revealing the Morphology and Environment of a Luminous
-  Galaxy 430 Myr after the Big Bang'
+title: 'JADES Imaging of GN-z11: Revealing the Morphology and Environment of a Luminous Galaxy 430 Myr after the Big Bang'
 authors:
 - Sandro Tacchella
 - Daniel J. Eisenstein
@@ -21,7 +20,7 @@ authors:
 - Marcia Rieke
 - Irene Shivaei
 - Christina C. Williams
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Andrew Bunker
 - Alex J. Cameron
 - Stefano Carniani
@@ -54,21 +53,20 @@ date: '2023-07-01'
 publishDate: '2024-11-07T18:50:22.346156Z'
 publication_types:
 - article-journal
-publication: '*apj*'
+publication: The Astrophysical Journal, Volume 952, Issue 1, id.74, 15 pages
 doi: 10.3847/1538-4357/acdbc6
+featured: false
 tags:
 - Galaxy evolution
 - Galaxy formation
 - Galaxy structure
 - High-redshift galaxies
 - Star formation
-- '594'
-- '595'
-- '622'
-- '734'
-- '1569'
-- Astrophysics - Astrophysics of Galaxies
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2023ApJ...952...74T/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2302.07234
+- name: Publication
+  url: https://iopscience.iop.org/article/10.3847/1538-4357/acdbc6
 ---
