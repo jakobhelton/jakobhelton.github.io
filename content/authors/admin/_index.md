@@ -61,13 +61,13 @@ education:
     date_start: 2021-08-23
     date_end: 2025-05-16
     summary: |
-      At the Break of Cosmic Dawn: Identifying and Understanding the Most Distant Galaxies and Galaxy Clusters with JWST (Advisors: Prof. Marcia Rieke and Prof. Kevin Hainline)
+      Thesis: At the Break of Cosmic Dawn: Identifying and Understanding the Most Distant Galaxies and Galaxy Clusters with JWST (Advisors: Prof. Marcia Rieke and Prof. Kevin Hainline)
   - area: A.B. in Astrophysical Sciences
     institution: Princeton University
     date_start: 2017-09-13
     date_end: 2021-05-16
     summary: |
-      The Nebular Properties of Star-Forming Galaxies at Intermediate Redshifts from LEGA-C (Advisors: Prof. Allison Strom and Prof. Jenny Greene)
+      Thesis: The Nebular Properties of Star-Forming Galaxies at Intermediate Redshifts from LEGA-C (Advisors: Prof. Allison Strom and Prof. Jenny Greene)
 
 # work:
 #   - position: 
@@ -142,4 +142,4 @@ languages:
 
 ## About Me
 
-I am a doctoral candidate at the University of Arizona pursuing an M.S. and Ph.D. in astronomy, with plans to defend my dissertation entitled "At the Break of Cosmic Dawn: Identifying and Understanding the Most Distant Galaxies and Galaxy Clusters with JWST" in May 2025. I spend my time studying (#1) high-redshift galaxies, (#2) high-redshift galaxy clusters, and (#3) the large-scale structure of the Universe. I am a key member of the James Webb Space Telescope (JWST) Advanced Deep Extragalactic Survey (JADES) in addition to the Near Infrared Camera (NIRCam) and Mid-Infrared Instrument (MIRI) Science Teams. I have extensive experience in academic research, problem solving, public speaking, and technical writing.
+I am a doctoral candidate at the University of Arizona pursuing an M.S. and Ph.D. in astronomy, with plans to defend my dissertation entitled "At the Break of Cosmic Dawn: Identifying and Understanding the Most Distant Galaxies and Galaxy Clusters with JWST" in May 2025. I spend my time studying (#1) high-redshift galaxies, (#2) high-redshift galaxy clusters, and (#3) the large-scale structure of the Universe. I am a key member of the James Webb Space Telescope (JWST) Advanced Deep Extragalactic Survey (JADES) in addition to the Near Infrared Camera (NIRCam) and Mid-Infrared Instrument (MIRI) Science Teams. I have extensive experience in academic research, problem solving, public speaking, and technical writing. My contributions to extragalactic astronomy have been featured in national and international press, and I have worked to share my work and acquired knowledge with the broader community.
