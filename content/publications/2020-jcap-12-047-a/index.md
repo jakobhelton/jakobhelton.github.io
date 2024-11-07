@@ -8,7 +8,7 @@ authors:
 - Benjamin L. Schmitt
 - Maximilian H. Abitbol
 - Graeme E. Addison
-- Peter A.~R. Ade
+- Peter A. R. Ade
 - David Alonso
 - Mandana Amiri
 - Stefania Amodeo
