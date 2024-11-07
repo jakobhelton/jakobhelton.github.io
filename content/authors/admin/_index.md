@@ -6,7 +6,7 @@ title: Jakob M. Helton
 # name_pronunciation: JAY-kuhb EM HEL-ten
 
 # Full name (for SEO)
-first_name: Jakob M.
+first_name: Jakob
 last_name: Helton
 
 # Status emoji
