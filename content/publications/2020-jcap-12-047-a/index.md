@@ -148,8 +148,9 @@ publication_types:
 - article-journal
 publication: Journal of Cosmology and Astroparticle Physics, Issue 12, article id. 047
 doi: 10.1088/1475-7516/2020/12/047
+featured: false
 tags:
-- Astrophysics - Cosmology and Nongalactic Astrophysics
+- 'cosmology'
 links:
 - name: ADS
   url: https://ui.adsabs.harvard.edu/abs/2020JCAP...12..047A/abstract
