@@ -1,6 +1,5 @@
 ---
-title: 'JADES: Probing interstellar medium conditions at z ensuremath∼ 5.5-9.5 with
-  ultra-deep JWST/NIRSpec spectroscopy'
+title: 'JADES: Probing interstellar medium conditions at z ∼ 5.5-9.5 with ultra-deep JWST/NIRSpec spectroscopy'
 authors:
 - Alex J. Cameron
 - Aayush Saxena
