@@ -58,14 +58,14 @@ interests:
 education:
   - area: M.S. and Ph.D. in Astronomy
     institution: University of Arizona
-    date_start: 2021-08
-    date_end: 2025-05
+    date_start: 2021-08-23
+    date_end: 2025-05-16
     summary: |
       At the Break of Cosmic Dawn: Identifying and Understanding the Most Distant Galaxies and Galaxy Clusters with JWST (Advisors: Prof. Marcia Rieke and Prof. Kevin Hainline)
   - area: A.B. in Astrophysical Sciences
     institution: Princeton University
-    date_start: 2017-09
-    date_end: 2021-05
+    date_start: 2017-09-13
+    date_end: 2021-05-16
     summary: |
       The Nebular Properties of Star-Forming Galaxies at Intermediate Redshifts from LEGA-C (Advisors: Prof. Allison Strom and Prof. Jenny Greene)
 
