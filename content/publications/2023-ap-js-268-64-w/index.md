@@ -1,6 +1,5 @@
 ---
-title: 'JEMS: A Deep Medium-band Imaging Survey in the Hubble Ultra Deep Field with
-  JWST NIRCam and NIRISS'
+title: 'JEMS: A Deep Medium-band Imaging Survey in the Hubble Ultra Deep Field with JWST NIRCam and NIRISS'
 authors:
 - Christina C. Williams
 - Sandro Tacchella
@@ -9,7 +8,7 @@ authors:
 - Benjamin D. Johnson
 - Chris J. Willott
 - Daniel J. Eisenstein
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Zhiyuan Ji
 - Kevin N. Hainline
 - Jakob M. Helton
@@ -41,19 +40,19 @@ date: '2023-10-01'
 publishDate: '2024-11-07T18:50:22.276775Z'
 publication_types:
 - article-journal
-publication: '*apjs*'
+publication: The Astrophysical Journal Supplement Series, Volume 268, Issue 2, id.64, 15 pages
 doi: 10.3847/1538-4365/acf130
+featured: false
 tags:
 - Emission line galaxies
 - High-redshift galaxies
 - Redshift surveys
 - Extragalactic astronomy
-- '459'
-- '734'
-- '1378'
-- '506'
-- Astrophysics - Astrophysics of Galaxies
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2023ApJS..268...64W/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2301.09780
+- name: Publication
+  url: https://iopscience.iop.org/article/10.3847/1538-4365/acf130
 ---
