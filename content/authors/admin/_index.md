@@ -3,7 +3,7 @@
 title: Jakob M. Helton
 
 # Name pronunciation (optional)
-name_pronunciation: JAY-kuhb EM HEL-ten
+# name_pronunciation: JAY-kuhb EM HEL-ten
 
 # Full name (for SEO)
 first_name: Jakob M.
