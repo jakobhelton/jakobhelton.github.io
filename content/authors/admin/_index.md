@@ -11,7 +11,7 @@ last_name: Helton
 
 # Status emoji
 status:
-  icon: 🔭
+  icon: 🌌
 
 # Is this the primary user of the site?
 superuser: true
@@ -51,7 +51,7 @@ interests:
   - Galaxy Evolution
   - Galaxy Formation
   - High-Redshift Galaxies
-  - High-Redshift Galaxy (Proto)Clusters
+  - High-Redshift Galaxy Clusters
   - Large-Scale Structure of the Universe
   - Observational Extragalactic Astronomy
 
@@ -105,21 +105,21 @@ skills:
     # color: '#eeac02'
     # color_border: '#f0bf23'
     items:
+      - name: Reading
+        description: ''
+        icon: hero/book-open
+        # percent: 100
       - name: Photography
         description: ''
-        icon: camera
+        icon: hero/camera
         # percent: 100
       - name: Painting
         description: ''
-        icon: paint-brush
+        icon: hero/paint-brush
         # percent: 100
       - name: Hiking
         description: ''
         icon: person-simple-walk
-        # percent: 100
-      - name: Cats
-        description: ''
-        icon: cat
         # percent: 100
 
 languages:
@@ -142,4 +142,4 @@ languages:
 
 ## About Me
 
-I am a doctoral candidate at the University of Arizona pursuing an M.S. and Ph.D. in astronomy, with plans to defend my dissertation entitled "At the Break of Cosmic Dawn: Identifying and Understanding the Most Distant Galaxies and Galaxy Clusters with JWST" in May 2025. I spend my time studying (#1) high-redshift galaxies, (#2) high-redshift galaxy clusters, and (#3) the large-scale structure of the Universe. I am a key member of the James Webb Space Telescope (JWST) Advanced Deep Extragalactic Survey (JADES) in addition to the Near Infrared Camera (NIRCam) and Mid-Infrared Instrument (MIRI) Science Teams. I have extensive experience in academic research, problem solving, public speaking, and technical writing. My contributions to extragalactic astronomy have been featured in national and international press, and I have worked to share my work and acquired knowledge with the broader community.
+I am a doctoral candidate at the University of Arizona pursuing an M.S. and Ph.D. in astronomy, with plans to defend my dissertation entitled "At the Break of Cosmic Dawn: Identifying and Understanding the Most Distant Galaxies and Galaxy Clusters with JWST" in May 2025. I spend my time studying (#1) high-redshift galaxies, (#2) high-redshift galaxy clusters, and (#3) the large-scale structure of the Universe. I am a key member of the James Webb Space Telescope (JWST) Advanced Deep Extragalactic Survey (JADES) in addition to the Near Infrared Camera (NIRCam) and Mid-Infrared Instrument (MIRI) Science Teams. I have extensive experience in academic research, problem solving, public speaking, and technical writing.
