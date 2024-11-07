@@ -1,6 +1,5 @@
 ---
-title: 'JADES NIRSpec Spectroscopy of GN-z11: Lyman-ensuremathα emission and possible
-  enhanced nitrogen abundance in a z = 10.60 luminous galaxy'
+title: 'JADES NIRSpec Spectroscopy of GN-z11: Lyman-alpha emission and possible enhanced nitrogen abundance in a z = 10.60 luminous galaxy'
 authors:
 - Andrew J. Bunker
 - Aayush Saxena
@@ -69,16 +68,19 @@ date: '2023-09-01'
 publishDate: '2024-11-07T18:50:22.317648Z'
 publication_types:
 - article-journal
-publication: '*åp*'
+publication: Astronomy & Astrophysics, Volume 677, id.A88, 17 pages
 doi: 10.1051/0004-6361/202346159
+featured: false
 tags:
 - 'galaxies: high-redshift'
 - 'galaxies: evolution'
 - 'galaxies: groups: individual: GN-z11'
 - 'galaxies: abundances'
-- Astrophysics - Astrophysics of Galaxies
-- Astrophysics - Cosmology and Nongalactic Astrophysics
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2023A%26A...677A..88B/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2302.07256
+- name: Publication
+  url: https://www.aanda.org/articles/aa/full_html/2023/09/aa46159-23/aa46159-23.html
 ---
