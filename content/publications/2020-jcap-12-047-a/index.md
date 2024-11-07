@@ -146,11 +146,15 @@ date: '2020-12-01'
 publishDate: '2024-11-07T18:50:22.404659Z'
 publication_types:
 - article-journal
-publication: '*jcap*'
+publication: Journal of Cosmology and Astroparticle Physics, Issue 12, article id. 047
 doi: 10.1088/1475-7516/2020/12/047
 tags:
 - Astrophysics - Cosmology and Nongalactic Astrophysics
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2020JCAP...12..047A/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2007.07288
+- name: Publication
+  url: https://iopscience.iop.org/article/10.1088/1475-7516/2020/12/047
 ---
