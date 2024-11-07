@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: JWST_Carina_Nebula_Small.png
           filters:
             brightness: 1.0
           size: cover
@@ -35,11 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        When, how, and why did the first stars, galaxies, and galaxy clusters form? In what ways did large-scale structure influence these first structures? And what sources of radiation reionized the Universe? These questions, which drive modern extragalactic astronomy (see Section 2.3 and Box 2.3 of the Astro2020 Decadel Survey) are core to my research. Using data from the James Webb Space Telescope (JWST), I have worked to: (#1) identify, characterize, and understand galaxies and galaxy clusters in the very early Universe; while (#2) connecting the physical properties of the most distant known galaxies and galaxy clusters with their large-scale environment. I have extensive experience interpreting observations from three out of the four instruments on JWST: the Mid-Infrared Instrument (MIRI), the Near Infrared Camera (NIRCam), and the Near Infrared Spectrograph (NIRSpec). My contributions to extragalactic astronomy have been featured in national and international press, and I have worked to share my work and acquired knowledge with the broader community.
     design:
       columns: '1'
   - block: collection
