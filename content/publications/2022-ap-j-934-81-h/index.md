@@ -1,6 +1,5 @@
 ---
-title: The Nebular Properties of Star-forming Galaxies at Intermediate Redshift from
-  the Large Early Galaxy Astrophysics Census
+title: The Nebular Properties of Star-forming Galaxies at Intermediate Redshift from the Large Early Galaxy Astrophysics Census
 authors:
 - Jakob M. Helton
 - Allison L. Strom
