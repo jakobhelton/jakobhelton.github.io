@@ -1,5 +1,5 @@
 ---
-title: 'Projects'
+title: 'Art'
 date: 2024-11-07
 type: landing
 
@@ -11,11 +11,11 @@ design:
 sections:
   - block: collection
     content:
-      title: Projects
+      title: Art
       text: ...
       filters:
         folders:
-          - project
+          - art
     design:
       view: article-grid
       fill_image: false
