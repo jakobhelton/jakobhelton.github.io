@@ -1,6 +1,5 @@
 ---
-title: 'Morpheus Reveals Distant Disk Galaxy Morphologies with JWST: The First AI/ML
-  Analysis of JWST Images'
+title: 'Morpheus Reveals Distant Disk Galaxy Morphologies with JWST: The First AI/ML Analysis of JWST Images'
 authors:
 - Brant E. Robertson
 - Sandro Tacchella
@@ -24,29 +23,26 @@ authors:
 - Fengwu Sun
 - Hannah Übler
 - Christina C. Williams
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Joris Witstok
 date: '2023-01-01'
 publishDate: '2024-11-07T18:50:22.383178Z'
 publication_types:
 - article-journal
-publication: '*apjl*'
+publication: The Astrophysical Journal Letters, Volume 942, Issue 2, id.L42, 8 pages
 doi: 10.3847/2041-8213/aca086
+featured: false
 tags:
 - Galaxy classification systems
 - Neural networks
 - Disk galaxies
 - Galaxies
 - James Webb Space Telescope
-- '582'
-- '1933'
-- '391'
-- '573'
-- '2291'
-- Astrophysics - Astrophysics of Galaxies
-- Astrophysics - Cosmology and Nongalactic Astrophysics
-- Astrophysics - Instrumentation and Methods for Astrophysics
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2023ApJ...942L..42R/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2208.11456
+- name: Publication
+  url: https://iopscience.iop.org/article/10.3847/2041-8213/aca086
 ---
