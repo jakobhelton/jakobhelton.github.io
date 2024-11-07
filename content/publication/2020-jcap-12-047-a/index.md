@@ -1,0 +1,156 @@
+---
+title: 'The Atacama Cosmology Telescope: DR4 maps and cosmological parameters'
+authors:
+- Simone Aiola
+- Erminia Calabrese
+- Loı̈c Maurin
+- Sigurd Naess
+- Benjamin L. Schmitt
+- Maximilian H. Abitbol
+- Graeme E. Addison
+- Peter A.~R. Ade
+- David Alonso
+- Mandana Amiri
+- Stefania Amodeo
+- Elio Angile
+- Jason E. Austermann
+- Taylor Baildon
+- Nick Battaglia
+- James A. Beall
+- Rachel Bean
+- Daniel T. Becker
+- J. Richard Bond
+- Sarah Marie Bruno
+- Victoria Calafut
+- Luis E. Campusano
+- Felipe Carrero
+- Grace E. Chesmore
+- Hsiao-mei Cho
+- Steve K. Choi
+- Susan E. Clark
+- Nicholas F. Cothard
+- Devin Crichton
+- Kevin T. Crowley
+- Omar Darwish
+- Rahul Datta
+- Edward V. Denison
+- Mark J. Devlin
+- Cody J. Duell
+- Shannon M. Duff
+- Adriaan J. Duivenvoorden
+- Jo Dunkley
+- Rolando Dünner
+- Thomas Essinger-Hileman
+- Max Fankhanel
+- Simone Ferraro
+- Anna E. Fox
+- Brittany Fuzia
+- Patricio A. Gallardo
+- Vera Gluscevic
+- Joseph E. Golec
+- Emily Grace
+- Megan Gralla
+- Yilun Guan
+- Kirsten Hall
+- Mark Halpern
+- Dongwon Han
+- Peter Hargrave
+- Matthew Hasselfield
+- Jakob M. Helton
+- Shawn Henderson
+- Brandon Hensley
+- J. Colin Hill
+- Gene C. Hilton
+- Matt Hilton
+- Adam D. Hincks
+- Renée Hložek
+- Shuay-Pwu Patty Ho
+- Johannes Hubmayr
+- Kevin M. Huffenberger
+- John P. Hughes
+- Leopoldo Infante
+- Kent Irwin
+- Rebecca Jackson
+- Jeff Klein
+- Kenda Knowles
+- Brian Koopman
+- Arthur Kosowsky
+- Vincent Lakey
+- Dale Li
+- Yaqiong Li
+- Zack Li
+- Martine Lokken
+- Thibaut Louis
+- Marius Lungu
+- Amanda MacInnis
+- Mathew Madhavacheril
+- Felipe Maldonado
+- Maya Mallaby-Kay
+- Danica Marsden
+- Jeff McMahon
+- Felipe Menanteau
+- Kavilan Moodley
+- Tim Morton
+- Toshiya Namikawa
+- Federico Nati
+- Laura Newburgh
+- John P. Nibarger
+- Andrina Nicola
+- Michael D. Niemack
+- Michael R. Nolta
+- John Orlowski-Sherer
+- Lyman A. Page
+- Christine G. Pappas
+- Bruce Partridge
+- Phumlani Phakathi
+- Giampaolo Pisano
+- Heather Prince
+- Roberto Puddu
+- Frank J. Qu
+- Jesus Rivera
+- Naomi Robertson
+- Felipe Rojas
+- Maria Salatino
+- Emmanuel Schaan
+- Alessandro Schillaci
+- Neelima Sehgal
+- Blake D. Sherwin
+- Carlos Sierra
+- Jon Sievers
+- Cristobal Sifon
+- Precious Sikhosana
+- Sara Simon
+- David N. Spergel
+- Suzanne T. Staggs
+- Jason Stevens
+- Emilie Storer
+- Dhaneshwar D. Sunder
+- Eric R. Switzer
+- Ben Thorne
+- Robert Thornton
+- Hy Trac
+- Jesse Treu
+- Carole Tucker
+- Leila R. Vale
+- Alexander Van Engelen
+- Jeff Van Lanen
+- Eve M. Vavagiakis
+- Kasey Wagoner
+- Yuhan Wang
+- Jonathan T. Ward
+- Edward J. Wollack
+- Zhilei Xu
+- Fernando Zago
+- Ningfeng Zhu
+date: '2020-12-01'
+publishDate: '2024-11-07T18:50:22.404659Z'
+publication_types:
+- article-journal
+publication: '*jcap*'
+doi: 10.1088/1475-7516/2020/12/047
+tags:
+- Astrophysics - Cosmology and Nongalactic Astrophysics
+links:
+- name: arXiv
+  url: https://arxiv.org/abs/2007.07288
+---
