@@ -31,7 +31,7 @@ authors:
 - Sandro Tacchella
 - Lily Whitler
 - Christina C. Williams
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Chris Willott
 - Joris Witstok
 - Yongda Zhu
