@@ -32,7 +32,7 @@ authors:
 - Daniel P. Stark
 - Sandro Tacchella
 - Christina C. Williams
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Rachana Bhatawdekar
 - Rebecca Bowler
 - Kristan Boyett
