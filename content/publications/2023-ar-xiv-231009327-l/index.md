@@ -1,6 +1,5 @@
 ---
-title: 'MAGNIF: A Tentative Lensed Rotating Disk at $z=8.34$ detected by JWST NIRCam
-  WFSS with Dynamical Forward Modeling'
+title: 'MAGNIF: A Tentative Lensed Rotating Disk at z = 8.34 detected by JWST NIRCam WFSS with Dynamical Forward Modeling'
 authors:
 - Zihao Li
 - Zheng Cai
@@ -31,7 +30,7 @@ authors:
 - Mingyu Li
 - Minju Lee
 - Georgios E. Magdis
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Rogier A. Windhorst
 - Yunjing Wu
 - Haojing Yan
@@ -50,9 +49,15 @@ publication_types:
 - article-journal
 publication: '*arXiv e-prints*'
 doi: 10.48550/arXiv.2310.09327
+featured: false
 tags:
-- Astrophysics - Astrophysics of Galaxies
+- Galaxy dynamics
+- Galaxy evolution
+- Galaxy chemical evolution
+- High-redshift galaxies
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2023arXiv231009327L/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2310.09327
 ---
