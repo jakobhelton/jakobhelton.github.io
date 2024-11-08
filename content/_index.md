@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: JADES_GS_z14_0_Small.jpg
+          filename: GN_z11_Image_Unannotated.png
           filters:
             brightness: 1.0
           size: cover
