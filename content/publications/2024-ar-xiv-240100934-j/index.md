@@ -1,6 +1,5 @@
 ---
-title: 'JADES: Rest-frame UV-to-NIR Size Evolution of Massive Quiescent Galaxies from
-  Redshift z=5 to z=0.5'
+title: 'JADES: Rest-frame UV-to-NIR Size Evolution of Massive Quiescent Galaxies from Redshift z = 5 to z = 0.5'
 authors:
 - Zhiyuan Ji
 - Christina C. Williams
@@ -39,18 +38,24 @@ authors:
 - Lester Sandles
 - Fengwu Sun
 - Hannah Übler
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Chris Willott
 - Joris Witstok
 date: '2024-01-01'
 publishDate: '2024-11-07T18:50:22.251863Z'
 publication_types:
 - article-journal
-publication: '*arXiv e-prints*'
+publication: eprint arXiv:2401.00934
 doi: 10.48550/arXiv.2401.00934
+featured: false
 tags:
-- Astrophysics - Astrophysics of Galaxies
+- Galaxy formation
+- Galaxy evolution
+- Galaxy structure
+- High-redshift galaxies
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024arXiv240100934J/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2401.00934
 ---
