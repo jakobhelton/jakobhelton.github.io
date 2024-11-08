@@ -64,7 +64,7 @@ authors:
 - Sandro Tacchella
 - Michael W. Topping
 - Natalia C. Villanueva
-- Imaan E.~B. Wallace
+- Imaan E. B. Wallace
 - Christina C. Williams
 - Charity Woodrum
 date: '2024-10-01'
