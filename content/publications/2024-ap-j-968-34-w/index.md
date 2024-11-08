@@ -1,6 +1,5 @@
 ---
-title: 'The Galaxies Missed by Hubble and ALMA: The Contribution of Extremely Red
-  Galaxies to the Cosmic Census at 3 < z < 8'
+title: 'The Galaxies Missed by Hubble and ALMA: The Contribution of Extremely Red Galaxies to the Cosmic Census at 3 < z < 8'
 authors:
 - Christina C. Williams
 - Stacey Alberts
@@ -38,23 +37,24 @@ authors:
 - Brant E. Robertson
 - Aayush Saxena
 - Sandro Tacchella
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Chris J. Willott
 date: '2024-06-01'
 publishDate: '2024-11-07T18:50:22.131448Z'
 publication_types:
 - article-journal
-publication: '*apj*'
+publication: The Astrophysical Journal, Volume 968, Issue 1, id.34, 40 pages
 doi: 10.3847/1538-4357/ad3f17
+featured: false
 tags:
 - High-redshift galaxies
 - Active galaxies
 - AGN host galaxies
-- '734'
-- '17'
-- '2017'
-- Astrophysics - Astrophysics of Galaxies
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024ApJ...968...34W/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2311.07483
+- name: Publication
+  url: https://iopscience.iop.org/article/10.3847/1538-4357/ad3f17
 ---
