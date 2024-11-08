@@ -1,6 +1,5 @@
 ---
-title: 'The Cosmos in Its Infancy: JADES Galaxy Candidates at z > 8 in GOODS-S and
-  GOODS-N'
+title: 'The Cosmos in Its Infancy: JADES Galaxy Candidates at z > 8 in GOODS-S and GOODS-N'
 authors:
 - Kevin N. Hainline
 - Benjamin D. Johnson
@@ -12,7 +11,7 @@ authors:
 - Charlotte Simmonds
 - Michael W. Topping
 - Lily Whitler
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Marcia Rieke
 - Katherine A. Suess
 - Raphael E. Hviding
@@ -52,21 +51,20 @@ date: '2024-03-01'
 publishDate: '2024-11-07T18:50:22.219831Z'
 publication_types:
 - article-journal
-publication: '*apj*'
+publication: The Astrophysical Journal, Volume 964, Issue 1, id.71, 35 pages
 doi: 10.3847/1538-4357/ad1ee4
+featured: false
 tags:
 - Extragalactic astronomy
 - Redshift surveys
 - James Webb Space Telescope
 - High-redshift galaxies
 - Galaxies
-- '506'
-- '1378'
-- '2291'
-- '734'
-- '573'
-- Astrophysics - Astrophysics of Galaxies
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024ApJ...964...71H/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2306.02468
+- name: Publication
+  url: https://iopscience.iop.org/article/10.3847/1538-4357/ad1ee4
 ---
