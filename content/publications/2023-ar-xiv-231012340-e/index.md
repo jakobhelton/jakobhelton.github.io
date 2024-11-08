@@ -1,6 +1,5 @@
 ---
-title: 'The JADES Origins Field: A New JWST Deep Field in the JADES Second NIRCam
-  Data Release'
+title: 'The JADES Origins Field: A New JWST Deep Field in the JADES Second NIRCam Data Release'
 authors:
 - Daniel J. Eisenstein
 - Benjamin D. Johnson
@@ -18,7 +17,7 @@ authors:
 - Dávid Puskás
 - Marcia Rieke
 - Fengwu Sun
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Chris Willott
 - Stacey Alberts
 - Santiago Arribas
@@ -69,9 +68,14 @@ publication_types:
 - article-journal
 publication: '*arXiv e-prints*'
 doi: 10.48550/arXiv.2310.12340
+featured: false
 tags:
-- Astrophysics - Astrophysics of Galaxies
+- early universe
+- galaxies: evolution
+- galaxies: high-redshift
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2023arXiv231012340E/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2310.12340
 ---
