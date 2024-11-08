@@ -15,7 +15,7 @@ sections:
       text: ...
       filters:
         folders:
-          - Blog
+          - blog
     design:
       view: article-grid
       fill_image: false
