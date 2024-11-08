@@ -1,6 +1,5 @@
 ---
-title: 'SMILES: Discovery of Higher Ionizing Photon Production Efficiency in Overdense
-  Regions'
+title: 'SMILES: Discovery of Higher Ionizing Photon Production Efficiency in Overdense Regions'
 authors:
 - Yongda Zhu
 - Stacey Alberts
@@ -17,18 +16,21 @@ authors:
 - Marcia J. Rieke
 - Pierluigi Rinaldi
 - Irene Shivaei
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Junyu Zhang
 date: '2024-10-01'
 publishDate: '2024-11-07T18:50:22.037703Z'
 publication_types:
 - article-journal
-publication: '*arXiv e-prints*'
+publication: eprint arXiv:2410.14804
 doi: 10.48550/arXiv.2410.14804
+featured: false
 tags:
-- Astrophysics - Astrophysics of Galaxies
-- Astrophysics - Cosmology and Nongalactic Astrophysics
+-  High-redshift galaxies
+-  Reionization
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024arXiv241014804Z/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2410.14804
 ---
