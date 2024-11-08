@@ -21,11 +21,24 @@ authors:
 - Sandro Tacchella
 - Lily Whitler
 - Christina C. Williams
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 date: '2024-10-01'
 publishDate: '2024-11-07T18:50:22.005135Z'
 publication_types:
 - article-journal
-publication: '*Proceedings of the National Academy of Science*'
+publication: Proceedings of the National Academy of Sciences, Volume 121, Issue 42, article id.e2317375121
 doi: 10.1073/pnas.2317375121
+featured: false
+tags:
+- Galaxy evolution
+- High-redshift galaxies
+- James Webb Space Telescope
+- Star formation
+links:
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024PNAS..12117375W/abstract
+- name: Pre-Print
+  url: https://arxiv.org/abs/2310.18464
+- name: Publication
+  url: https://pnas.org/doi/10.1073/pnas.2317375121
 ---
