@@ -14,7 +14,7 @@ main:
     url: publications/
     weight: 12
   - name: Blog
-    url: Blog/
+    url: blog/
     weight: 13
   - name: Art
     url: art/
