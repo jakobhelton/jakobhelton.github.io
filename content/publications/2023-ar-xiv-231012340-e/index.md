@@ -66,7 +66,7 @@ date: '2023-10-01'
 publishDate: '2024-11-07T18:50:22.293039Z'
 publication_types:
 - article-journal
-publication: '*arXiv e-prints*'
+publication: eprint arXiv:2310.12340
 doi: 10.48550/arXiv.2310.12340
 featured: false
 tags:
