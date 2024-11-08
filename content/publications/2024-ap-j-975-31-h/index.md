@@ -7,7 +7,7 @@ authors:
 - Jakob M. Helton
 - Brittany E. Miles
 - Mark S. Marley
-- Ben W.~P. Lew
+- Ben W. P. Lew
 - Jarron M. Leisenring
 - Andrew J. Bunker
 - Phillip A. Cargile
@@ -18,27 +18,25 @@ authors:
 - Brant Robertson
 - Sandro Tacchella
 - Christina C. Williams
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 date: '2024-11-01'
 publishDate: '2024-11-07T18:50:21.985780Z'
 publication_types:
 - article-journal
-publication: '*apj*'
+publication: The Astrophysical Journal, Volume 975, Issue 1, id.31, 8 pages
 doi: 10.3847/1538-4357/ad76a7
+featured: false
 tags:
 - Brown dwarfs
 - T dwarfs
 - Halo stars
 - James Webb Space Telescope
 - Infrared astronomy
-- '185'
-- '1679'
-- '699'
-- '2291'
-- '786'
-- Astrophysics - Astrophysics of Galaxies
-- Astrophysics - Solar and Stellar Astrophysics
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024ApJ...975...31H/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2407.08781
+- name: Publication
+  url: https://iopscience.iop.org/article/10.3847/1538-4357/ad76a7
 ---
