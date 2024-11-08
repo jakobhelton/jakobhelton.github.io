@@ -1,6 +1,5 @@
 ---
-title: 'JADES: Primeval Lyman-$mathrmα$ emitting galaxies reveal early sites of reionisation
-  out to redshift $z ∼ 9$'
+title: 'JADES: Primeval Lyman-alpha emitting galaxies reveal early sites of reionisation out to redshift z ~ 9'
 authors:
 - Joris Witstok
 - Roberto Maiolino
@@ -33,17 +32,25 @@ authors:
 - Jan Scholtz
 - Irene Shivaei
 - Christina C. Williams
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Chris Willott
 date: '2024-04-01'
 publishDate: '2024-11-07T18:50:22.196205Z'
 publication_types:
 - article-journal
-publication: '*arXiv e-prints*'
+publication: eprint arXiv:2404.05724
 doi: 10.48550/arXiv.2404.05724
+featured: false
 tags:
-- Astrophysics - Astrophysics of Galaxies
+- Galaxies: high-redshift
+- Dark ages
+- Reionization
+- First stars
+- Methods: observational
+- Techniques: spectroscopic
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024arXiv240405724W/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2404.05724
 ---
