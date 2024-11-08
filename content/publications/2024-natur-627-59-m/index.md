@@ -25,7 +25,7 @@ authors:
 - Kevin N. Hainline
 - Brant Robertson
 - Christina C. Williams
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - William M. Baker
 - Kristan Boyett
 - Christa DeCoursey
@@ -44,13 +44,16 @@ date: '2024-03-01'
 publishDate: '2024-11-07T18:50:22.204040Z'
 publication_types:
 - article-journal
-publication: '*nat*'
+publication: Nature, Volume 627, Issue 8002, p.59-63
 doi: 10.1038/s41586-024-07052-5
+featured: false
 tags:
-- Astrophysics - Astrophysics of Galaxies
-- Astrophysics - Cosmology and Nongalactic Astrophysics
-- Astrophysics - High Energy Astrophysical Phenomena
+- High-redshift galaxies
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024Natur.627...59M/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2305.12492
+- name: Publication
+  url: https://www.nature.com/articles/s41586-024-07052-5
 ---
