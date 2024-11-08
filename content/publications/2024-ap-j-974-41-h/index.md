@@ -5,7 +5,7 @@ authors:
 - Fengwu Sun
 - Charity Woodrum
 - Kevin N. Hainline
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Marcia J. Rieke
 - George H. Rieke
 - Stacey Alberts
@@ -26,21 +26,20 @@ date: '2024-10-01'
 publishDate: '2024-11-07T18:50:22.020344Z'
 publication_types:
 - article-journal
-publication: '*apj*'
+publication: The Astrophysical Journal, Volume 974, Issue 1, id.41, 17 pages
 doi: 10.3847/1538-4357/ad6867
+featured: true
 tags:
 - Early universe
 - Galaxy evolution
 - Galaxy formation
 - High-redshift galaxies
 - High-redshift galaxy clusters
-- '435'
-- '594'
-- '595'
-- '734'
-- '2007'
-- Astrophysics - Astrophysics of Galaxies
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024ApJ...974...41H/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2311.04270
+- name: Publication
+  url: https://iopscience.iop.org/article/10.3847/1538-4357/ad6867
 ---
