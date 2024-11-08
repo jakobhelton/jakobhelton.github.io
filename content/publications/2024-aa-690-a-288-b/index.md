@@ -1,7 +1,5 @@
 ---
-title: 'JADES NIRSpec initial data release for the Hubble Ultra Deep Field: Redshifts
-  and line fluxes of distant galaxies from the deepest JWST Cycle 1 NIRSpec multi-object
-  spectroscopy'
+title: 'JADES NIRSpec initial data release for the Hubble Ultra Deep Field: Redshifts and line fluxes of distant galaxies from the deepest JWST Cycle 1 NIRSpec multi-object spectroscopy'
 authors:
 - Andrew J. Bunker
 - Alex J. Cameron
@@ -17,7 +15,7 @@ authors:
 - Nina Bonaventura
 - Kevin Hainline
 - Hannah Übler
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Aayush Saxena
 - Renske Smit
 - Stacey Alberts
@@ -25,7 +23,7 @@ authors:
 - William M. Baker
 - Stefi Baum
 - Rachana Bhatawdekar
-- Rebecca A.~A. Bowler
+- Rebecca A. A. Bowler
 - Kristan Boyett
 - Stephane Charlot
 - Zuyi Chen
@@ -73,15 +71,19 @@ date: '2024-10-01'
 publishDate: '2024-11-07T18:50:22.028588Z'
 publication_types:
 - article-journal
-publication: '*åp*'
+publication: Astronomy & Astrophysics, Volume 690, id.A288, 32 pages
 doi: 10.1051/0004-6361/202347094
+featured: true
 tags:
-- 'instrumentation: spectrographs'
-- surveys
-- 'galaxies: evolution'
-- 'galaxies: high-redshift'
-- Astrophysics - Astrophysics of Galaxies
+- Instrumentation: spectrographs
+- Surveys
+- Galaxies: evolution
+- Galaxies: high-redshift
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024A%26A...690A.288B/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2306.02467
+- name: Publication
+  url: https://www.aanda.org/articles/aa/full_html/2024/10/aa47094-23/aa47094-23.html
 ---
