@@ -1,5 +1,5 @@
 ---
-title: Witnessing the onset of Reionisation via Lyman-$α$ emission at redshift 13
+title: Witnessing the onset of Reionisation via Lyman-alpha emission at redshift 13
 authors:
 - Joris Witstok
 - Peter Jakobsen
@@ -34,18 +34,21 @@ authors:
 - Jan Scholtz
 - Hannah Übler
 - Christina C. Williams
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Chris Willott
 - Yongda Zhu
 date: '2024-08-01'
 publishDate: '2024-11-07T18:50:22.108648Z'
 publication_types:
 - article-journal
-publication: '*arXiv e-prints*'
+publication: eprint arXiv:2408.16608
 doi: 10.48550/arXiv.2408.16608
+featured: false
 tags:
-- Astrophysics - Astrophysics of Galaxies
+- High-reshift galaxies
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024arXiv240816608W/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2408.16608
 ---
