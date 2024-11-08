@@ -82,8 +82,8 @@ education:
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Skills
-    color: '#0f9862'
-    color_border: '#0d5536'
+    color: '#34d399'
+    color_border: '#065f46'
     items:
       - name: Academic Research
         description: ''
@@ -102,8 +102,8 @@ skills:
         icon: hero/newspaper
         percent: 100
   - name: Hobbies
-    color: '#0f9862'
-    color_border: '#0d5536'
+    color: '#34d399'
+    color_border: '#065f46'
     items:
       - name: Reading
         description: ''
@@ -130,4 +130,4 @@ languages:
 
 ## About Me
 
-I am a doctoral candidate at the University of Arizona pursuing an M.S. and Ph.D. in astronomy. I have plans to defend my dissertation entitled "At the Break of Cosmic Dawn: Identifying and Understanding the Most Distant Galaxies and Galaxy Clusters with JWST" in May 2025. I spend my time studying (#1) high-redshift galaxies, (#2) high-redshift galaxy clusters, and (#3) the large-scale structure of the Universe. I am a key member of the James Webb Space Telescope (JWST) Advanced Deep Extragalactic Survey (JADES) in addition to the Near Infrared Camera (NIRCam) and Mid-Infrared Instrument (MIRI) Science Teams. I have extensive experience in academic research, problem solving, public speaking, and technical writing. In addition to my research, I am also a visual artist. I focus on photography and painting, but I have recently started creating digital images and movies. In the coming years, I am hoping to publish a photography book and get my work featured in an art exhibition.
+I am a doctoral candidate at the University of Arizona pursuing an M.S. and Ph.D. in astronomy. I have plans to defend my dissertation entitled "At the Break of Cosmic Dawn: Identifying and Understanding the Most Distant Galaxies and Galaxy Clusters with JWST" in May 2025. I spend my time studying (#1) high-redshift galaxies, (#2) high-redshift galaxy clusters, and (#3) the large-scale structure of the Universe. I am a key member of the James Webb Space Telescope (JWST) Advanced Deep Extragalactic Survey (JADES) in addition to the Near Infrared Camera (NIRCam) and Mid-Infrared Instrument (MIRI) Science Teams. My contributions to extragalactic astronomy have been featured in national and international press, and I have worked to share my work and acquired knowledge with the broader community. I have extensive experience in academic research, problem solving, public speaking, and technical writing. In addition to my research, I am also a visual artist. I focus on photography and painting, but I have recently started creating digital images and movies. In the coming years, I am hoping to publish a photography book and get my work featured in an art exhibition.
