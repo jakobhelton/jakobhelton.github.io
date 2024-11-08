@@ -1,6 +1,5 @@
 ---
-title: JADES Data Release 3 -- NIRSpec/MSA spectroscopy for 4,000 galaxies in the
-  GOODS fields
+title: JADES Data Release 3 -- NIRSpec/MSA spectroscopy for 4,000 galaxies in the GOODS fields
 authors:
 - Francesco D'Eugenio
 - Alex J. Cameron
@@ -11,7 +10,7 @@ authors:
 - Andrew J. Bunker
 - Eleonora Parlanti
 - Roberto Maiolino
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Peter Jakobsen
 - Brant E. Robertson
 - Benjamin D. Johnson
@@ -60,11 +59,14 @@ date: '2024-04-01'
 publishDate: '2024-11-07T18:50:22.187722Z'
 publication_types:
 - article-journal
-publication: '*arXiv e-prints*'
+publication: eprint arXiv:2404.06531
 doi: 10.48550/arXiv.2404.06531
+featured: false
 tags:
-- Astrophysics - Astrophysics of Galaxies
+- High-redshift galaxies
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024arXiv240406531D/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2404.06531
 ---
