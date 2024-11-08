@@ -42,7 +42,7 @@ authors:
 - Sandro Tacchella
 - Mengtao Tang
 - Christina C. Williams
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - William M. Baker
 - Stefi Baum
 - Rachana Bhatawdekar
@@ -62,7 +62,7 @@ authors:
 - Katherine A. Suess
 - Michael W. Topping
 - Hannah Übler
-- Imaan E.~B. Wallace
+- Imaan E. B. Wallace
 - Lily Whitler
 date: '2023-09-01'
 publishDate: '2024-11-07T18:50:22.317648Z'
