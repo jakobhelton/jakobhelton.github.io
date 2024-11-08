@@ -30,7 +30,7 @@ date: '2023-07-01'
 publishDate: '2024-11-07T18:50:22.335099Z'
 publication_types:
 - article-journal
-publication: '*arXiv e-prints*'
+publication: eprint arXiv:2307.08633
 doi: 10.48550/arXiv.2307.08633
 featured: false
 tags:
