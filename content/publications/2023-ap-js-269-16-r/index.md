@@ -1,6 +1,5 @@
 ---
-title: 'JADES Initial Data Release for the Hubble Ultra Deep Field: Revealing the
-  Faint Infrared Sky with Deep JWST NIRCam Imaging'
+title: 'JADES Initial Data Release for the Hubble Ultra Deep Field: Revealing the Faint Infrared Sky with Deep JWST NIRCam Imaging'
 authors:
 - Marcia J. Rieke
 - Brant Robertson
@@ -9,7 +8,7 @@ authors:
 - Benjamin D. Johnson
 - Ryan Hausen
 - Zhiyuan Ji
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Daniel J. Eisenstein
 - Dávid Puskás
 - Stacey Alberts
@@ -55,7 +54,7 @@ authors:
 - Michael Topping
 - Hannah Übler
 - Natalia C. Villanueva
-- Imaan E.~B. Wallace
+- Imaan E. B. Wallace
 - Christina C. Williams
 - Chris Willott
 - Lily Whitler
@@ -65,14 +64,16 @@ date: '2023-11-01'
 publishDate: '2024-11-07T18:50:22.267906Z'
 publication_types:
 - article-journal
-publication: '*apjs*'
+publication: The Astrophysical Journal Supplement Series, Volume 269, Issue 1, id.16, 16 pages
 doi: 10.3847/1538-4365/acf44d
+featured: false
 tags:
 - High-redshift galaxies
-- '734'
-- Astrophysics - Astrophysics of Galaxies
-- Astrophysics - Cosmology and Nongalactic Astrophysics
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2023ApJS..269...16R/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2306.02466
+- name: Publication
+  url: https://iopscience.iop.org/article/10.3847/1538-4365/acf44d
 ---
