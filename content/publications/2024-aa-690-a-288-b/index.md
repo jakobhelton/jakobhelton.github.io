@@ -73,7 +73,7 @@ publication_types:
 - article-journal
 publication: Astronomy & Astrophysics, Volume 690, id.A288, 32 pages
 doi: 10.1051/0004-6361/202347094
-featured: true
+featured: false
 tags:
 - Instrumentation: spectrographs
 - Surveys
