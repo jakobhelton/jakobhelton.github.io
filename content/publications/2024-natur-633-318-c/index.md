@@ -45,16 +45,21 @@ authors:
 - Hannah Übler
 - Giacomo Venturi
 - Christina C. Williams
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 date: '2024-09-01'
 publishDate: '2024-11-07T18:50:22.060904Z'
 publication_types:
 - article-journal
-publication: '*nat*'
+publication: Nature, Volume 633, Issue 8029, pp. 318-322
 doi: 10.1038/s41586-024-07860-9
+featured: false
 tags:
-- Astrophysics - Astrophysics of Galaxies
+- High-redshift galaxies
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024Natur.633..318C/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2405.18485
+- name: Publication
+  url: https://www.nature.com/articles/s41586-024-07860-9
 ---
