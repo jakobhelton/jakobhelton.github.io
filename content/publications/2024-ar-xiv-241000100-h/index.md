@@ -1,6 +1,5 @@
 ---
-title: An Investigation Into The Selection and Colors of Little Red Dots and Active
-  Galactic Nuclei
+title: An Investigation Into The Selection and Colors of Little Red Dots and Active Galactic Nuclei
 authors:
 - Kevin N. Hainline
 - Roberto Maiolino
@@ -25,7 +24,7 @@ authors:
 - Pierluigi Rinaldi
 - Maddie S. Silcock
 - Christina C. Williams
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Chris Willott
 - Junyu Zhang
 - Yongda Zhu
@@ -33,11 +32,15 @@ date: '2024-09-01'
 publishDate: '2024-11-07T18:50:22.053199Z'
 publication_types:
 - article-journal
-publication: '*arXiv e-prints*'
+publication: eprint arXiv:2410.00100
 doi: 10.48550/arXiv.2410.00100
+featured: false
 tags:
-- Astrophysics - Astrophysics of Galaxies
+- Active galactic nuclei
+- James Webb Space Telescope
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024arXiv241000100H/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2410.00100
 ---
