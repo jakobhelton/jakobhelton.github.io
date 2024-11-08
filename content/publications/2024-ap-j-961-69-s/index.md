@@ -1,13 +1,12 @@
 ---
-title: 'JADES: Resolving the Stellar Component and Filamentary Overdense Environment
-  of Hubble Space Telescope (HST)-dark Submillimeter Galaxy HDF850.1 at z = 5.18'
+title: 'JADES: Resolving the Stellar Component and Filamentary Overdense Environment of Hubble Space Telescope (HST)-dark Submillimeter Galaxy HDF850.1 at z = 5.18'
 authors:
 - Fengwu Sun
 - Jakob M. Helton
 - Eiichi Egami
 - Kevin N. Hainline
 - George H. Rieke
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Daniel J. Eisenstein
 - Benjamin D. Johnson
 - Marcia J. Rieke
@@ -37,21 +36,20 @@ date: '2024-01-01'
 publishDate: '2024-11-07T18:50:22.259814Z'
 publication_types:
 - article-journal
-publication: '*apj*'
+publication: The Astrophysical Journal, Volume 961, Issue 1, id.69, 24 pages
 doi: 10.3847/1538-4357/ad07e3
+featured: false
 tags:
 - High-redshift galaxies
 - Luminous infrared galaxies
 - Ultraluminous infrared galaxies
 - Galaxy evolution
 - James Webb Space Telescope
-- '734'
-- '946'
-- '1735'
-- '594'
-- '2291'
-- Astrophysics - Astrophysics of Galaxies
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024ApJ...961...69S/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2309.04529
+- name: Publication
+  url: https://iopscience.iop.org/article/10.3847/1538-4357/ad07e3
 ---
