@@ -1,6 +1,6 @@
 ---
 title: 'Art'
-date: 2024-11-07
+date: 2024-11-08
 type: landing
 
 design:

@@ -1,5 +1,5 @@
 ---
-title: News
+title: Blog
 cms_exclude: true
 # url: news
 
