@@ -1,6 +1,5 @@
 ---
-title: A Systematic Search for Galaxies with Extended Emission Line and Potential
-  Outflows in JADES Medium-Band Images
+title: A Systematic Search for Galaxies with Extended Emission Line and Potential Outflows in JADES Medium-Band Images
 authors:
 - Yongda Zhu
 - Marcia J. Rieke
@@ -24,17 +23,21 @@ authors:
 - Jan Scholtz
 - Hannah Übler
 - Christina C. Williams
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 date: '2024-09-01'
 publishDate: '2024-11-07T18:50:22.093892Z'
 publication_types:
 - article-journal
-publication: '*arXiv e-prints*'
+publication: eprint arXiv:2409.11464
 doi: 10.48550/arXiv.2409.11464
+featured: false
 tags:
-- Astrophysics - Astrophysics of Galaxies
-- Astrophysics - Cosmology and Nongalactic Astrophysics
+- High-redshift galaxies
+- Galactic winds
+- Galaxy classification systems
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024arXiv240911464Z/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2409.11464
 ---
