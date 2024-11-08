@@ -45,7 +45,7 @@ profiles:
   - icon: brands/instagram
     url: https://www.instagram.com/jakehelton_/
   - icon: brands/youtube
-    url: https://www.youtube.com/channel/UCeW6Y2b5igWkbRLBIBbtGzQ
+    url: https://www.youtube.com/user/JakeHelton6/videos
 
 interests:
   - Galaxy Evolution
