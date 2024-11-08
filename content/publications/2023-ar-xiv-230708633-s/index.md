@@ -1,6 +1,5 @@
 ---
-title: 'JADES: deep spectroscopy of a low-mass galaxy at redshift 2.3 quenched by
-  environment'
+title: 'JADES: deep spectroscopy of a low-mass galaxy at redshift 2.3 quenched by environment'
 authors:
 - Lester Sandles
 - Francesco D'Eugenio
@@ -25,7 +24,7 @@ authors:
 - Bruno Rodrı́guez Del Pino
 - Sandro Tacchella
 - Hannah Übler
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Chris Willott
 date: '2023-07-01'
 publishDate: '2024-11-07T18:50:22.335099Z'
@@ -33,9 +32,17 @@ publication_types:
 - article-journal
 publication: '*arXiv e-prints*'
 doi: 10.48550/arXiv.2307.08633
+featured: false
 tags:
-- Astrophysics - Astrophysics of Galaxies
+- galaxies: high-redshift
+- galaxies: formation
+- galaxies: evolution
+- stellar content
+- star formation
+- statistics
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2023arXiv230708633S/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2307.08633
 ---
