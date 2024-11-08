@@ -40,7 +40,7 @@ authors:
 - Daniel P. Stark
 - Sandro Tacchella
 - Christina C. Williams
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Rachana Bhatawdekar
 - Rebecca Bowler
 - Kristan Boyett
@@ -58,17 +58,22 @@ authors:
 - Katherine A. Suess
 - Fengwu Sun
 - Michael W. Topping
-- Imaan E.~B. Wallace
+- Imaan E. B. Wallace
 - Lily Whitler
 date: '2023-05-01'
 publishDate: '2024-11-07T18:50:22.366483Z'
 publication_types:
 - article-journal
-publication: '*Nature Astronomy*'
+publication: Nature Astronomy, Volume 7, p. 622-632
 doi: 10.1038/s41550-023-01918-w
+featured: false
 tags:
-- Astrophysics - Astrophysics of Galaxies
+- High-redshift galaxies
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2023NatAs...7..622C/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2212.04568
+- name: Publication
+  url: https://www.nature.com/articles/s41550-023-01918-w
 ---
