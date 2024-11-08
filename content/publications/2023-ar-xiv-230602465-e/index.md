@@ -27,7 +27,7 @@ authors:
 - Daniel P. Stark
 - Sandro Tacchella
 - Christina C. Williams
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - William M. Baker
 - Stefi Baum
 - Rachana Bhatawdekar
@@ -73,7 +73,7 @@ authors:
 - Michael W. Topping
 - Hannah Übler
 - Natalia C. Villanueva
-- Imaan E.~B. Wallace
+- Imaan E. B. Wallace
 - Lily Whitler
 - Joris Witstok
 - Charity Woodrum
@@ -83,9 +83,14 @@ publication_types:
 - article-journal
 publication: '*arXiv e-prints*'
 doi: 10.48550/arXiv.2306.02465
+featured: false
 tags:
-- Astrophysics - Astrophysics of Galaxies
+- early universe
+- galaxies: evolution
+- galaxies: high-redshift
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2023arXiv230602465E/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2306.02465
 ---
