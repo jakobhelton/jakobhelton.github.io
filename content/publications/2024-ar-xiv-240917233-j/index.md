@@ -17,16 +17,19 @@ authors:
 - Roberto Maiolino
 - Andrew J. Bunker
 - Yang Sun
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 date: '2024-09-01'
 publishDate: '2024-11-07T18:50:22.101328Z'
 publication_types:
 - article-journal
-publication: '*arXiv e-prints*'
+publication: eprint arXiv:2409.17233
 doi: 10.48550/arXiv.2409.17233
+featured: false
 tags:
-- Astrophysics - Astrophysics of Galaxies
+- High-redshift galaxies
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024arXiv240917233J/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2409.17233
 ---
