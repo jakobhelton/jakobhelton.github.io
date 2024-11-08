@@ -1,6 +1,5 @@
 ---
-title: 'To High Redshift and Low Mass: Exploring the Emergence of Quenched Galaxies
-  and Their Environments at 3 < z < 6 in the Ultra-deep JADES MIRI F770W Parallel'
+title: 'To High Redshift and Low Mass: Exploring the Emergence of Quenched Galaxies and Their Environments at 3 < z < 6 in the Ultra-deep JADES MIRI F770W Parallel'
 authors:
 - Stacey Alberts
 - Christina C. Williams
@@ -28,27 +27,26 @@ authors:
 - Brant E. Robertson
 - Yang Sun
 - Sandro Tacchella
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Chris J. Willott
 date: '2024-11-01'
 publishDate: '2024-11-07T18:50:21.996945Z'
 publication_types:
 - article-journal
-publication: '*apj*'
+publication: The Astrophysical Journal, Volume 975, Issue 1, id.85, 25 pages
 doi: 10.3847/1538-4357/ad66cc
+featured: false
 tags:
 - Galaxy evolution
 - High-redshift galaxies
 - Dwarf galaxies
 - Galaxy environments
 - Galaxy quenching
-- '594'
-- '734'
-- '416'
-- '2029'
-- '2040'
-- Astrophysics - Astrophysics of Galaxies
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024ApJ...975...85A/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2312.12207
+- name: Publication
+  url: https://iopscience.iop.org/article/10.3847/1538-4357/ad66cc
 ---
