@@ -1,6 +1,5 @@
 ---
-title: 'Earliest Galaxies in the JADES Origins Field: Luminosity Function and Cosmic
-  Star Formation Rate Density 300 Myr after the Big Bang'
+title: 'Earliest Galaxies in the JADES Origins Field: Luminosity Function and Cosmic Star Formation Rate Density 300 Myr after the Big Bang'
 authors:
 - Brant Robertson
 - Benjamin D. Johnson
@@ -35,29 +34,27 @@ authors:
 - Hannah Übler
 - Lily Whitler
 - Christina C. Williams
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Chris Willott
 - Joris Witstok
 date: '2024-07-01'
 publishDate: '2024-11-07T18:50:22.123389Z'
 publication_types:
 - article-journal
-publication: '*apj*'
+publication: The Astrophysical Journal, Volume 970, Issue 1, id.31, 27 pages
 doi: 10.3847/1538-4357/ad463d
+featured: false
 tags:
 - Early universe
 - Galaxy formation
 - Galaxy evolution
 - High-redshift galaxies
 - Reionization
-- '435'
-- '595'
-- '594'
-- '734'
-- '1383'
-- Astrophysics - Astrophysics of Galaxies
-- Astrophysics - Cosmology and Nongalactic Astrophysics
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024ApJ...970...31R/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2312.10033
+- name: Publication
+  url: https://iopscience.iop.org/article/10.3847/1538-4357/ad463d
 ---
