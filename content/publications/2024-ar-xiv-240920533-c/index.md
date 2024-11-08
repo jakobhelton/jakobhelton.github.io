@@ -1,6 +1,5 @@
 ---
-title: 'The eventful life of a luminous galaxy at z = 14: metal enrichment, feedback,
-  and low gas fraction?'
+title: 'The eventful life of a luminous galaxy at z = 14: metal enrichment, feedback, and low gas fraction?'
 authors:
 - Stefano Carniani
 - Francesco D'Eugenio
@@ -9,7 +8,7 @@ authors:
 - Jan Scholtz
 - Fengwu Sun
 - Giacomo Venturi
-- Tom J.~L.~C. Bakx
+- Tom J. L. C. Bakx
 - Mirko Curti
 - Roberto Maiolino
 - Sandro Tacchella
@@ -28,18 +27,20 @@ authors:
 - Aayush Saxena
 - Hannah Übler
 - Christina C. Williams
-- Christopher N.~A. Willmer
+- Christopher N. A. Willmer
 - Chris Willott
 date: '2024-09-01'
 publishDate: '2024-11-07T18:50:22.086207Z'
 publication_types:
 - article-journal
-publication: '*arXiv e-prints*'
+publication: eprint arXiv:2409.20533
 doi: 10.48550/arXiv.2409.20533
+featured: false
 tags:
-- Astrophysics - Astrophysics of Galaxies
-- Astrophysics - Cosmology and Nongalactic Astrophysics
+- High-redshift galaxies
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024arXiv240920533C/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2409.20533
 ---
