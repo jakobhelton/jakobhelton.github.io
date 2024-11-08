@@ -1,6 +1,5 @@
 ---
-title: 'JADES: Insights into the low-mass end of the mass-metallicity-SFR relation
-  at 3 < z < 10 from deep JWST/NIRSpec spectroscopy'
+title: 'JADES: Insights into the low-mass end of the mass-metallicity-SFR relation at 3 < z < 10 from deep JWST/NIRSpec spectroscopy'
 authors:
 - Mirko Curti
 - Roberto Maiolino
@@ -46,8 +45,9 @@ date: '2024-04-01'
 publishDate: '2024-11-07T18:50:22.164032Z'
 publication_types:
 - article-journal
-publication: '*åp*'
+publication: Astronomy & Astrophysics, Volume 684, id.A75, 22 pages
 doi: 10.1051/0004-6361/202346698
+featured: false
 tags:
 - 'ISM: abundances'
 - 'Galaxy: evolution'
@@ -55,8 +55,11 @@ tags:
 - 'galaxies: abundances'
 - 'galaxies: high-redshift'
 - 'galaxies: ISM'
-- Astrophysics - Astrophysics of Galaxies
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024A%26A...684A..75C/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2304.08516
+- name: Publication
+  url: https://www.aanda.org/articles/aa/full_html/2024/04/aa46698-23/aa46698-23.html
 ---
