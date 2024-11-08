@@ -88,19 +88,19 @@ skills:
       - name: Academic Research
         description: ''
         icon: hero/academic-cap
-        # percent: 100
+        percent: 100
       - name: Problem Solving
         description: ''
         icon: hero/variable
-        # percent: 100
+        percent: 100
       - name: Public Speaking
         description: ''
         icon: hero/chat-bubble-left-ellipsis
-        # percent: 100
+        percent: 100
       - name: Technical Writing
         description: ''
         icon: hero/newspaper
-        # percent: 100
+        percent: 100
   - name: Hobbies
     # color: '#eeac02'
     # color_border: '#f0bf23'
@@ -108,35 +108,23 @@ skills:
       - name: Reading
         description: ''
         icon: hero/book-open
-        # percent: 100
+        percent: 100
       - name: Photography
         description: ''
         icon: hero/camera
-        # percent: 100
+        percent: 100
       - name: Painting
         description: ''
         icon: hero/paint-brush
-        # percent: 100
+        percent: 100
       - name: Hiking
         description: ''
         icon: person-simple-walk
-        # percent: 100
+        percent: 100
 
 languages:
   - name: English
     percent: 100
-
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-# awards:
-#   - title: 
-#     url: 
-#     date: 
-#     awarder: 
-#     icon: 
-#     summary: |
 
 ---
 
