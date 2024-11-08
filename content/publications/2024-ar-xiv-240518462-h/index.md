@@ -1,6 +1,5 @@
 ---
-title: JWST/MIRI photometric detection at $7.7 PLACEHOLDERmuPLACEHOLDERmathrmm$ in
-  a galaxy at $z > 14$
+title: JWST/MIRI photometric detection at 7.7 microns in a galaxy at z > 14
 authors:
 - Jakob M. Helton
 - George H. Rieke
@@ -40,11 +39,14 @@ date: '2024-05-01'
 publishDate: '2024-11-07T18:50:22.141050Z'
 publication_types:
 - article-journal
-publication: '*arXiv e-prints*'
+publication: eprint arXiv:2405.18462
 doi: 10.48550/arXiv.2405.18462
+featured: true
 tags:
-- Astrophysics - Astrophysics of Galaxies
+- High-redshift galaxies
 links:
-- name: arXiv
+- name: ADS
+  url: https://ui.adsabs.harvard.edu/abs/2024arXiv240518462H/abstract
+- name: Pre-Print
   url: https://arxiv.org/abs/2405.18462
 ---
