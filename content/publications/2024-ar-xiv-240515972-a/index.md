@@ -1,5 +1,6 @@
 ---
 title: 'SMILES Initial Data Release: Unveiling the Obscured Universe with MIRI Multi-band Imaging'
+abstract: 'The James Webb Space Telescope (JWST) is revolutionizing our view of the Universe through unprecedented sensitivity and resolution in the infrared, with some of the largest gains realized at its longest wavelengths. We present the Systematic Mid-infrared Instrument (MIRI) Legacy Extragalactic Survey (SMILES), an eight-band MIRI survey with Near-Infrared Spectrograph (NIRSpec) spectroscopic follow-up in the GOODS-S/HUDF region. SMILES takes full advantage of MIRI's continuous coverage from {{< math >}}$5.6-25.5\ \mu\mathrm{m}${{< /math >}} over a {{< math >}}$\sim 34\ \mathrm{arcmin}^{2}${{< /math >}} area to greatly expand our understanding of the obscured Universe up to cosmic noon and beyond. This work, together with a companion paper by Rieke et al., covers the SMILES science drivers and technical design, early results with SMILES, data reduction, photometric catalog creation, and the first data release. As part of the discussion on early results, we additionally present a high-level science demonstration on how MIRI's wavelength coverage and resolution will advance our understanding of cosmic dust using the full range of polycyclic aromatic hydrocarbon (PAH) emission features from {{< math >}}$3.3-18\ \mu\mathrm{m}${{< /math >}}. Using custom background subtraction, we produce robust reductions of the MIRI imaging that maximize the depths reached with our modest exposure times ({{< math >}}$\sim 0.6-2.2\ \mathrm{ks}${{< /math >}} per filter). Included in our initial data release are (1) eight MIRI imaging mosaics reaching depths of  {{< math >}}$0.2-18\ \mu\mathrm{Jy}${{< /math >}} ({{< math >}}$5\sigma${{< /math >}}) and (2) a {{< math >}}$5-25.5\ \mu\mathrm{m}${{< /math >}} photometric catalog with over {{< math >}}$3,000${{< /math >}} sources. Building upon the rich legacy of extensive photometric and spectroscopy coverage of GOODS-S/HUDF from the X-ray to the radio, SMILES greatly expands our investigative power in understanding the obscured Universe.'
 authors:
 - Stacey Alberts
 - Jianwei Lyu
@@ -8,7 +9,7 @@ authors:
 - Pablo G. Perez-Gonzalez
 - Nina Bonventura
 - Yongda Zhu
-- Jakob M. Helton
+- admin # Jakob M. Helton
 - Zhiyuan Ji
 - Jane Morrison
 - Brant E. Robertson
@@ -16,19 +17,20 @@ authors:
 - Yang Sun
 - Christina C. Williams
 - Christopher N. A. Willmer
-date: '2024-05-01'
-publishDate: '2024-11-07T18:50:22.149042Z'
+date: '2024-05-24'
+publishDate: '2024-05-24'
 publication_types:
 - article-journal
-publication: eprint arXiv:2405.15972
+publication: 'eprint arXiv:2405.15972'
 doi: 10.48550/arXiv.2405.15972
 featured: false
 tags:
-- Infrared survey
-- Infrared astronomy
-- Galaxies: evolution
-- Active galactic nuclei
-- Data reduction
+- 'Galaxies'
+- 'Galaxy evolution'
+- 'Infrared survey'
+- 'Infrared astronomy'
+- 'Active galactic nuclei'
+- 'Data reduction'
 links:
 - name: ADS
   url: https://ui.adsabs.harvard.edu/abs/2024arXiv240515972A/abstract
