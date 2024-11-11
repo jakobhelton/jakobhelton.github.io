@@ -48,9 +48,19 @@ sections:
         folders:
           - publications
         featured_only: true
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 0
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc)
+      order: desc
+      # Page type to display. E.g. post, talk, publication...
+      page_type: post
     design:
-      view: article-grid
-      columns: 2
+      # Choose a layout view (article-grid or date-title-summary)
+      view: date-title-summary
+      # Choose the number of columns
+      columns: 1
   - block: collection
     content:
       title: Complete List of Publications
