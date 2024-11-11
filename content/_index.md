@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ""
-date: 2024-11-08
+date: 2024-11-11
 type: landing
 
 design:
@@ -58,7 +58,7 @@ sections:
       page_type: post
     design:
       # Choose a layout view (article-grid or date-title-summary)
-      view: date-title-summary
+      view: article-grid
       # Choose the number of columns
       columns: 1
   - block: collection
