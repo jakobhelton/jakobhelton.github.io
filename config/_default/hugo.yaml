@@ -54,3 +54,21 @@ security:
   _merge: deep
 sitemap:
   _merge: deep
+
+cascade:
+  # Configure publications
+  - _target:
+      path: /publications/**
+    backlinks: false
+    commentable: false
+    editable: false
+    header:
+      navbar:
+        enable: true
+    pager: true
+    profile: true
+    reading_time: false
+    share: true
+    show_breadcrumb: true
+    show_date: true
+    show_related: true
