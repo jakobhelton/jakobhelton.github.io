@@ -13,10 +13,10 @@ publication: Monthly Notices of the Royal Astronomical Society, Volume 505, Issu
 doi: 10.1093/mnras/stab1647
 featured: true
 tags:
-- Galaxies
-- Galaxies: interactions
-- Quasars: general
-- Quasars: individual: PKS 0454-22
+- 'Galaxies'
+- 'Galaxies: interactions'
+- 'Quasars: general'
+- 'Quasars: individual: PKS 0454-22'
 links:
 - name: ADS
   url: https://ui.adsabs.harvard.edu/abs/2021MNRAS.505.5497H/abstract
