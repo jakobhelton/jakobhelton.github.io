@@ -54,10 +54,8 @@ sections:
       offset: 0
       # Page order: descending (desc) or ascending (asc)
       order: desc
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
     design:
-      # Choose a layout view (article-grid or date-title-summary)
+      # Choose a layout view: article-grid or date-title-summary
       view: article-grid
       # Choose the number of columns
       columns: 1
