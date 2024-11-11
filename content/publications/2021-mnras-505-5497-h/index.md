@@ -25,10 +25,10 @@ links:
   url: https://arxiv.org/abs/2106.03858
 - name: Publication
   url: https://academic.oup.com/mnras/article/505/4/5497/6297276
-image:
-- placement: 1
+# image:
+# - placement: 1
 # - alt_text: HST WFPC2+F702W image of the field of PKS 0454−22. The full image shows the {{< math >}}$1.0 \\ \\mathrm{arcmin} \\times 1.0 \\ \\mathrm{arcmin}${{< /math >}} MUSE FOV and the dotted box marks the {{< math >}}$30 \\ \\mathrm{arcsec} \\times 30 \\ \\mathrm{arcsec}${{< /math >}} region displayed in Figure 5. Galaxies in the quasar host environment are labelled by their ID and LOS velocity from the quasar in km/s ({{< math >}}$z\\_{\\mathrm{QSO}} = 0.5335${{< /math >}}). The quasar is marked by a cyan star while one of the quasar radio lobes is marked by a green diamond. The other radio lobe falls outside of the MUSE FOV, so it is not shown here.
-- caption: 'HST WFPC2+F702W image of the field of PKS 0454−22. The full image shows the {{< math >}}$1.0 \\ \mathrm{arcmin} \times 1.0 \\ \mathrm{arcmin}${{< /math >}} MUSE FOV and the dotted box marks the {{< math >}}$30 \\ \mathrm{arcsec} \times 30 \\ \mathrm{arcsec}${{< /math >}} region displayed in Figure 5. Galaxies in the quasar host environment are labelled by their ID and LOS velocity from the quasar in km/s ({{< math >}}$z\\_{\mathrm{QSO}} = 0.5335${{< /math >}}). The quasar is marked by a cyan star while one of the quasar radio lobes is marked by a green diamond. The other radio lobe falls outside of the MUSE FOV, so it is not shown here.'
-- focal_point: 'Center'
-- preview_only: false
+# - caption: 'HST WFPC2+F702W image of the field of PKS 0454−22. The full image shows the {{< math >}}$1.0 \\ \mathrm{arcmin} \times 1.0 \\ \mathrm{arcmin}${{< /math >}} MUSE FOV and the dotted box marks the {{< math >}}$30 \\ \mathrm{arcsec} \times 30 \\ \mathrm{arcsec}${{< /math >}} region displayed in Figure 5. Galaxies in the quasar host environment are labelled by their ID and LOS velocity from the quasar in km/s ({{< math >}}$z\\_{\mathrm{QSO}} = 0.5335${{< /math >}}). The quasar is marked by a cyan star while one of the quasar radio lobes is marked by a green diamond. The other radio lobe falls outside of the MUSE FOV, so it is not shown here.'
+# - focal_point: 'Center'
+# - preview_only: false
 ---
