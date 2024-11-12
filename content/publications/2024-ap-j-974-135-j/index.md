@@ -39,7 +39,7 @@ date: '2024-10-09'
 publishDate: '2024-10-09'
 publication_types:
 - article-journal
-publication:'The Astrophysical Journal, Volume 974, Issue 1, id.135, 27 pages'
+publication: 'The Astrophysical Journal, Volume 974, Issue 1, id.135, 27 pages'
 doi: 10.3847/1538-4357/ad6e7f
 featured: false
 tags:
