@@ -17,7 +17,7 @@ sections:
         folders:
           - blog
     design:
-      view: article-grid
+      view: article-grid # date-title-summary
       fill_image: false
       columns: 1
 ---
