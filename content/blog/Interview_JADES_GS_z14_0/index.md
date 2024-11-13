@@ -23,7 +23,7 @@ image:
   alt_text: 'This infrared image from NASA’s James Webb Space Telescope (also called Webb or JWST) was taken by the NIRCam (Near-Infrared Camera) for the JWST Advanced Deep Extragalactic Survey, or JADES, program. The NIRCam data was used to determine which galaxies to study further with spectroscopic observations. One such galaxy, JADES-GS-z14-0 (shown in the pullout), was determined to be at a redshift of 14.32 (+0.08/-0.20), making it the current record-holder for the most distant known galaxy. This corresponds to a time less than 300 million years after the big bang. In the background image, blue represents light at 0.9, 1.15, and 1.5 microns (filters F090W + F115W + F150W), green is 2.0 and 2.77 microns (F200W + F277W), and red is 3.56, 4.10, and 4.44 microns (F356W + F410M + F444W). The pullout image shows light at 0.90 and 1.15 microns (F090W + F115W) as blue, 1.50 and 2.00 microns (F150W + F200W) as green, and 2.77 microns (F277W) as red.'
 ---
 
-{{</* youtube FR7VGHauNxw */>}}
+# {{</* youtube FR7VGHauNxw */>}}
 
 **Title**:
 
