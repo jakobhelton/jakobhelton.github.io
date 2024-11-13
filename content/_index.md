@@ -76,8 +76,6 @@ sections:
         folders:
           - blog
         featured_only: true
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
       # Choose how many pages you would like to display (0 = all pages)
       count: 0
       # Choose how many pages you would like to offset by
@@ -87,6 +85,8 @@ sections:
     design:
       # Choose a layout view
       view: date-title-summary
+      # Choose the number of columns
+      columns: 1
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
