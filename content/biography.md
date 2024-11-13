@@ -1,6 +1,6 @@
 ---
-title: 'About Me'
-date: 2024-11-08
+title: 'Biography'
+date: 2024-11-13
 type: landing
 
 design:

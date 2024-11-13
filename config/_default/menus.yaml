@@ -7,8 +7,8 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: About Me
-    url: aboutme/
+  - name: Biography
+    url: biography/
     weight: 11
   - name: Publications
     url: publications/
