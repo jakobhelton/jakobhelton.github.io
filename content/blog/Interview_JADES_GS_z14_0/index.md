@@ -6,7 +6,9 @@ summary: Watch an interview with myself and other scientists from the University
 authors:
   - admin # Jakob M. Helton
 
-date: 2024-11-13
+date: '2024-11-13'
+
+featured: true
 
 tags:
   - 'High-redshift galaxies'
@@ -21,6 +23,8 @@ image:
   alt_text: 'This infrared image from NASA’s James Webb Space Telescope (also called Webb or JWST) was taken by the NIRCam (Near-Infrared Camera) for the JWST Advanced Deep Extragalactic Survey, or JADES, program. The NIRCam data was used to determine which galaxies to study further with spectroscopic observations. One such galaxy, JADES-GS-z14-0 (shown in the pullout), was determined to be at a redshift of 14.32 (+0.08/-0.20), making it the current record-holder for the most distant known galaxy. This corresponds to a time less than 300 million years after the big bang. In the background image, blue represents light at 0.9, 1.15, and 1.5 microns (filters F090W + F115W + F150W), green is 2.0 and 2.77 microns (F200W + F277W), and red is 3.56, 4.10, and 4.44 microns (F356W + F410M + F444W). The pullout image shows light at 0.90 and 1.15 microns (F090W + F115W) as blue, 1.50 and 2.00 microns (F150W + F200W) as green, and 2.77 microns (F277W) as red.'
 ---
 
+{{</* youtube FR7VGHauNxw */>}}
+
 **Title**:
 
 _Eyes on the Universe | How University of Arizona Researchers Confirmed Farthest Galaxy with JWST_
@@ -28,6 +32,10 @@ _Eyes on the Universe | How University of Arizona Researchers Confirmed Farthest
 **Description**:
 
 _A team of scientists from the University of Arizona has achieved a remarkable discovery in their exploration of the Universe. Using advanced instruments NIRCam and MIRI -- both led at the University -- aboard NASA's James Webb Space Telescope, they identified the farthest known galaxy, JADES-GS-z14-0, existing just 300 million years after the Big Bang. This extraordinary finding reshapes our understanding of galaxy evolution, revealing a more intricate early Universe. As researchers investigate this cosmic mystery, they illuminate the profound history of the cosmos, inspiring new possibilities for the future of astronomy._
+
+**Producer/Cinematographer/Editor**: 
+
+_Arlene Islas (Manager of Video Communications and Director of Broadcast at the University of Arizona)._
 
 **Transcript**:
 

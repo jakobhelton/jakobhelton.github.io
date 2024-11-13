@@ -1,6 +1,6 @@
 ---
 title: 'Blog'
-date: 2024-11-08
+date: 2024-11-13
 type: landing
 
 design:
@@ -12,12 +12,12 @@ sections:
   - block: collection
     content:
       title: Blog
-      text: ...
+      text: ""
       filters:
         folders:
           - blog
     design:
       view: article-grid
       fill_image: false
-      columns: 3
+      columns: 1
 ---
