@@ -47,6 +47,6 @@ image:
   preview_only: false
   placement: 1
   focal_point: 'Center'
-  caption: '3d large-scale structure of the overdense galaxy environment at {{< math >}}$5.285 < z_{\mathrm{spec}} < 5.490${{< /math >}} in GOODS-S. The on-sky distribution in physical units for the {{< math >}}$N = 68${{< /math >}} galaxies that fall within the given comoving volume are color-coded by their spectroscopic redshift. Spatial offsets are measured relative to the median position and redshift of the given sample. The squares represent galaxies that are confirmed members of JADES−GS−OD−5.386 and the transparent circles represent confirmed members of the field. This galaxy overdensity resides in a complex environment with connected filamentary structures.'
+  caption: 'Figure 3 from Helton et al. (2024, ApJ, 974, 41).'
   alt_text: '3d large-scale structure of the overdense galaxy environment at {{< math >}}$5.285 < z_{\mathrm{spec}} < 5.490${{< /math >}} in GOODS-S. The on-sky distribution in physical units for the {{< math >}}$N = 68${{< /math >}} galaxies that fall within the given comoving volume are color-coded by their spectroscopic redshift. Spatial offsets are measured relative to the median position and redshift of the given sample. The squares represent galaxies that are confirmed members of JADES−GS−OD−5.386 and the transparent circles represent confirmed members of the field. This galaxy overdensity resides in a complex environment with connected filamentary structures.'
 ---
