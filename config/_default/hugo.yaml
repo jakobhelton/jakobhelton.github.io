@@ -88,3 +88,19 @@ cascade:
     show_breadcrumb: true
     show_date: true
     show_related: true
+  # Configure art
+  - _target:
+      path: /art/**
+    backlinks: false
+    commentable: false
+    editable: false
+    header:
+      navbar:
+        enable: true
+    pager: true
+    profile: true
+    reading_time: true
+    share: true
+    show_breadcrumb: true
+    show_date: true
+    show_related: true

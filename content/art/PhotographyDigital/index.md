@@ -1,7 +1,7 @@
 ---
 title: My Portfolio of Digital Photography
 
-summary: Take a look at my portfolio of digital photography!
+summary: Take a look at my digital photography portfolio!
 
 authors:
   - admin # Jakob M. Helton
