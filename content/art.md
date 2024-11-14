@@ -1,6 +1,6 @@
 ---
 title: 'Art'
-date: 2024-11-08
+date: 2024-11-14
 type: landing
 
 design:
@@ -12,12 +12,12 @@ sections:
   - block: collection
     content:
       title: Art
-      text: ...
+      text: ""
       filters:
         folders:
           - art
     design:
-      view: article-grid
+      view: article-grid # date-title-summary
       fill_image: false
-      columns: 3
+      columns: 1
 ---
