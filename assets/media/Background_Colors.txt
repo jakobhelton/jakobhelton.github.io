@@ -1,0 +1,10 @@
+#
+# Background_01.jpg (HEX: #7f7f7f)
+# Background_02.jpg (HEX: #880016)
+# Background_03.jpg (HEX: #ff7f26)
+# Background_04.jpg (HEX: #fef200)
+# Background_05.jpg (HEX: #23b14d)
+# Background_06.jpg (HEX: #00a3e8)
+# Background_07.jpg (HEX: #3f47cc)
+# Background_08.jpg (HEX: #a349a3)
+#
