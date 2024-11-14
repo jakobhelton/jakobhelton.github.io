@@ -1,7 +1,7 @@
 ---
 title: An Interview about JADES-GS-z14-0
 
-summary: Watch an interview with myself and other scientists from the University of Arizona discussing the discovery of JADES-GS-z14-0, the most distant galaxy currently known!
+summary: Watch an interview with myself and other scientists from the University of Arizona discussing the discovery of JADES-GS-z14-0, the most distant galaxy currently known with a spectroscopically confirmed redshift!
 
 authors:
   - admin # Jakob M. Helton
