@@ -23,7 +23,7 @@ image:
   caption: 'Solid Background (HEX: #7f7f7f).'
 ---
 
-# My Portfolio of Analog Photography, Color
+# My Analog Photography Portfolio: Color Images
 
 ![portfolio/PhotographyAnalog_Color_01.jpg](portfolio/PhotographyAnalog_Color_01.jpg "portfolio/PhotographyAnalog_Color_01.jpg")
 ![portfolio/PhotographyAnalog_Color_02.jpg](portfolio/PhotographyAnalog_Color_02.jpg "portfolio/PhotographyAnalog_Color_02.jpg")
@@ -44,7 +44,7 @@ image:
 ![portfolio/PhotographyAnalog_Color_17.jpg](portfolio/PhotographyAnalog_Color_17.jpg "portfolio/PhotographyAnalog_Color_17.jpg")
 ![portfolio/PhotographyAnalog_Color_18.jpg](portfolio/PhotographyAnalog_Color_18.jpg "portfolio/PhotographyAnalog_Color_18.jpg")
 
-# My Portfolio of Analog Photography, Black and White
+# My Analog Photography Portfolio: Black and White Images
 
 ![portfolio/PhotographyAnalog_B&W_01.jpg](portfolio/PhotographyAnalog_B&W_01.jpg "portfolio/PhotographyAnalog_B&W_01.jpg")
 ![portfolio/PhotographyAnalog_B&W_02.jpg](portfolio/PhotographyAnalog_B&W_02.jpg "portfolio/PhotographyAnalog_B&W_02.jpg")

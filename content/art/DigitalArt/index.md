@@ -22,7 +22,7 @@ image:
   caption: 'Solid Background (HEX: #ff7f26).'
 ---
 
-# My Portfolio of Digital Art, Deep Haze
+# My Digital Art Portfolio: Made Using Deep Haze
 
 ![portfolio/DigitalArt_DeepHaze_01.jpg](portfolio/DigitalArt_DeepHaze_01.jpg "portfolio/DigitalArt_DeepHaze_01.jpg")
 ![portfolio/DigitalArt_DeepHaze_02.jpg](portfolio/DigitalArt_DeepHaze_02.jpg "portfolio/DigitalArt_DeepHaze_02.jpg")
@@ -34,7 +34,7 @@ image:
 ![portfolio/DigitalArt_DeepHaze_08.jpg](portfolio/DigitalArt_DeepHaze_08.jpg "portfolio/DigitalArt_DeepHaze_08.jpg")
 ![portfolio/DigitalArt_DeepHaze_09.jpg](portfolio/DigitalArt_DeepHaze_09.jpg "portfolio/DigitalArt_DeepHaze_09.jpg")
 
-# My Portfolio of Digital Art, Adobe Fresco
+# My Digital Art Portfolio: Made Using Adobe Fresco
 
 ![portfolio/DigitalArt_AdobeFresco_01.jpg](portfolio/DigitalArt_AdobeFresco_01.jpg "portfolio/DigitalArt_AdobeFresco_01.jpg")
 ![portfolio/DigitalArt_AdobeFresco_02.jpg](portfolio/DigitalArt_AdobeFresco_02.jpg "portfolio/DigitalArt_AdobeFresco_02.jpg")
