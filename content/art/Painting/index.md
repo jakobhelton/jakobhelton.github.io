@@ -1,7 +1,7 @@
 ---
-title: My Portfolio of Painting
+title: My Painting Portfolio
 
-summary: Take a look at my portfolio of painting!
+summary: Take a look at my painting portfolio!
 
 authors:
   - admin # Jakob M. Helton
@@ -19,7 +19,7 @@ image:
   preview_only: false
   placement: 1
   focal_point: 'Center'
-  caption: 'Solid Background (HEX: #ff7f26).'
+  caption: 'Solid Background (HEX: #fef200).'
 ---
 
 # My Portfolio of Painting, Untitled #1

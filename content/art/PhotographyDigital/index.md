@@ -20,7 +20,7 @@ image:
   preview_only: false
   placement: 1
   focal_point: 'Center'
-  caption: 'Solid Background (HEX: #7f7f7f).'
+  caption: 'Solid Background (HEX: #880016).'
 ---
 
 # My Portfolio of Digital Photography, Color

@@ -1,7 +1,7 @@
 ---
-title: My Portfolio of Digital Art
+title: My Digital Art Portfolio
 
-summary: Take a look at my portfolio of digital art!
+summary: Take a look at my digital art portfolio!
 
 authors:
   - admin # Jakob M. Helton
@@ -19,7 +19,7 @@ image:
   preview_only: false
   placement: 1
   focal_point: 'Center'
-  caption: 'Solid Background (HEX: #fef200).'
+  caption: 'Solid Background (HEX: #ff7f26).'
 ---
 
 # My Portfolio of Digital Art, Deep Haze
