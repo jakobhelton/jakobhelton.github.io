@@ -6,7 +6,7 @@ summary: Take a look at my painting portfolio!
 authors:
   - admin # Jakob M. Helton
 
-date: '2024-11-11'
+date: '2024-11-12'
 
 featured: true
 
@@ -22,25 +22,25 @@ image:
   caption: 'Solid Background (HEX: #fef200).'
 ---
 
-# My Portfolio of Painting, Untitled #1
+# My Painting Portfolio: Untitled #1
 
 ![portfolio/Painting_01_01.jpg](portfolio/Painting_01_01.jpg "portfolio/Painting_01_01.jpg")
 ![portfolio/Painting_01_02.jpg](portfolio/Painting_01_02.jpg "portfolio/Painting_01_02.jpg")
 ![portfolio/Painting_01_03.jpg](portfolio/Painting_01_03.jpg "portfolio/Painting_01_03.jpg")
 
-# My Portfolio of Painting, Untitled #2
+# My Painting Portfolio: Untitled #2
 
 ![portfolio/Painting_02_01.jpg](portfolio/Painting_02_01.jpg "portfolio/Painting_02_01.jpg")
 ![portfolio/Painting_02_02.jpg](portfolio/Painting_02_02.jpg "portfolio/Painting_02_02.jpg")
 ![portfolio/Painting_02_03.jpg](portfolio/Painting_02_03.jpg "portfolio/Painting_02_03.jpg")
 
-# My Portfolio of Painting, Untitled #3
+# My Painting Portfolio: Untitled #3
 
 ![portfolio/Painting_03_01.jpg](portfolio/Painting_03_01.jpg "portfolio/Painting_03_01.jpg")
 ![portfolio/Painting_03_02.jpg](portfolio/Painting_03_02.jpg "portfolio/Painting_03_02.jpg")
 ![portfolio/Painting_03_03.jpg](portfolio/Painting_03_03.jpg "portfolio/Painting_03_03.jpg")
 
-# My Portfolio of Painting, Untitled #4
+# My Painting Portfolio: Untitled #4
 
 ![portfolio/Painting_04_01.jpg](portfolio/Painting_04_01.jpg "portfolio/Painting_04_01.jpg")
 ![portfolio/Painting_04_02.jpg](portfolio/Painting_04_02.jpg "portfolio/Painting_04_02.jpg")
