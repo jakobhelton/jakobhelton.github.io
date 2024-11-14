@@ -1,13 +1,15 @@
 ---
 title: Art
 cms_exclude: true
-# url: art
 
 # View
-view: card
+view: article-grid # 'article-grid' or 'card' or 'date-title-summary'
 
-# Optional cover image (relative to `assets/media/` folder).
-image:
+# Columns.
+columns: 1
+
+# Optional header image (relative to `static/media/` folder).
+banner:
   caption: ''
-  filename: ''
+  image: ''
 ---

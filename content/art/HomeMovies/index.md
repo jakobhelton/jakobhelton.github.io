@@ -1,5 +1,5 @@
 ---
-title: My Digital Home Movies
+title: My Home Movies
 
 summary: Take a look at my home movies!
 

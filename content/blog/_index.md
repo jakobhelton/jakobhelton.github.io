@@ -3,7 +3,7 @@ title: Blog
 cms_exclude: true
 
 # View.
-view: article-grid # date-title-summary
+view: article-grid # 'article-grid' or 'card' or 'date-title-summary'
 
 # Columns.
 columns: 1
