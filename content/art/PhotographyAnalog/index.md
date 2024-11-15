@@ -6,7 +6,7 @@ summary: Take a look at my analog photography portfolio!
 authors:
   - admin # Jakob M. Helton
 
-date: '2024-11-09'
+date: '2024-11-13'
 
 featured: true
 
@@ -20,7 +20,7 @@ image:
   preview_only: false
   placement: 1
   focal_point: 'Center'
-  caption: 'Solid Background (HEX: #7f7f7f).'
+  caption: 'Solid Background (HEX: #fef200).'
 ---
 
 # My Analog Photography Portfolio: Color Images

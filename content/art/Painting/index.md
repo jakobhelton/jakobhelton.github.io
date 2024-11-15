@@ -6,7 +6,7 @@ summary: Take a look at my painting portfolio!
 authors:
   - admin # Jakob M. Helton
 
-date: '2024-11-12'
+date: '2024-11-14'
 
 featured: true
 
@@ -19,7 +19,7 @@ image:
   preview_only: false
   placement: 1
   focal_point: 'Center'
-  caption: 'Solid Background (HEX: #fef200).'
+  caption: 'Solid Background (HEX: #23b14d).'
 ---
 
 # My Painting Portfolio: Untitled #1

@@ -93,6 +93,25 @@ sections:
       view: date-title-summary
       # Choose the number of columns
       columns: 1
+  - block: collection
+    content:
+      title: Recent Artwork
+      # Filter on criteria
+      filters:
+        folders:
+          - art
+        featured_only: true
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 0
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc)
+      order: desc
+    design:
+      # Choose a layout view
+      view: date-title-summary
+      # Choose the number of columns
+      columns: 1
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:

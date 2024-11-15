@@ -1,12 +1,12 @@
 ---
-title: My Portfolio of Digital Photography
+title: My Digital Photography Portfolio
 
 summary: Take a look at my digital photography portfolio!
 
 authors:
   - admin # Jakob M. Helton
 
-date: '2024-11-10'
+date: '2024-11-12'
 
 featured: true
 
@@ -20,7 +20,7 @@ image:
   preview_only: false
   placement: 1
   focal_point: 'Center'
-  caption: 'Solid Background (HEX: #880016).'
+  caption: 'Solid Background (HEX: #ff7f26).'
 ---
 
 # My Digital Photography Portfolio: Color Images
