@@ -6,7 +6,7 @@ summary: Take a look at my first photography book!
 authors:
   - admin # Jakob M. Helton
 
-date: '2024-11-15'
+date: '2024-11-14'
 
 featured: true
 
@@ -20,7 +20,7 @@ image:
   preview_only: false
   placement: 1
   focal_point: 'Center'
-  caption: 'Solid Background (HEX: #00a3e8).'
+  caption: 'Solid Background (HEX: #23b14d).'
 ---
 
 ## The American Midwest / Southwest

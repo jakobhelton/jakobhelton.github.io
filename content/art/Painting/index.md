@@ -6,7 +6,7 @@ summary: Take a look at my painting portfolio!
 authors:
   - admin # Jakob M. Helton
 
-date: '2024-11-14'
+date: '2024-11-15'
 
 featured: true
 
@@ -19,7 +19,7 @@ image:
   preview_only: false
   placement: 1
   focal_point: 'Center'
-  caption: 'Solid Background (HEX: #23b14d).'
+  caption: 'Solid Background (HEX: #00a3e8).'
 ---
 
 All of the subsequent paintings were made over the course of a few weeks (or even a few months) using a wide variety of mediums: (#1) acrylic paint; (#2) acrylic ink; (#3) oil pastels; (#4) paint markers; (#5) spray paint. With these abstract expressionist paintings, my artwork explores the relationship between human emotion and the visual world around us. In particular, these paintings are multi-layered and multi-faceted, drawing upon deeply rooted religious and spiritual influences. Additionally, these paintings are the embodiment of the mental illnesses that I experience: obsessive compulsive disorder, generalized anxiety disorder, and depression.
