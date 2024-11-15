@@ -26,24 +26,32 @@ All of the subsequent paintings were made over the course of a few weeks (or eve
 
 ## Untitled Painting #1
 
+***
 ![portfolio/Painting_01_01.jpg](portfolio/Painting_01_01.jpg "The above image is the entirety of Untitled #1.")
 ![portfolio/Painting_01_02.jpg](portfolio/Painting_01_02.jpg "The above image is the left side of Untitled #1.")
 ![portfolio/Painting_01_03.jpg](portfolio/Painting_01_03.jpg "The above image is the right side of Untitled #1.")
+***
 
 ## Untitled Painting #2
 
+***
 ![portfolio/Painting_02_01.jpg](portfolio/Painting_02_01.jpg "The above image is the entirety of Untitled #2.")
 ![portfolio/Painting_02_02.jpg](portfolio/Painting_02_02.jpg "The above image is the left side of Untitled #2.")
 ![portfolio/Painting_02_03.jpg](portfolio/Painting_02_03.jpg "The above image is the right side of Untitled #2.")
+***
 
 ## Untitled Painting #3
 
+***
 ![portfolio/Painting_03_01.jpg](portfolio/Painting_03_01.jpg "The above image is the entirety of Untitled #3.")
 ![portfolio/Painting_03_02.jpg](portfolio/Painting_03_02.jpg "The above image is the left side of Untitled #3.")
 ![portfolio/Painting_03_03.jpg](portfolio/Painting_03_03.jpg "The above image is the right side of Untitled #3.")
+***
 
 ## Untitled Painting #4
 
+***
 ![portfolio/Painting_04_01.jpg](portfolio/Painting_04_01.jpg "The above image is the entirety of Untitled #4.")
 ![portfolio/Painting_04_02.jpg](portfolio/Painting_04_02.jpg "The above image is the left side of Untitled #4.")
 ![portfolio/Painting_04_03.jpg](portfolio/Painting_04_03.jpg "The above image is the right side of Untitled #4.")
+***

@@ -27,6 +27,7 @@ image:
 
 These color photographs were all shot using the Sony Alpha a6400 Mirrorless Camera with two lenses: (#1) Sony E 35mm f/1.8 OSS; (#2) Sigma 56mm f/1.4 DC DN Contemporary. All photographys were edited using Adobe Lightroom.
 
+***
 ![portfolio/PhotographyDigital_Color_01.jpg](portfolio/PhotographyDigital_Color_01.jpg)
 ![portfolio/PhotographyDigital_Color_02.jpg](portfolio/PhotographyDigital_Color_02.jpg)
 ***
@@ -53,3 +54,4 @@ These color photographs were all shot using the Sony Alpha a6400 Mirrorless Came
 ***
 ![portfolio/PhotographyDigital_Color_17.jpg](portfolio/PhotographyDigital_Color_17.jpg)
 ![portfolio/PhotographyDigital_Color_18.jpg](portfolio/PhotographyDigital_Color_18.jpg)
+***
