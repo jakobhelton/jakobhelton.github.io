@@ -6,7 +6,7 @@ summary: Take a look at my painting portfolio!
 authors:
   - admin # Jakob M. Helton
 
-date: '2024-11-15'
+date: '2024-11-19'
 
 featured: true
 

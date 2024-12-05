@@ -6,7 +6,7 @@ summary: Take a look at my first photography book!
 authors:
   - admin # Jakob M. Helton
 
-date: '2024-11-14'
+date: '2024-11-18'
 
 featured: true
 

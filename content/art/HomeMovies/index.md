@@ -6,7 +6,7 @@ summary: Take a look at my home movies!
 authors:
   - admin # Jakob M. Helton
 
-date: '2024-11-10'
+date: '2024-11-14'
 
 featured: true
 

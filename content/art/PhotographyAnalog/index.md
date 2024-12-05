@@ -6,7 +6,7 @@ summary: Take a look at my analog photography portfolio!
 authors:
   - admin # Jakob M. Helton
 
-date: '2024-11-13'
+date: '2024-11-17'
 
 featured: true
 

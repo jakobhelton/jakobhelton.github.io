@@ -6,7 +6,7 @@ summary: Take a look at my digital photography portfolio!
 authors:
   - admin # Jakob M. Helton
 
-date: '2024-11-12'
+date: '2024-11-16'
 
 featured: true
 
