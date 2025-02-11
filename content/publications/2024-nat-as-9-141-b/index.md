@@ -45,14 +45,14 @@ date: '2024-10-11'
 publishDate: '2024-10-11'
 publication_types:
 - article-journal
-publication: 'Nature Astronomy, Advanced Online Publication'
+publication: 'Nature Astronomy, Volume 9, pages 141-154'
 doi: 10.1038/s41550-024-02384-8
 featured: false
 tags:
 - 'High-redshift galaxies'
 links:
 - name: ADS
-  url: https://ui.adsabs.harvard.edu/abs/2024NatAs.tmp..246B/abstract
+  url: https://ui.adsabs.harvard.edu/abs/2025NatAs...9..141B/abstract
 - name: Pre-Print
   url: https://arxiv.org/abs/2306.02472
 - name: Publication
