@@ -1,12 +1,12 @@
 ---
 # Display name
-title: Jakob M. Helton
+title: Dr. Jakob M. Helton
 
 # Name pronunciation (optional)
-# name_pronunciation: JAY-kuhb EM HEL-ten
+name_pronunciation: JAY-kuhb EM HEL-ten
 
 # Full name (for SEO)
-first_name: Jakob
+first_name: Jakob (Jake)
 last_name: Helton
 
 # Status emoji
@@ -20,18 +20,18 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Astrophysicist | Doctoral Candidate | Science Communicator
+role: Astrophysicist | Science Communicator | Evolving Universe Postdoctoral Scholar
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Steward Observatory, University of Arizona
-    url: https://astro.arizona.edu/
+  - name: Department of Astronomy and Astrophysics, The Pennsylvania State University
+    url: https://science.psu.edu/astro/people/jqh6631
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:jakobhelton@arizona.edu'
+    url: 'mailto:jakobhelton@psu.edu'
   - icon: academicons/ads
     url: https://ui.adsabs.harvard.edu/public-libraries/57nm1ouuTMusp62fvjiXYg
   - icon: academicons/google-scholar
@@ -56,13 +56,13 @@ interests:
   - Observational Extragalactic Astronomy
 
 education:
-  - area: M.S. and Ph.D. in Astronomy
+  - area: M.S. and Ph.D. in Astronomy and Astrophysics
     institution: University of Arizona
     date_start: 2021-08-23
     date_end: 2025-05-16
     summary: |
       Thesis: At the Break of Cosmic Dawn: Identifying and Understanding the Most Distant Galaxies and Galaxy Clusters with JWST (Advisors: Prof. Marcia Rieke and Prof. Kevin Hainline)
-  - area: A.B. in Astrophysical Sciences
+  - area: A.B. in Astrophysical Sciences with High Honors
     institution: Princeton University
     date_start: 2017-09-13
     date_end: 2021-05-16
@@ -70,11 +70,11 @@ education:
       Thesis: The Nebular Properties of Star-Forming Galaxies at Intermediate Redshifts from LEGA-C (Advisors: Prof. Allison Strom and Prof. Jenny Greene)
 
 # work:
-#   - position: 
-#     company_name: 
-#     company_url: 
-#     company_logo: 
-#     date_start: 
+#   - position: Evolving Universe Postdoctoral Scholar
+#     company_name: Department of Astronomy and Astrophysics, The Pennsylvania State University
+#     company_url: https://science.psu.edu/astro/people/jqh6631
+#     company_logo: assets/media/icons/PennState_Favicon.ico
+#     date_start: 2025-08-18
 #     date_end: 
 #     summary: |
 
@@ -130,4 +130,4 @@ languages:
 
 ## About Me
 
-I am a doctoral candidate at the University of Arizona pursuing an M.S. and Ph.D. in astronomy. I have plans to defend my dissertation entitled "At the Break of Cosmic Dawn: Identifying and Understanding the Most Distant Galaxies and Galaxy Clusters with JWST" in May 2025. I spend my time studying (#1) high-redshift galaxies, (#2) high-redshift galaxy clusters, and (#3) the large-scale structure of the Universe. I am a key member of the James Webb Space Telescope (JWST) Advanced Deep Extragalactic Survey (JADES) in addition to the Near Infrared Camera (NIRCam) and Mid-Infrared Instrument (MIRI) Science Teams. My contributions to extragalactic astronomy have been featured in national and international press, and I have worked to share my work and acquired knowledge with the broader community. I have extensive experience in academic research, problem solving, public speaking, and technical writing. In addition to my research, I am also a visual artist. I focus on photography and painting, but I have recently started creating digital images and movies. In the coming years, I am hoping to publish a photography book and get my work featured in an art exhibition.
+I am an astrophysicist, science communicator, and Evolving Universe Postdoctoral Scholar at The Pennsylvania State University. I received an A.B. in astrophysical sciences with high honors from Princeton University in addition to an M.S. and Ph.D. in astronomy and astrophysics from the University of Arizona. I spend my time studying (#1) high-redshift galaxies, (#2) high-redshift galaxy clusters, and (#3) the large-scale structure of the Universe. I am a key member of the James Webb Space Telescope (JWST) Advanced Deep Extragalactic Survey (JADES) in addition to the Near Infrared Camera (NIRCam) and Mid-Infrared Instrument (MIRI) Science Teams. My contributions to extragalactic astronomy have been featured in national and international press, and I have worked to share my work and acquired knowledge with the broader community. I have extensive experience in academic research, problem solving, public speaking, and technical writing. In addition to my research, I am also a visual artist. I focus on photography and painting, but I have recently started creating digital images and movies. In the coming years, I am hoping to publish a photography book and get my work featured in an art exhibition.
