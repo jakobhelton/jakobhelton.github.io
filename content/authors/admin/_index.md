@@ -3,7 +3,7 @@
 title: Dr. Jakob M. Helton
 
 # Name pronunciation (optional)
-name_pronunciation: JAY-kuhb EM HEL-ten
+# name_pronunciation: JAY-kuhb EM HEL-ten
 
 # Full name (for SEO)
 first_name: Jakob (Jake)
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Astrophysicist | Science Communicator | Evolving Universe Postdoctoral Scholar
+role: Astrophysicist | Evolving Universe Postdoctoral Scholar | Science Communicator
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -130,4 +130,4 @@ languages:
 
 ## About Me
 
-I am an astrophysicist, science communicator, and Evolving Universe Postdoctoral Scholar at The Pennsylvania State University. I received an A.B. in astrophysical sciences with high honors from Princeton University in addition to an M.S. and Ph.D. in astronomy and astrophysics from the University of Arizona. I spend my time studying (#1) high-redshift galaxies, (#2) high-redshift galaxy clusters, and (#3) the large-scale structure of the Universe. I am a key member of the James Webb Space Telescope (JWST) Advanced Deep Extragalactic Survey (JADES) in addition to the Near Infrared Camera (NIRCam) and Mid-Infrared Instrument (MIRI) Science Teams. My contributions to extragalactic astronomy have been featured in national and international press, and I have worked to share my work and acquired knowledge with the broader community. I have extensive experience in academic research, problem solving, public speaking, and technical writing. In addition to my research, I am also a visual artist. I focus on photography and painting, but I have recently started creating digital images and movies. In the coming years, I am hoping to publish a photography book and get my work featured in an art exhibition.
+I am currently an Evolving Universe Postdoctoral Scholar at The Pennsylvania State University. I received an A.B. in astrophysical sciences with high honors from Princeton University in addition to an M.S. and Ph.D. in astronomy and astrophysics from the University of Arizona. I spend my time studying (#1) high-redshift galaxies, (#2) high-redshift galaxy clusters, and (#3) the large-scale structure of the Universe. I am a key member of the James Webb Space Telescope (JWST) Advanced Deep Extragalactic Survey (JADES) in addition to the Near Infrared Camera (NIRCam) and Mid-Infrared Instrument (MIRI) Science Teams. My contributions to extragalactic astronomy have been featured in national and international press, and I have worked to share my work and acquired knowledge with the broader community. I have extensive experience in academic research, problem solving, public speaking, and technical writing. In addition to my research, I am also a visual artist. I focus on photography and painting, but I have recently started creating digital images and movies. In the coming years, I am hoping to publish a photography book and get my work featured in an art exhibition.
