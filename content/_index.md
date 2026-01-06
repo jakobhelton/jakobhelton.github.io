@@ -32,6 +32,7 @@ sections:
           parallax: false
   - block: markdown
     content:
+      text-align: justify
       title: 'My Research'
       subtitle: ''
       text: |-

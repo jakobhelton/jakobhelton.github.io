@@ -41,7 +41,7 @@ publication_types:
 - article-journal
 publication: 'eprint arXiv:2506.02099'
 doi: 10.48550/arXiv.2506.02099
-featured: false
+featured: true
 tags:
 - 'High-redshift galaxies'
 - 'Galaxy photometry'

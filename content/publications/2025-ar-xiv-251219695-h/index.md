@@ -50,7 +50,7 @@ publication_types:
 - article-journal
 publication: 'eprint arXiv:2512.19695'
 doi: 10.48550/arXiv.2512.19695
-featured: false
+featured: true
 tags:
 - 'High-redshift galaxies'
 - 'Galaxy formation'

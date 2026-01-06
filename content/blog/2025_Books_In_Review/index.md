@@ -6,7 +6,7 @@ summary: Read more about all of the books that I read in 2025!
 authors:
   - admin # Jakob M. Helton
 
-date: '2026-01-31'
+date: '2026-01-02'
 
 featured: true
 
