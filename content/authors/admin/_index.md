@@ -69,14 +69,14 @@ education:
     summary: |
       Thesis: The Nebular Properties of Star-Forming Galaxies at Intermediate Redshifts from LEGA-C (Advisors: Prof. Allison Strom and Prof. Jenny Greene)
 
-# work:
-#   - position: Evolving Universe Postdoctoral Fellow
-#     company_name: Department of Astronomy and Astrophysics, The Pennsylvania State University
-#     company_url: https://science.psu.edu/astro/people/jqh6631
-#     company_logo: assets/media/icons/PennState_Favicon.ico
-#     date_start: 2025-08-18
-#     date_end: 
-#     summary: |
+work:
+  - position: Evolving Universe Postdoctoral Fellow
+    company_name: Department of Astronomy and Astrophysics, The Pennsylvania State University
+    company_url: https://science.psu.edu/astro/people/jqh6631
+    company_logo: assets/media/icons/PennState_Favicon.ico
+    date_start: 2025-08-18
+    date_end: 
+    summary: |
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -113,13 +113,13 @@ skills:
         description: ''
         icon: hero/book-open
         percent: 100
-      - name: Photography
-        description: ''
-        icon: hero/photo
-        percent: 100
       - name: Painting
         description: ''
         icon: hero/paint-brush
+        percent: 100
+      - name: Photography
+        description: ''
+        icon: hero/photo
         percent: 100
       - name: Tea and Coffee
         description: ''

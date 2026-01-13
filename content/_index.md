@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ""
-date: 2024-11-13
+date: 2026-01-06
 type: landing
 
 design:
@@ -32,7 +32,6 @@ sections:
           parallax: false
   - block: markdown
     content:
-      text-align: justify
       title: 'My Research'
       subtitle: ''
       text: |-

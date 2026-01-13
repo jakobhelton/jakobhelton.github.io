@@ -29,6 +29,13 @@ image:
 
 I read lots of books in 2025 and tracked all of my progress on Goodreads. In this blog post, I will summarize the books that I read in 2025, starting with some infographics about my reading habits, followed by a ranked ordering of all the books that I read, and concluding with some of the best quotations from these books.
 
+There are a few things I want to discuss prior to jumping into these topics though. Most notably, I approached reading differently in 2025 when compared to 2024. I was intentional about reading more non-fiction content; this includes books on Goodreads, but also content from Nature, National Geographic, and Scientific American. I estimated that I consumed roughly 200 pages per month in this additional content, which is not contained within My Year in Books on Goodreads. Additionally, I was more intentional in writing down quotations and my thoughts while reading each book; this helped with writing longer and more informative/thoughtful reviews. Finally, this blog post does not consider the many, many papers and proposals that I read for my academic work as an astrophysicist. If I had to make a rough guess, my professional work contributes another few hundred pages of content read per month.
+
+With these thoughts in mind, let us look ahead and ask the question: How should I modify my reading habits in 2026?
+- I want to read less non-fiction content and return to reading more classic, fictional literature.
+- I want to spend less time writing down quotations since I was definitely overkill this year.
+- I want to focus more on the number of pages read rather than the number of books.
+
 <!--- ... --->
 
 ## Information Regarding My Reading Habits

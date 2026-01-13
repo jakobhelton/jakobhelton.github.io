@@ -112,8 +112,8 @@ Here were the best live performances for the year:
 2. [**Underworld | Boiler Room: London**](https://youtu.be/rAOHJqJMYDA) {{< youtube rAOHJqJMYDA >}}
 3. [**horsegiirL | Boiler Room CDMX: horsegiirL**](https://youtu.be/Q9FaUe4b0wI) {{< youtube Q9FaUe4b0wI >}}
 4. [**Fred again.. | Green Room Set (Maka’s Birthday, Rome)**](https://youtu.be/o_N5JQYHJXk) {{< youtube o_N5JQYHJXk >}}
+6. [**Zack Fox Mixes HOUSE & GHETTO TECH | Black House Radio**](https://youtu.be/csOk65ducIU) {{< youtube csOk65ducIU >}}
 5. [**Wuki | Fitness: Gym, April 2025 (DJ Mix) [Full Playlist]**](https://youtu.be/g_9x-Bmu9w8) {{< youtube g_9x-Bmu9w8 >}}
-6. [**Zack Fox LIVE @ Camp Flog Gnaw 2025**](https://youtu.be/5cfvOtMDvgE) {{< youtube 5cfvOtMDvgE >}}
 
 ## Analog Media | Vinyl
 
