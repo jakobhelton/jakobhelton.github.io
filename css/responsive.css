@@ -30,7 +30,7 @@
   .icon-link { width: 38px; height: 38px; }
   .scroll-section { min-height: auto; padding: var(--space-3xl) 0; }
   .scroll-section-inner { flex-direction: column !important; gap: var(--space-xl) !important; }
-  .scroll-section-media { width: 100% !important; max-height: 300px !important; }
+  .scroll-section-media { width: 100% !important; max-height: 300px !important; order: -1; }
   .blog-grid { grid-template-columns: 1fr !important; }
   .art-grid { grid-template-columns: 1fr !important; }
   .icon-links { justify-content: center; }

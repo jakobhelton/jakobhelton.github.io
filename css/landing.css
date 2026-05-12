@@ -168,7 +168,7 @@
 
 /* Featured Publication */
 .featured-pub {
-  padding: var(--space-4xl) 0 var(--space-3xl);
+  padding: var(--space-4xl) 0 var(--space-4xl);
 }
 .featured-pub .section-label--ruled { margin-bottom: 0; }
 .featured-pub-card {
