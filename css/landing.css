@@ -150,15 +150,18 @@
   background: var(--accent);
 }
 
-/* JWST Daily Image */
-.jwst-daily { position: relative; padding: var(--space-4xl) 0 var(--space-2xl); text-align: center; }
-.jwst-daily-image {
+/* NASA Image of the Day */
+.nasa-daily { position: relative; padding: var(--space-4xl) 0 var(--space-2xl); text-align: center; }
+.nasa-daily-image {
   max-width: 900px; margin: var(--space-xl) auto 0;
   border-radius: var(--border-radius-lg); overflow: hidden;
   box-shadow: var(--shadow-lg), 0 0 60px rgba(0, 168, 120, 0.05);
   border: 1px solid var(--border);
 }
-.jwst-daily-image img { width: 100%; height: auto; display: block; }
-.jwst-daily-caption { max-width: 700px; margin: var(--space-lg) auto 0; color: var(--text-secondary); font-size: 0.95rem; }
-.jwst-daily-credit { font-size: 0.75rem; color: var(--text-tertiary); margin-top: var(--space-2xl); margin-bottom: var(--space-2xl); text-align: center; }
-.jwst-daily-credit a { color: var(--text-secondary); }
+.nasa-daily-image > a { display: block; line-height: 0; }
+.nasa-daily-image img { width: 100%; height: auto; display: block; }
+.nasa-daily-caption { max-width: 700px; margin: var(--space-lg) auto 0; color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7; text-align: left; }
+.nasa-daily-credit { font-size: 0.8rem; color: var(--text-tertiary); margin-top: var(--space-lg); margin-bottom: var(--space-2xl); text-align: center; }
+.nasa-daily-credit a { color: var(--text-secondary); }
+/* Allow image credit bar to flow below (not overlap) credited scroll-section images */
+.scroll-section-media.credited-image { overflow: visible; }
