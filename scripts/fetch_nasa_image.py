@@ -3,7 +3,7 @@
 
 import json, os, re, requests
 from datetime import datetime, timezone
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString, Tag
 
 IOTD_PAGE = "https://www.nasa.gov/image-of-the-day/"
 JSON_OUT = "data/nasa_image.json"
@@ -21,6 +21,23 @@ def find_latest_article():
                 href = "https://www.nasa.gov" + href
             return href
     return None
+
+def _para_to_html(p):
+    """Return paragraph inner content as HTML, preserving <a> hyperlinks with absolute URLs."""
+    parts = []
+    for child in p.children:
+        if isinstance(child, NavigableString):
+            parts.append(str(child))
+        elif isinstance(child, Tag) and child.name == "a":
+            href = child.get("href", "")
+            if href and href.startswith("/"):
+                href = "https://www.nasa.gov" + href
+            text = child.get_text()
+            parts.append(f'<a href="{href}" target="_blank" rel="noopener">{text}</a>' if href else text)
+        else:
+            parts.append(child.get_text(" "))
+    return "".join(parts).strip()
+
 
 def parse_article(url):
     r = requests.get(url, headers=UA, timeout=20)
@@ -59,11 +76,17 @@ def parse_article(url):
             text = p.get_text(" ", strip=True)
             if not text:
                 continue
+            # Skip reading-time metadata (e.g. "2 min read")
+            if re.match(r"^\d+\s+min\s+read$", text, re.IGNORECASE):
+                continue
+            # Skip short byline/author paragraphs (no sentence-ending punctuation)
+            if len(text) < 50 and not re.search(r"[.!?]", text):
+                continue
             if re.match(r"^(image credit[s]?|credits?|photo credit[s]?)[\s:]", text, re.IGNORECASE):
                 raw = re.sub(r"^(image credit[s]?|credits?|photo credit[s]?)[\s:]+", "", text, flags=re.IGNORECASE).strip()
                 credit = raw
             else:
-                paragraphs.append(text)
+                paragraphs.append(_para_to_html(p))
 
     caption = "\n\n".join(paragraphs)
     if len(caption) > 2000:
