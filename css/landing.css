@@ -173,7 +173,7 @@
 .featured-pub .section-label--ruled { margin-bottom: 0; }
 .featured-pub-card {
   max-width: 900px;
-  margin: var(--space-2xl) auto 0;
+  margin: var(--space-4xl) auto 0;
   border: 1px solid var(--border-accent);
   border-radius: var(--border-radius-lg);
   overflow: hidden;

@@ -85,6 +85,9 @@ def fmt(p):
 
 def main():
     token = get_token()
+    if not token:
+        print("No ADS_API_TOKEN — skipping update.")
+        sys.exit(0)
     print("Fetching bibcodes...")
     bib = fetch_library_bibcodes(token)
     print(f"Found {len(bib)} bibcodes")
