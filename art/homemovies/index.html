@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Home Movies — Jakob M. Helton</title>
+  <meta name="description" content="My home movies — Jakob M. Helton.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>🌌</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="../../css/main.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/responsive.css">
+</head>
+<body>
+<canvas id="star-field" aria-hidden="true"></canvas>
+<div class="scroll-progress" aria-hidden="true"></div>
+<nav class="site-nav">
+  <a href="../../" class="nav-logo"><span class="logo-icon"></span> Jakob M. Helton</a>
+  <button class="nav-menu-toggle" aria-label="Toggle menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+  <ul class="nav-links">
+    <li><a href="../../">Home</a></li>
+    <li><a href="../../biography/">Biography</a></li>
+    <li><a href="../../publications/">Publications</a></li>
+    <li><a href="../../blog/">Blog</a></li>
+    <li><a href="../../presentations/">Presentations</a></li>
+    <li><a href="../../art/" class="active">Art</a></li>
+    <li><button class="theme-toggle" aria-label="Toggle theme"></button></li>
+  </ul>
+</nav>
+<main class="page-content">
+  <div class="container">
+    <div class="page-header reveal">
+      <p class="section-label">Visual Art</p>
+      <h1>Home Movies</h1>
+    </div>
+    <div class="reveal">
+      <img src="featured.jpg" alt="Home Movies" class="bio-portrait-image" style="max-width:400px;margin:0 auto var(--space-2xl);display:block;">
+    </div>
+    <section class="bio-section reveal">
+      <h2>All of My Home Movies</h2>
+      <p>These home movies were all filmed with the JVC Everio GZ-MG330 Hybrid Camcorder and edited using Adobe Premiere Pro.</p>
+
+      <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:var(--space-lg) 0;border-radius:var(--border-radius);">
+        <iframe src="https://www.youtube.com/embed/ZY0-vleuR8w" title="Home Movie" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;"></iframe>
+      </div>
+      <p class="text-secondary">1st home movie (shown above) was filmed between March 19th, 2021 and April 14th, 2021.</p>
+
+      <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:var(--space-lg) 0;border-radius:var(--border-radius);">
+        <iframe src="https://www.youtube.com/embed/yRycT9h0qI0" title="Home Movie" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;"></iframe>
+      </div>
+      <p class="text-secondary">2nd home movie (shown above) was filmed between April 15th, 2021 and May 9th, 2021.</p>
+
+      <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:var(--space-lg) 0;border-radius:var(--border-radius);">
+        <iframe src="https://www.youtube.com/embed/Vmhlj8W7ifU" title="Home Movie" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;"></iframe>
+      </div>
+      <p class="text-secondary">3rd home movie (shown above) was filmed between May 10th, 2021 and June 1st, 2021.</p>
+
+      <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:var(--space-lg) 0;border-radius:var(--border-radius);">
+        <iframe src="https://www.youtube.com/embed/cOp5Iw0qXeA" title="Home Movie" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;"></iframe>
+      </div>
+      <p class="text-secondary">4th home movie (shown above) was filmed between June 2nd, 2021 and July 19th, 2021.</p>
+
+      <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:var(--space-lg) 0;border-radius:var(--border-radius);">
+        <iframe src="https://www.youtube.com/embed/7shi0whX65I" title="Home Movie" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;"></iframe>
+      </div>
+      <p class="text-secondary">5th home movie (shown above) was filmed between June 20th, 2021 and August 18th, 2021.</p>
+
+      <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:var(--space-lg) 0;border-radius:var(--border-radius);">
+        <iframe src="https://www.youtube.com/embed/k2rdmXEdHsM" title="Home Movie" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;"></iframe>
+      </div>
+      <p class="text-secondary">6th home movie (shown above) was filmed between August 19th, 2021 and June 4th, 2022.</p>
+
+      <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:var(--space-lg) 0;border-radius:var(--border-radius);">
+        <iframe src="https://www.youtube.com/embed/usITHj1bCgY" title="Home Movie" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;"></iframe>
+      </div>
+      <p class="text-secondary">7th home movie (shown above) was filmed between June 20th, 2022 and April 12th, 2023.</p>
+
+      <div class="video-embed" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;margin:var(--space-lg) 0;border-radius:var(--border-radius);">
+        <iframe src="https://www.youtube.com/embed/ZRnLitrrJhY" title="Home Movie" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;"></iframe>
+      </div>
+      <p class="text-secondary">8th home movie (shown above) was filmed between February 17th, 2024 and May 12th, 2024.</p>
+    </section>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Jakob M. Helton. Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" target="_blank" rel="noopener">CC BY-NC-ND 4.0</a>.</p>
+  </div>
+</footer>
+<script src="../../js/main.js"></script>
+<script src="../../js/stars.js"></script>
+</body>
+</html>

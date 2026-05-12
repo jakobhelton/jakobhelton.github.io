@@ -1,0 +1,53 @@
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  :root { --nav-height: 56px; }
+  .container { padding: 0 var(--space-lg); }
+  .section { padding: var(--space-3xl) 0; }
+}
+@media (max-width: 768px) {
+  .container { padding: 0 var(--space-md); }
+  .section { padding: var(--space-2xl) 0; }
+  .nav-links {
+    position: fixed; top: var(--nav-height); left: 0; right: 0; bottom: 0;
+    flex-direction: column; align-items: flex-start; gap: 0;
+    background: var(--bg-primary); padding: var(--space-lg);
+    transform: translateX(100%); transition: transform var(--transition-med);
+    z-index: 999; border-top: 1px solid var(--border);
+  }
+  .nav-links.open { transform: translateX(0); }
+  .nav-links li { width: 100%; }
+  .nav-links a { display: block; padding: var(--space-md) 0; font-size: 1rem; border-bottom: 1px solid var(--border); }
+  .nav-links a::after { display: none; }
+  .nav-menu-toggle { display: block; }
+  .card { padding: var(--space-lg); }
+  .bio-grid { grid-template-columns: 1fr !important; }
+  .bio-portrait { max-width: 280px; margin: 0 auto var(--space-xl); position: static; }
+  .pub-card-inner { flex-direction: column !important; }
+  .pub-figure { width: 100% !important; max-width: none !important; height: 200px !important; }
+  .hero-content h1 { font-size: 2.2rem; }
+  .hero-subtitle { font-size: 1rem; }
+  .hero-icons { gap: var(--space-sm); }
+  .icon-link { width: 38px; height: 38px; }
+  .scroll-section { min-height: auto; padding: var(--space-3xl) 0; }
+  .scroll-section-inner { flex-direction: column !important; gap: var(--space-xl) !important; }
+  .scroll-section-media { width: 100% !important; max-height: 300px !important; }
+  .blog-grid { grid-template-columns: 1fr !important; }
+  .art-grid { grid-template-columns: 1fr !important; }
+  .icon-links { justify-content: center; }
+}
+@media (max-width: 480px) {
+  .site-nav { padding: 0 var(--space-md); }
+  .hero-content h1 { font-size: 1.8rem; }
+  .btn { padding: 0.6rem 1.2rem; font-size: 0.8rem; }
+  .card { padding: var(--space-md); border-radius: var(--border-radius); }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; }
+}
+@media print {
+  .site-nav, .theme-toggle, #star-field, .scroll-progress { display: none !important; }
+  body { background: #fff; color: #000; }
+  .page-content { padding-top: 0; }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Digital Art Portfolio — Jakob M. Helton</title>
+  <meta name="description" content="My digital art portfolio — Jakob M. Helton.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='14' font-size='14'>🌌</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="../../css/main.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/responsive.css">
+</head>
+<body>
+<canvas id="star-field" aria-hidden="true"></canvas>
+<div class="scroll-progress" aria-hidden="true"></div>
+<nav class="site-nav">
+  <a href="../../" class="nav-logo"><span class="logo-icon"></span> Jakob M. Helton</a>
+  <button class="nav-menu-toggle" aria-label="Toggle menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+  <ul class="nav-links">
+    <li><a href="../../">Home</a></li>
+    <li><a href="../../biography/">Biography</a></li>
+    <li><a href="../../publications/">Publications</a></li>
+    <li><a href="../../blog/">Blog</a></li>
+    <li><a href="../../presentations/">Presentations</a></li>
+    <li><a href="../../art/" class="active">Art</a></li>
+    <li><button class="theme-toggle" aria-label="Toggle theme"></button></li>
+  </ul>
+</nav>
+<main class="page-content">
+  <div class="container">
+    <div class="page-header reveal">
+      <p class="section-label">Visual Art</p>
+      <h1>Digital Art</h1>
+    </div>
+    <div class="reveal">
+      <img src="featured.jpg" alt="Digital Art by Jakob M. Helton" class="bio-portrait-image" style="max-width:400px;margin:0 auto var(--space-2xl);display:block;">
+    </div>
+    <section class="bio-section reveal">
+      <h2>Deep Haze Generative Art</h2>
+      <p>These images were made using Deep Haze, the simple command line tool for text to image generation using OpenAI's CLIP and Siren. Each image was generated from a text prompt with the following hyperparameters: a learning rate of 1e-5, 16 hidden layers, 8 epochs, 256 loss calculations per epoch, 4 samples per iteration, and 4 generated images per loss calculation.</p>
+      <div class="art-grid art-grid-3col" style="gap: var(--space-md); margin-top: var(--space-xl);">
+        <a class="art-card" href="../../assets/portfolio/DigitalArt_DeepHaze_01.jpg" target="_blank" rel="noopener"><img src="../../assets/portfolio/DigitalArt_DeepHaze_01.jpg" alt="Deep Haze Generative Art 01" loading="lazy"></a>
+        <a class="art-card" href="../../assets/portfolio/DigitalArt_DeepHaze_02.jpg" target="_blank" rel="noopener"><img src="../../assets/portfolio/DigitalArt_DeepHaze_02.jpg" alt="Deep Haze Generative Art 02" loading="lazy"></a>
+        <a class="art-card" href="../../assets/portfolio/DigitalArt_DeepHaze_03.jpg" target="_blank" rel="noopener"><img src="../../assets/portfolio/DigitalArt_DeepHaze_03.jpg" alt="Deep Haze Generative Art 03" loading="lazy"></a>
+        <a class="art-card" href="../../assets/portfolio/DigitalArt_DeepHaze_04.jpg" target="_blank" rel="noopener"><img src="../../assets/portfolio/DigitalArt_DeepHaze_04.jpg" alt="Deep Haze Generative Art 04" loading="lazy"></a>
+        <a class="art-card" href="../../assets/portfolio/DigitalArt_DeepHaze_05.jpg" target="_blank" rel="noopener"><img src="../../assets/portfolio/DigitalArt_DeepHaze_05.jpg" alt="Deep Haze Generative Art 05" loading="lazy"></a>
+        <a class="art-card" href="../../assets/portfolio/DigitalArt_DeepHaze_06.jpg" target="_blank" rel="noopener"><img src="../../assets/portfolio/DigitalArt_DeepHaze_06.jpg" alt="Deep Haze Generative Art 06" loading="lazy"></a>
+        <a class="art-card" href="../../assets/portfolio/DigitalArt_DeepHaze_07.jpg" target="_blank" rel="noopener"><img src="../../assets/portfolio/DigitalArt_DeepHaze_07.jpg" alt="Deep Haze Generative Art 07" loading="lazy"></a>
+        <a class="art-card" href="../../assets/portfolio/DigitalArt_DeepHaze_08.jpg" target="_blank" rel="noopener"><img src="../../assets/portfolio/DigitalArt_DeepHaze_08.jpg" alt="Deep Haze Generative Art 08" loading="lazy"></a>
+        <a class="art-card" href="../../assets/portfolio/DigitalArt_DeepHaze_09.jpg" target="_blank" rel="noopener"><img src="../../assets/portfolio/DigitalArt_DeepHaze_09.jpg" alt="Deep Haze Generative Art 09" loading="lazy"></a>
+      </div>
+    </section>
+    <section class="bio-section reveal">
+      <h2>Adobe Fresco</h2>
+      <p>These images were made using Adobe Fresco, the powerful drawing app with the world's largest digital brush collection.</p>
+      <div class="art-grid art-grid-3col" style="gap: var(--space-md); margin-top: var(--space-xl);">
+        <a class="art-card" href="../../assets/portfolio/DigitalArt_AdobeFresco_01.jpg" target="_blank" rel="noopener"><img src="../../assets/portfolio/DigitalArt_AdobeFresco_01.jpg" alt="Adobe Fresco Art 01" loading="lazy"></a>
+        <a class="art-card" href="../../assets/portfolio/DigitalArt_AdobeFresco_02.jpg" target="_blank" rel="noopener"><img src="../../assets/portfolio/DigitalArt_AdobeFresco_02.jpg" alt="Adobe Fresco Art 02" loading="lazy"></a>
+        <a class="art-card" href="../../assets/portfolio/DigitalArt_AdobeFresco_03.jpg" target="_blank" rel="noopener"><img src="../../assets/portfolio/DigitalArt_AdobeFresco_03.jpg" alt="Adobe Fresco Art 03" loading="lazy"></a>
+        <a class="art-card" href="../../assets/portfolio/DigitalArt_AdobeFresco_04.jpg" target="_blank" rel="noopener"><img src="../../assets/portfolio/DigitalArt_AdobeFresco_04.jpg" alt="Adobe Fresco Art 04" loading="lazy"></a>
+        <a class="art-card" href="../../assets/portfolio/DigitalArt_AdobeFresco_05.jpg" target="_blank" rel="noopener"><img src="../../assets/portfolio/DigitalArt_AdobeFresco_05.jpg" alt="Adobe Fresco Art 05" loading="lazy"></a>
+        <a class="art-card" href="../../assets/portfolio/DigitalArt_AdobeFresco_06.jpg" target="_blank" rel="noopener"><img src="../../assets/portfolio/DigitalArt_AdobeFresco_06.jpg" alt="Adobe Fresco Art 06" loading="lazy"></a>
+        <a class="art-card" href="../../assets/portfolio/DigitalArt_AdobeFresco_07.jpg" target="_blank" rel="noopener"><img src="../../assets/portfolio/DigitalArt_AdobeFresco_07.jpg" alt="Adobe Fresco Art 07" loading="lazy"></a>
+        <a class="art-card" href="../../assets/portfolio/DigitalArt_AdobeFresco_08.jpg" target="_blank" rel="noopener"><img src="../../assets/portfolio/DigitalArt_AdobeFresco_08.jpg" alt="Adobe Fresco Art 08" loading="lazy"></a>
+        <a class="art-card" href="../../assets/portfolio/DigitalArt_AdobeFresco_09.jpg" target="_blank" rel="noopener"><img src="../../assets/portfolio/DigitalArt_AdobeFresco_09.jpg" alt="Adobe Fresco Art 09" loading="lazy"></a>
+      </div>
+    </section>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Jakob M. Helton. Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" target="_blank" rel="noopener">CC BY-NC-ND 4.0</a>.</p>
+  </div>
+</footer>
+<script src="../../js/main.js"></script>
+<script src="../../js/stars.js"></script>
+</body>
+</html>
