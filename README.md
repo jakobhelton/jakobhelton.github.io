@@ -9,6 +9,7 @@ This is the source repository for my personal website at [jakobhelton.github.io]
 #    avatar.jpg              — headshot (biography page)
 #    hero_1.png              — hero slideshow (landing page)
 #    hero_2.png              — hero slideshow (landing page)
+#    featured_publication.png — figure for the featured publication card (landing page)
 
 # 2. Add art gallery thumbnails (each gallery uses its own featured.jpg):
 #    art/painting/featured.jpg
@@ -32,7 +33,7 @@ This is the source repository for my personal website at [jakobhelton.github.io]
 ## Architecture
 
 ```
-├── index.html                    # Landing page (hero slideshow + scroll sections)
+├── index.html                    # Landing page (hero slideshow + scroll sections + featured publication)
 ├── biography/index.html          # Research, education, and background
 ├── publications/index.html       # Auto-populated from SciX via JSON
 ├── blog/index.html               # Blog listing
@@ -43,14 +44,14 @@ This is the source repository for my personal website at [jakobhelton.github.io]
 │
 ├── css/
 │   ├── main.css                  # Core styles, variables, dark/light themes
-│   ├── landing.css               # Hero slideshow, scroll sections
+│   ├── landing.css               # Hero slideshow, scroll sections, featured publication, NASA image
 │   ├── pages.css                 # Biography, publications, blog, art, presentations
 │   └── responsive.css            # Mobile and tablet breakpoints
 │
 ├── js/
 │   ├── main.js                   # Theme toggle, navigation, scroll reveal
-│   ├── stars.js                  # Animated star field canvas
-│   ├── landing.js                # Hero slideshow, scroll sections, JWST image loader
+│   ├── stars.js                  # Animated star field canvas (stars, nebulae, spiral galaxies)
+│   ├── landing.js                # Hero slideshow, scroll sections, JWST image loader, KaTeX init
 │   └── publications.js           # Load, filter, and search publications from JSON
 │
 ├── data/
@@ -58,7 +59,7 @@ This is the source repository for my personal website at [jakobhelton.github.io]
 │   └── nasa_image.json           # Auto-generated daily by GitHub Actions
 │
 ├── assets/
-│   ├── images/                   # Headshot and hero slideshow images
+│   ├── images/                   # Headshot, hero slideshow images, and featured publication figure
 │   ├── cv/                       # JMH_CV.pdf and JMH_CV.tex
 │   └── papers/                   # Auto-populated: arXiv PDFs and extracted figures
 │
@@ -75,11 +76,17 @@ This is the source repository for my personal website at [jakobhelton.github.io]
 
 ## Design
 
-I designed the site around a deep space dark theme (`#08090c` base) with a jade green (`#00a878`) accent color. Typography follows LaTeX conventions: Playfair Display for headings and Libre Franklin for body text, with fully justified alignment and no word hyphenation. An animated star field with twinkling stars and faint galaxy smudges runs on every page as a background canvas. Dark and light modes are both supported, with the user's preference persisted in `localStorage`. The layout is fully responsive, with hamburger navigation on mobile. All NASA/JWST images include credited attribution with a clickable source link.
+I designed the site around a deep space dark theme (`#08090c` base) with a jade green (`#00a878`) accent color. Typography follows LaTeX conventions: Playfair Display for headings and Libre Franklin for body text, with fully justified alignment and no word hyphenation. The `text-wrap: pretty` property prevents orphan words (lone words on the last line of a paragraph), and `text-wrap: balance` is applied to headings. An animated star field with twinkling stars, faint diffuse nebulae, and spiral galaxy smudges runs on every page as a background canvas. Stars are rendered from a power-law size distribution (70% tiny, 20% medium, 9% bright, 1% brilliant), with ~27% drawn as colored pastels (soft blues, yellows, oranges, violets, pinks, gold) and ~10% rendered as ellipsoidal shapes. Each page load generates 4–8 nebulae (radial gradients, often with a secondary offset lobe) and several spiral galaxies with logarithmic arms and compact bright cores. Dark and light modes are both supported, with the user's preference persisted in `localStorage`. The layout is fully responsive, with hamburger navigation on mobile. All NASA/JWST images include credited attribution with a clickable source link.
+
+## Featured Publication
+
+The landing page includes a static featured publication card below the scroll sections. It displays the figure (`assets/images/featured_publication.png`), title, first authors, journal reference, and full abstract. LaTeX math in the abstract is rendered client-side by [KaTeX](https://katex.org/) via `$...$` delimiters using the auto-render extension. To update the featured publication, edit the `#featured-pub` section in `index.html` and replace `assets/images/featured_publication.png`.
+
+**Current featured paper:** Helton et al. (2025), *Ionizing Photon Production Efficiencies and Chemical Abundances at Cosmic Dawn Revealed by Ultra-Deep Rest-Frame Optical Spectroscopy of JADES-GS-z14-0*, arXiv:2512.19695.
 
 ## Auto-Updating Pipeline
 
-A GitHub Actions workflow (`.github/workflows/update_data.yml`) runs daily at 06:00 UTC and on manual dispatch. The pipeline executes four scripts in order.
+A GitHub Actions workflow (`.github/workflows/update_data.yml`) runs daily at 06:00 UTC and on manual dispatch, using `actions/checkout@v4.2.2` and `actions/setup-python@v5.3.0`. The pipeline executes four scripts in order.
 
 **`fetch_publications.py`** queries the SciX/ADS API for my public library (`LIBRARY_ID = "57nm1ouuTMusp62fvjiXYg"`) and writes `data/publications.json`. Fields include bibcodes, authors, journal, DOI, arXiv ID, citation count, abstract, and refereed status.
 

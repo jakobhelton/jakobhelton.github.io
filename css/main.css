@@ -303,7 +303,7 @@ strong { font-weight: 600; }
 .nav-menu-toggle svg { width: 24px; height: 24px; }
 .nav-backdrop {
   position: fixed; inset: 0; z-index: 998;
-  background: rgba(0,0,0,0.90);
+  background: rgba(0,0,0,0.95);
   opacity: 0; pointer-events: none;
   transition: opacity 0.3s ease;
 }

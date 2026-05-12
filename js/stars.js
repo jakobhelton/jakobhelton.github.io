@@ -10,15 +10,17 @@ function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
 
 // [hue, sat%, lightness%] — pastel palette
 const STAR_COLORS = [
-  null, null, null, null, null, null, // majority white/blue-white
-  [210, 45, 88], // pastel blue
-  [195, 40, 85], // ice blue
-  [240, 35, 84], // lavender-white
-  [40,  40, 90], // warm straw
-  [20,  45, 86], // soft orange
-  [280, 35, 84], // pastel violet
-  [160, 30, 82], // soft mint
-  [350, 40, 87], // rosy
+  null, null, null,               // minority white/blue-white
+  [210, 55, 88], // pastel blue
+  [195, 50, 85], // ice blue
+  [240, 45, 84], // lavender-white
+  [40,  50, 90], // warm straw
+  [20,  55, 86], // soft orange
+  [280, 45, 84], // pastel violet
+  [160, 40, 82], // soft mint
+  [350, 50, 87], // rosy
+  [60,  45, 88], // pale gold
+  [300, 40, 85], // soft pink-violet
 ];
 
 const NEBULA_HUES = [210, 280, 340, 30, 160, 200, 260, 15];
@@ -83,7 +85,7 @@ function createNebulae() {
     nebulae.push({
       x: rand(0.05, 0.95) * width,
       y: rand(0.05, 0.95) * height,
-      size:   rand(110, 340),
+      size:   rand(200, 520),
       alpha:  rand(0.012, 0.042),
       h,
       scaleY: rand(0.35, 0.85),
@@ -91,7 +93,7 @@ function createNebulae() {
       hasSecondary,
       sx:    rand(-100, 100),
       sy:    rand(-70,   70),
-      ssize: rand(55,  160),
+      ssize: rand(100, 260),
       sh:    (h + 25 + Math.floor(Math.random() * 30)) % 360,
     });
   }
