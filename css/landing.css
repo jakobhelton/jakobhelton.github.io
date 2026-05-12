@@ -160,7 +160,7 @@
 }
 .nasa-daily-image > a { display: block; line-height: 0; }
 .nasa-daily-image img { width: 100%; height: auto; display: block; }
-.nasa-daily-caption { max-width: 700px; margin: var(--space-lg) auto 0; color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7; text-align: left; }
+.nasa-daily-caption { max-width: 700px; margin: var(--space-lg) auto 0; color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7; text-align: justify; text-justify: inter-word; }
 .nasa-daily-credit { font-size: 0.8rem; color: var(--text-tertiary); margin-top: var(--space-lg); margin-bottom: var(--space-2xl); text-align: center; }
 .nasa-daily-credit a { color: var(--text-secondary); }
 /* Allow image credit bar to flow below (not overlap) credited scroll-section images */
