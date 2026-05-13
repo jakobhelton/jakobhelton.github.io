@@ -14,6 +14,7 @@
 .bio-section h2 { margin-bottom: var(--space-lg); padding-bottom: var(--space-sm); border-bottom: 1px solid var(--border); }
 .bio-section h3 { margin-bottom: var(--space-md); color: var(--accent); font-size: 1.2rem; }
 .bio-list { list-style: none; display: flex; flex-wrap: wrap; gap: var(--space-sm); }
+.bio-section ul:not(.bio-list), .bio-section ol { padding-left: var(--space-xl); margin-bottom: var(--space-md); }
 .bio-list li { font-size: 0.85rem; padding: 0.35rem 0.8rem; border-radius: 100px; background: var(--accent-glow); color: var(--accent-light); border: 1px solid var(--border-accent); }
 .education-item { padding: var(--space-lg) 0; border-bottom: 1px solid var(--border); }
 .education-item:last-child { border-bottom: none; }
@@ -81,7 +82,7 @@
 .art-card-overlay { position: absolute; inset: 0; background: linear-gradient(transparent 40%, rgba(0,0,0,0.7) 100%); display: flex; align-items: flex-end; padding: var(--space-lg); opacity: 1; transition: background var(--transition-med); }
 .art-card:hover .art-card-overlay { background: linear-gradient(transparent 30%, rgba(0,0,0,0.85) 100%); }
 .art-card-overlay h3 { color: #fff; font-size: 1.2rem; }
-.art-card-overlay p { color: rgba(255,255,255,0.7); font-size: 0.85rem; text-align: left; }
+.art-card-overlay p { color: rgba(255,255,255,0.7); font-size: 0.85rem; text-align: justify; text-justify: inter-word; }
 .art-grid-3col { grid-template-columns: repeat(3, 1fr); }
 .art-grid-even { grid-template-columns: repeat(4, 1fr); }
 @media (max-width: 768px) {

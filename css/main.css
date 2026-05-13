@@ -182,6 +182,7 @@ li {
   hyphens: none;
   -webkit-hyphens: none;
   text-wrap: pretty;
+  overflow-wrap: break-word;
 }
 
 a {

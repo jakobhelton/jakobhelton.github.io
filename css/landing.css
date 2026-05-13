@@ -198,6 +198,7 @@
   font-size: 1.2rem; font-weight: 500; line-height: 1.45;
   color: var(--text-primary);
   margin-bottom: var(--space-sm);
+  text-align: justify; text-justify: inter-word;
 }
 .featured-pub-authors {
   font-size: 0.9rem; color: var(--accent-light);
