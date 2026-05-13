@@ -2,6 +2,7 @@
   'use strict';
   const YOUR_NAME = 'Helton';
   let allPubs = [], currentFilter = 'all', searchQuery = '';
+  const bibtexCache = new Map();
 
   async function loadPublications() {
     const c = document.getElementById('publications-list');
@@ -62,7 +63,7 @@
     let ref = journal;
     if (p.volume) ref += `, Volume ${p.volume}`;
     const page = Array.isArray(p.page) ? p.page[0] : (p.page || '');
-    if (page && !page.toLowerCase().includes('arxiv')) ref += `, p. ${page}`;
+    if (page && !page.toLowerCase().includes('arxiv')) ref += `, p. ${page}`;
     return ref;
   }
 
@@ -103,15 +104,64 @@
     return fm.join(', ');
   }
 
-  function buildLinks(p, fa) {
+  function escapeAttr(s) {
+    return String(s)
+      .replace(/&/g, '&amp;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;');
+  }
+
+  function primaryClass(keywords) {
+    const kw = (keywords || []).map(k => k.toLowerCase());
+    if (kw.some(k => k.includes('galaxies'))) return 'astro-ph.GA';
+    if (kw.some(k => k.includes('cosmology'))) return 'astro-ph.CO';
+    if (kw.some(k => k.includes('stellar') || k.includes('solar'))) return 'astro-ph.SR';
+    if (kw.some(k => k.includes('high energy'))) return 'astro-ph.HE';
+    return 'astro-ph.GA';
+  }
+
+  function buildBibtex(p) {
+    const cacheKey = p.bibcode || p.title || '';
+    if (bibtexCache.has(cacheKey)) return bibtexCache.get(cacheKey);
+
+    const isArxiv = !p.journal || p.journal.toLowerCase().includes('arxiv');
+    const type = isArxiv ? 'misc' : 'article';
+    const key = p.bibcode || ((p.first_author || '').split(',')[0].trim() + (p.year || ''));
+    const authStr = (p.authors || []).join(' and ');
+    const fields = [];
+    fields.push(`  author = {${authStr}}`);
+    fields.push(`  title = {{${p.title || ''}}}`);
+    if (!isArxiv && p.journal) fields.push(`  journal = {${p.journal}}`);
+    fields.push(`  year = {${p.year || ''}}`);
+    if (!isArxiv && p.volume) fields.push(`  volume = {${p.volume}}`);
+    const pg = Array.isArray(p.page) ? p.page[0] : (p.page || '');
+    if (!isArxiv && pg && !pg.toLowerCase().includes('arxiv')) fields.push(`  pages = {${pg}}`);
+    if (p.doi) fields.push(`  doi = {${p.doi}}`);
+    if (p.arxiv_id) {
+      fields.push(`  archivePrefix = {arXiv}`);
+      fields.push(`  eprint = {${p.arxiv_id}}`);
+      fields.push(`  primaryClass = {${primaryClass(p.keywords)}}`);
+    }
+    const result = `@${type}{${key},\n${fields.join(',\n')}\n}`;
+    bibtexCache.set(cacheKey, result);
+    return result;
+  }
+
+  function buildLinks(p) {
     const ax = p.arxiv_id || '';
     const doi = p.doi || '';
     const bib = p.bibcode || '';
+    const cacheKey = escapeAttr(p.bibcode || p.title || '');
+    buildBibtex(p); // ensure cached
     const parts = [
       doi ? `<a href="https://doi.org/${doi}" target="_blank" rel="noopener" class="pub-link" onclick="event.stopPropagation()">DOI</a>` : '',
       ax ? `<a href="https://arxiv.org/abs/${ax}" target="_blank" rel="noopener" class="pub-link" onclick="event.stopPropagation()">arXiv</a>` : '',
       bib ? `<a href="https://www.scixplorer.org/abs/${encodeURIComponent(bib)}/abstract" target="_blank" rel="noopener" class="pub-link" onclick="event.stopPropagation()">ADS/SciX</a>` : '',
       ax ? `<a href="https://arxiv.org/pdf/${ax}" target="_blank" rel="noopener" class="pub-link" onclick="event.stopPropagation()">Download PDF</a>` : '',
+      `<button class="pub-link pub-abstract-btn">Abstract &#9662;</button>`,
+      `<button class="pub-link pub-cite-btn" data-key="${cacheKey}">Cite</button>`,
     ];
     return parts.filter(Boolean).join(' ');
   }
@@ -132,7 +182,7 @@
       const fig = fa ? '' : (p.figure_url || '');
       const ref = fmtRef(p);
       const abstract = p.abstract || '';
-      const links = buildLinks(p, fa);
+      const links = buildLinks(p);
 
       const figHtml = fig
         ? `<div class="pub-figure"><img src="${fig}" alt="Figure" loading="lazy"></div>`
@@ -159,16 +209,45 @@
       </div>`;
     }).join('');
 
-    // Click-to-expand delegation
+    // Event delegation for all interactive elements
     c.onclick = function (e) {
+      // BibTeX copy button
+      if (e.target.classList.contains('pub-cite-btn')) {
+        e.stopPropagation();
+        const key = e.target.dataset.key;
+        const bibText = bibtexCache.get(key) || '';
+        navigator.clipboard.writeText(bibText).then(() => {
+          e.target.textContent = 'Copied!';
+          setTimeout(() => { e.target.textContent = 'Cite'; }, 2000);
+        }).catch(() => {
+          e.target.textContent = 'Failed';
+          setTimeout(() => { e.target.textContent = 'Cite'; }, 2000);
+        });
+        return;
+      }
+      // Abstract toggle button
+      if (e.target.classList.contains('pub-abstract-btn')) {
+        const card = e.target.closest('.pub-card');
+        if (!card) return;
+        const panel = card.querySelector('.pub-abstract-panel');
+        if (!panel) return;
+        const isOpen = panel.style.display !== 'none';
+        panel.style.display = isOpen ? 'none' : 'block';
+        card.classList.toggle('pub-card--expanded', !isOpen);
+        e.target.innerHTML = isOpen ? 'Abstract &#9662;' : 'Abstract &#9652;';
+        return;
+      }
+      // Card-click toggle (skip links)
       if (e.target.closest('a')) return;
       const card = e.target.closest('.pub-card');
       if (!card) return;
       const panel = card.querySelector('.pub-abstract-panel');
       if (!panel) return;
+      const abstractBtn = card.querySelector('.pub-abstract-btn');
       const isOpen = panel.style.display !== 'none';
       panel.style.display = isOpen ? 'none' : 'block';
       card.classList.toggle('pub-card--expanded', !isOpen);
+      if (abstractBtn) abstractBtn.innerHTML = isOpen ? 'Abstract &#9662;' : 'Abstract &#9652;';
     };
 
     initReveal();

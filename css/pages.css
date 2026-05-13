@@ -55,7 +55,7 @@
 .pub-abstract-panel { border-top: 1px solid var(--border); padding: var(--space-lg); background: var(--bg-secondary); }
 .pub-abstract-authors { font-size: 0.8rem; color: var(--text-secondary); margin-bottom: var(--space-md); line-height: 1.6; }
 .pub-abstract-authors .highlight-author { font-weight: 600; color: var(--accent-light); }
-.pub-abstract-text { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 0; }
+.pub-abstract-text { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 0; text-align: justify; text-justify: inter-word; }
 .pub-stats { margin-top: var(--space-lg); padding: var(--space-md) var(--space-lg); border: 1px solid var(--border); border-radius: var(--border-radius); background: var(--bg-secondary); font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-secondary); }
 .pub-stat-row { margin-bottom: var(--space-xs); color: var(--text-secondary); font-family: var(--font-mono); font-size: 0.8rem; text-align: left; }
 .pub-stat-row:last-child { margin-bottom: 0; }
