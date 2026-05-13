@@ -2,6 +2,8 @@
 .page-header { padding: var(--space-4xl) 0 var(--space-2xl); border-bottom: 1px solid var(--border); margin-bottom: var(--space-3xl); }
 .page-header h1 { margin-bottom: var(--space-sm); }
 .page-header .page-description { color: var(--text-secondary); font-size: 1.1rem; max-width: 600px; }
+.page-header .post-date { color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 0; }
+.page-header .post-keywords { color: var(--text-tertiary); font-size: 0.85rem; font-family: var(--font-mono); letter-spacing: 0.03em; margin-top: var(--space-xs); }
 
 /* BIOGRAPHY */
 .bio-grid { display: grid; grid-template-columns: 300px 1fr; gap: var(--space-3xl); align-items: start; }
