@@ -482,6 +482,20 @@ strong { font-weight: 600; }
   transition: width 50ms linear;
 }
 
+/* Scroll To Top Button */
+#scroll-top-btn {
+  position: fixed; bottom: var(--space-xl); right: var(--space-xl);
+  z-index: 990; width: 44px; height: 44px; border-radius: 50%;
+  border: 1px solid var(--border-accent); background: var(--bg-card);
+  color: var(--accent); cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  opacity: 0; transform: translateY(8px); pointer-events: none;
+  transition: opacity var(--transition-med), transform var(--transition-med), border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+#scroll-top-btn.visible { opacity: 1; transform: translateY(0); pointer-events: auto; }
+#scroll-top-btn:hover { border-color: var(--accent); box-shadow: var(--shadow-glow); background: var(--accent-glow); }
+#scroll-top-btn svg { width: 20px; height: 20px; }
+
 /* Loading Shimmer */
 .skeleton {
   background: linear-gradient(90deg, var(--bg-tertiary) 25%, var(--bg-card-hover) 50%, var(--bg-tertiary) 75%);

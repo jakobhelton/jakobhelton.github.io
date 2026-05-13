@@ -160,7 +160,7 @@
       ax ? `<a href="https://arxiv.org/abs/${ax}" target="_blank" rel="noopener" class="pub-link" onclick="event.stopPropagation()">arXiv</a>` : '',
       bib ? `<a href="https://www.scixplorer.org/abs/${encodeURIComponent(bib)}/abstract" target="_blank" rel="noopener" class="pub-link" onclick="event.stopPropagation()">ADS/SciX</a>` : '',
       ax ? `<a href="https://arxiv.org/pdf/${ax}" target="_blank" rel="noopener" class="pub-link" onclick="event.stopPropagation()">Download PDF</a>` : '',
-      `<button class="pub-link pub-abstract-btn">Abstract &#9662;</button>`,
+      `<button class="pub-link pub-abstract-btn" aria-expanded="false">Abstract &#9662;</button>`,
       `<button class="pub-link pub-cite-btn" data-key="${cacheKey}">Cite</button>`,
     ];
     return parts.filter(Boolean).join(' ');
@@ -190,11 +190,11 @@
       const refHtml = ref ? `<p class="pub-ref">${ref}</p>` : '';
 
       return `<div class="${fa ? 'pub-first-author' : ''} reveal" id="${id}">
-        <div class="pub-card">
+        <div class="pub-card" tabindex="0">
           <div class="pub-card-inner">
             ${figHtml}
             <div class="pub-details">
-              <div class="pub-year">${yr}${fa ? ' · First Author' : ''}</div>
+              <div class="pub-year">${yr}${fa ? ' · First Author' : ''}${p.citation_count ? ` &middot; <span class="pub-cites">${p.citation_count}&#x202F;citations</span>` : ''}</div>
               <h3 class="pub-title">${p.title || 'Untitled'}</h3>
               <p class="pub-authors">${shortAuth}</p>
               ${refHtml}
@@ -235,6 +235,7 @@
         panel.style.display = isOpen ? 'none' : 'block';
         card.classList.toggle('pub-card--expanded', !isOpen);
         e.target.innerHTML = isOpen ? 'Abstract &#9662;' : 'Abstract &#9652;';
+        e.target.setAttribute('aria-expanded', String(!isOpen));
         return;
       }
       // Card-click toggle (skip links)
@@ -247,7 +248,27 @@
       const isOpen = panel.style.display !== 'none';
       panel.style.display = isOpen ? 'none' : 'block';
       card.classList.toggle('pub-card--expanded', !isOpen);
-      if (abstractBtn) abstractBtn.innerHTML = isOpen ? 'Abstract &#9662;' : 'Abstract &#9652;';
+      if (abstractBtn) {
+        abstractBtn.innerHTML = isOpen ? 'Abstract &#9662;' : 'Abstract &#9652;';
+        abstractBtn.setAttribute('aria-expanded', String(!isOpen));
+      }
+    };
+
+    c.onkeydown = function(e) {
+      if (e.key !== 'Enter' && e.key !== ' ') return;
+      const card = e.target.closest('.pub-card');
+      if (!card || e.target.matches('button, a')) return;
+      e.preventDefault();
+      const panel = card.querySelector('.pub-abstract-panel');
+      const abstractBtn = card.querySelector('.pub-abstract-btn');
+      if (!panel) return;
+      const isOpen = panel.style.display !== 'none';
+      panel.style.display = isOpen ? 'none' : 'block';
+      card.classList.toggle('pub-card--expanded', !isOpen);
+      if (abstractBtn) {
+        abstractBtn.innerHTML = isOpen ? 'Abstract &#9662;' : 'Abstract &#9652;';
+        abstractBtn.setAttribute('aria-expanded', String(!isOpen));
+      }
     };
 
     initReveal();
