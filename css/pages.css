@@ -48,6 +48,8 @@
 .pub-links { display: flex; gap: var(--space-sm); flex-wrap: wrap; }
 .pub-link { font-family: var(--font-mono); font-size: 0.7rem; padding: 0.3rem 0.6rem; border-radius: var(--border-radius); border: 1px solid var(--border); color: var(--text-secondary); display: inline-flex; align-items: center; gap: 4px; transition: all var(--transition-fast); }
 .pub-link:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-glow); text-decoration: none; }
+button.pub-link { background: var(--accent-glow); border-color: var(--border-accent); color: var(--text-secondary); cursor: pointer; }
+button.pub-link:hover { background: var(--accent-glow-strong); border-color: var(--accent); color: var(--accent); }
 .pub-first-author .pub-card { border-left: 3px solid var(--accent); }
 .pub-card { cursor: pointer; }
 .pub-card--expanded { border-color: var(--border-accent); }

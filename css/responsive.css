@@ -47,8 +47,3 @@
   html { scroll-behavior: auto; }
   .reveal { opacity: 1; transform: none; }
 }
-@media print {
-  .site-nav, .theme-toggle, #star-field, .scroll-progress { display: none !important; }
-  body { background: #fff; color: #000; }
-  .page-content { padding-top: 0; }
-}

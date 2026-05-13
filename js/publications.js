@@ -1,6 +1,13 @@
 (function () {
   'use strict';
   const YOUR_NAME = 'Helton';
+  const MONTH_ABBR = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+  function fmtMonth(pubdate) {
+    if (!pubdate) return '';
+    const m = parseInt((pubdate.split('-')[1] || '0'), 10);
+    return (m >= 1 && m <= 12) ? MONTH_ABBR[m - 1] : '';
+  }
   let allPubs = [], currentFilter = 'all', searchQuery = '';
   const bibtexCache = new Map();
 
@@ -178,7 +185,6 @@
       const id = `pub-${idx}`;
       const shortAuth = fmtAuth(p.authors || [], YOUR_NAME, false);
       const fullAuth = fmtAuth(p.authors || [], YOUR_NAME, true);
-      const yr = p.year || '';
       const fig = fa ? '' : (p.figure_url || '');
       const ref = fmtRef(p);
       const abstract = p.abstract || '';
@@ -188,13 +194,16 @@
         ? `<div class="pub-figure"><img src="${fig}" alt="Figure" loading="lazy"></div>`
         : '';
       const refHtml = ref ? `<p class="pub-ref">${ref}</p>` : '';
+      const month = fmtMonth(p.pubdate);
+      const yr = (month ? month + ' ' : '') + (p.year || '');
+      const citeTxt = p.citation_count === 1 ? '1&#x202F;citation' : `${p.citation_count}&#x202F;citations`;
 
       return `<div class="${fa ? 'pub-first-author' : ''} reveal" id="${id}">
         <div class="pub-card" tabindex="0">
           <div class="pub-card-inner">
             ${figHtml}
             <div class="pub-details">
-              <div class="pub-year">${yr}${fa ? ' · First Author' : ''}${p.citation_count ? ` &middot; <span class="pub-cites">${p.citation_count}&#x202F;citations</span>` : ''}</div>
+              <div class="pub-year">${yr}${fa ? ' · First Author' : ''}${p.citation_count ? ` &middot; <span class="pub-cites">${citeTxt}</span>` : ''}</div>
               <h3 class="pub-title">${p.title || 'Untitled'}</h3>
               <p class="pub-authors">${shortAuth}</p>
               ${refHtml}

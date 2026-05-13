@@ -1,0 +1,102 @@
+/* Print Stylesheet */
+@media print {
+  /* Reset colors and backgrounds */
+  *, *::before, *::after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  body {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 11pt;
+    line-height: 1.5;
+    color: #000;
+    background: #fff;
+  }
+
+  /* Hide non-print elements */
+  #star-field,
+  .site-nav,
+  .nav-menu-toggle,
+  .theme-toggle,
+  .scroll-progress,
+  .scroll-top-btn,
+  .back-link,
+  .pub-controls,
+  .pub-links,
+  .pub-abstract-panel,
+  .pub-abstract-btn,
+  .pub-cite-btn,
+  .blog-card-readmore,
+  .pres-links,
+  footer { display: none !important; }
+
+  /* Remove fixed/sticky positioning */
+  .site-nav { position: static; }
+
+  /* Page layout */
+  .page-content { padding-top: 1rem !important; }
+  .container { max-width: 100%; padding: 0; }
+
+  /* Headings */
+  h1, h2, h3 {
+    page-break-after: avoid;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #000;
+  }
+
+  /* Links: show URL after link text */
+  a[href]::after { content: " (" attr(href) ")"; font-size: 9pt; color: #444; }
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after { content: ""; }
+  .nav-logo::after { content: ""; }
+
+  /* Cards: flatten for print */
+  .pub-card,
+  .blog-card,
+  .pres-card,
+  .art-card { border: 1px solid #ccc; border-radius: 0; margin-bottom: 1rem; page-break-inside: avoid; }
+
+  .pub-card-inner { display: block; }
+  .pub-figure { display: none; }
+  .pub-details { padding: 0.5rem; }
+
+  /* Publication accent stripe */
+  .pub-first-author .pub-card { border-left: 3px solid #000; }
+
+  /* Bio grid: single column */
+  .bio-grid { display: block; }
+  .bio-portrait { position: static; margin-bottom: 1rem; }
+  .bio-portrait-image { width: 150px; height: auto; }
+
+  /* Art grid: single column */
+  .art-grid,
+  .art-grid-3col,
+  .art-grid-even { display: block; }
+  .art-card { aspect-ratio: auto; height: auto; margin-bottom: 1rem; }
+  .art-card img { max-height: 200px; object-fit: contain; }
+  .art-card-overlay { position: static; background: transparent; padding: 0.5rem 0; }
+  .art-card-overlay h3, .art-card-overlay p { color: #000 !important; }
+
+  /* Blog grid: single column */
+  .blog-grid { display: block; }
+  .blog-card { margin-bottom: 1rem; }
+
+  /* Hero/landing sections */
+  .hero, .hero-slideshow, .scroll-section { display: none; }
+
+  /* Page breaks */
+  .page-header { page-break-after: avoid; }
+  .bio-section, .pub-card, .pres-card, .blog-card { page-break-inside: avoid; }
+
+  /* Ensure text is fully visible */
+  .reveal, .reveal-delay-1, .reveal-delay-2, .reveal-delay-3 { opacity: 1 !important; transform: none !important; }
+
+  /* Print URL at top */
+  @page {
+    margin: 1.5cm 2cm;
+    size: A4;
+  }
+}
