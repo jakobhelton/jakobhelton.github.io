@@ -82,9 +82,10 @@
       const q = searchQuery.toLowerCase();
       f = f.filter(p =>
         (p.title || '').toLowerCase().includes(q) ||
-        (p.authors || []).join(' ').toLowerCase().includes(q) ||
+        (p.authors || []).some(a => a.toLowerCase().includes(q) || normalizeAuthor(a).toLowerCase().includes(q)) ||
         String(p.year || '').includes(q) ||
-        (p.journal || '').toLowerCase().includes(q));
+        (p.journal || '').toLowerCase().includes(q) ||
+        (p.abstract || '').toLowerCase().includes(q));
     }
     return f;
   }
