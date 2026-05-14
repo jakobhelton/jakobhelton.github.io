@@ -35,6 +35,16 @@
     return false;
   }
 
+  function authorPosition(p) {
+    const name = YOUR_NAME.toLowerCase();
+    if (p.first_author && p.first_author.toLowerCase().includes(name)) return 1;
+    const authors = p.authors || [];
+    for (let i = 0; i < Math.min(authors.length, 3); i++) {
+      if (authors[i].toLowerCase().includes(name)) return i + 1;
+    }
+    return null;
+  }
+
   function calcHIndex(pubs) {
     const sorted = pubs.map(p => p.citation_count || 0).sort((a, b) => b - a);
     let h = 0;
@@ -138,14 +148,48 @@
     return first ? `${first} ${last}` : last;
   }
 
-  function fmtAuth(a, h, full) {
+  function hlText(str, terms) {
+    if (!terms || !terms.length || !str) return str;
+    const parts = str.split(/(\$\$[\s\S]*?\$\$|\$[^$\n]*?\$|\\\([\s\S]*?\\\)|\\\[[\s\S]*?\\\])/g);
+    const esc = terms.map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+    const re = new RegExp(`(${esc.join('|')})`, 'gi');
+    return parts.map((part, i) => i % 2 === 1 ? part : part.replace(re, '<mark class="pub-hl">$1</mark>')).join('');
+  }
+
+  function getHlTerms() {
+    if (!searchQuery.trim()) return [];
+    const raw = searchQuery.trim();
+    const terms = [];
+    const faRe = /\bfirst_author:\s*"?([^"\s]+)"?/gi;
+    const yrRe = /\byear:\s*"?([^"\s]+)"?/gi;
+    let m;
+    while ((m = faRe.exec(raw)) !== null) terms.push(m[1].toLowerCase());
+    while ((m = yrRe.exec(raw)) !== null) terms.push(m[1]);
+    const freeText = raw
+      .replace(/\bfirst_author:\s*"?([^"\s]+)"?/gi, '')
+      .replace(/\byear:\s*"?([^"\s]+)"?/gi, '')
+      .trim();
+    if (freeText) freeText.split(/\s+/).filter(Boolean).forEach(t => terms.push(t.toLowerCase()));
+    return terms.filter(t => t.length > 1);
+  }
+
+  function getPubStatus(p) {
+    const j = p.journal || '';
+    if (!j || j.toLowerCase().includes('arxiv')) return 'preprint';
+    const pg = Array.isArray(p.page) ? p.page[0] : (p.page || '');
+    if (!p.volume && !pg) return 'accepted';
+    return 'published';
+  }
+
+  function fmtAuth(a, h, full, hlTerms) {
     if (!a || !a.length) return '';
     const mx = full ? Infinity : 8;
     const arr = full ? a : a.slice(0, mx);
     const fm = arr.map(x => {
       const normalized = normalizeAuthor(x);
-      return normalized.toLowerCase().includes(h.toLowerCase())
-        ? `<span class="highlight-author">${normalized}</span>` : normalized;
+      const isHL = normalized.toLowerCase().includes(h.toLowerCase());
+      const displayed = hlTerms && hlTerms.length ? hlText(normalized, hlTerms) : normalized;
+      return isHL ? `<span class="highlight-author">${displayed}</span>` : displayed;
     });
     if (!full && a.length > mx) fm.push(`<em>et al.</em> (${a.length} authors)`);
     return fm.join(', ');
@@ -215,6 +259,7 @@
 
   function render(c, cnt) {
     const f = sortPubs(filter());
+    const hlTerms = getHlTerms();
     if (cnt) cnt.textContent = `${f.length} publication${f.length !== 1 ? 's' : ''}`;
     if (!f.length) {
       c.innerHTML = '<div class="card" style="text-align:center;padding:2rem;"><p class="text-secondary">No publications match your search.</p></div>';
@@ -223,12 +268,13 @@
     c.innerHTML = f.map((p, idx) => {
       const fa = isFA(p);
       const id = `pub-${idx}`;
-      const shortAuth = fmtAuth(p.authors || [], YOUR_NAME, false);
-      const fullAuth = fmtAuth(p.authors || [], YOUR_NAME, true);
+      const shortAuth = fmtAuth(p.authors || [], YOUR_NAME, false, hlTerms);
+      const fullAuth = fmtAuth(p.authors || [], YOUR_NAME, true, hlTerms);
       const fig = fa ? '' : (p.figure_url || '');
       const ref = fmtRef(p);
       const abstract = p.abstract || '';
       const links = buildLinks(p);
+      const status = getPubStatus(p);
 
       const figHtml = fig
         ? `<div class="pub-figure"><img src="${fig}" alt="Figure" loading="lazy"></div>`
@@ -238,13 +284,27 @@
       const yr = (month ? month + ' ' : '') + (p.year || '');
       const citeTxt = p.citation_count === 1 ? '1&#x202F;citation' : `${p.citation_count}&#x202F;citations`;
 
+      const titleHtml = hlTerms.length ? hlText(p.title || 'Untitled', hlTerms) : (p.title || 'Untitled');
+      const abstractHtml = hlTerms.length ? hlText(abstract, hlTerms) : abstract;
+      const badgeHtml = status === 'preprint'
+        ? ' &middot; <span class="pub-badge pub-badge--preprint">arXiv Preprint</span>'
+        : status === 'accepted'
+        ? ' &middot; <span class="pub-badge pub-badge--accepted">Accepted for Publication</span>'
+        : ' &middot; <span class="pub-badge pub-badge--published">Published</span>';
+      const pos = authorPosition(p);
+      const posHtml = pos === 1 ? ' &middot; First Author'
+                    : pos === 2 ? ' &middot; Second Author'
+                    : pos === 3 ? ' &middot; Third Author'
+                    : '';
+      const citeHtml = p.citation_count ? ` &middot; <span class="pub-cites">${citeTxt}</span>` : '';
+
       return `<div class="${fa ? 'pub-first-author' : ''} reveal" id="${id}">
         <div class="pub-card" tabindex="0">
           <div class="pub-card-inner">
             ${figHtml}
             <div class="pub-details">
-              <div class="pub-year">${yr}${fa ? ' · First Author' : ''}${p.citation_count ? ` &middot; <span class="pub-cites">${citeTxt}</span>` : ''}</div>
-              <h3 class="pub-title">${p.title || 'Untitled'}</h3>
+              <div class="pub-year">${yr}${badgeHtml}${posHtml}${citeHtml}</div>
+              <h3 class="pub-title">${titleHtml}</h3>
               <p class="pub-authors">${shortAuth}</p>
               ${refHtml}
               <div class="pub-links">${links}</div>
@@ -252,7 +312,7 @@
           </div>
           <div class="pub-abstract-panel" style="display:none;">
             <p class="pub-abstract-authors">${fullAuth}</p>
-            ${abstract ? `<p class="pub-abstract-text">${abstract}</p>` : ''}
+            ${abstract ? `<p class="pub-abstract-text">${abstractHtml}</p>` : ''}
           </div>
         </div>
       </div>`;
