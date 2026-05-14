@@ -287,23 +287,23 @@
       const titleHtml = hlTerms.length ? hlText(p.title || 'Untitled', hlTerms) : (p.title || 'Untitled');
       const abstractHtml = hlTerms.length ? hlText(abstract, hlTerms) : abstract;
       const badgeHtml = status === 'preprint'
-        ? ' &middot; <span class="pub-badge pub-badge--preprint">arXiv Preprint</span>'
+        ? '<span class="pub-badge pub-badge--preprint">arXiv Preprint</span>'
         : status === 'accepted'
-        ? ' &middot; <span class="pub-badge pub-badge--accepted">Accepted for Publication</span>'
-        : ' &middot; <span class="pub-badge pub-badge--published">Published</span>';
+        ? '<span class="pub-badge pub-badge--accepted">Accepted for Publication</span>'
+        : '<span class="pub-badge pub-badge--published">Published in Journal</span>';
       const pos = authorPosition(p);
       const posHtml = pos === 1 ? ' &middot; First Author'
                     : pos === 2 ? ' &middot; Second Author'
                     : pos === 3 ? ' &middot; Third Author'
                     : '';
-      const citeHtml = p.citation_count ? ` &middot; <span class="pub-cites">${citeTxt}</span>` : '';
+      const citeHtml = p.citation_count ? ` &middot; <span class="pub-badge pub-badge--cites">${citeTxt}</span>` : '';
 
       return `<div class="${fa ? 'pub-first-author' : ''} reveal" id="${id}">
         <div class="pub-card" tabindex="0">
           <div class="pub-card-inner">
             ${figHtml}
             <div class="pub-details">
-              <div class="pub-year">${yr}${posHtml}${citeHtml}${badgeHtml}</div>
+              <div class="pub-year">${badgeHtml} &middot; ${yr}${posHtml}${citeHtml}</div>
               <h3 class="pub-title">${titleHtml}</h3>
               <p class="pub-authors">${shortAuth}</p>
               ${refHtml}
