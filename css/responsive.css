@@ -17,6 +17,8 @@
   .nav-links.open { transform: translateX(0); }
   .nav-links li { width: 100%; }
   .nav-links a { display: block; padding: var(--space-md) 0; font-size: 1rem; border-bottom: 1px solid var(--border); }
+  .nav-links a.pub-link { padding: var(--space-md) 0; border: none; border-bottom: 1px solid var(--border); border-radius: 0; font-size: 1rem; font-family: var(--font-sans); }
+  .nav-links li:last-child { padding: var(--space-md) 0; border-bottom: 1px solid var(--border); }
   .nav-links a::after { display: none; }
   .nav-menu-toggle { display: block; }
   .card { padding: var(--space-lg); }
