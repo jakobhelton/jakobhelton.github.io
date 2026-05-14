@@ -19,13 +19,13 @@
 .hero-overlay {
   position: absolute; inset: 0;
   background:
-    radial-gradient(ellipse at center, rgba(8,9,12,0.315) 0%, rgba(8,9,12,0.574) 70%, rgba(8,9,12,0.665) 100%),
+    radial-gradient(ellipse at center, rgba(8,9,12,0.32) 0%, rgba(8,9,12,0.57) 70%, rgba(8,9,12,0.67) 100%),
     linear-gradient(180deg, transparent 60%, var(--bg-primary) 100%);
   z-index: 1;
 }
 [data-theme="light"] .hero-overlay {
   background:
-    radial-gradient(ellipse at center, rgba(8,9,12,0.225) 0%, rgba(8,9,12,0.41) 70%, rgba(8,9,12,0.475) 100%),
+    radial-gradient(ellipse at center, rgba(8,9,12,0.23) 0%, rgba(8,9,12,0.41) 70%, rgba(8,9,12,0.48) 100%),
     linear-gradient(180deg, transparent 60%, var(--bg-primary) 100%);
 }
 .hero-content {
@@ -129,10 +129,10 @@
 .scroll-section--publications { background: linear-gradient(135deg, #08090c 0%, #0c1a14 50%, #08090c 100%); }
 .scroll-section--blog { background: linear-gradient(135deg, #08090c 0%, #1a0f22 50%, #08090c 100%); }
 .scroll-section--art { background: linear-gradient(135deg, #08090c 0%, #1a1510 50%, #08090c 100%); }
-[data-theme="light"] .scroll-section--research { background: linear-gradient(135deg, #aba7a3 0%, #939aa6 50%, #aba7a3 100%); }
-[data-theme="light"] .scroll-section--publications { background: linear-gradient(135deg, #aba7a3 0%, #8f9b94 50%, #aba7a3 100%); }
-[data-theme="light"] .scroll-section--blog { background: linear-gradient(135deg, #aba7a3 0%, #96919b 50%, #aba7a3 100%); }
-[data-theme="light"] .scroll-section--art { background: linear-gradient(135deg, #aba7a3 0%, #9e9890 50%, #aba7a3 100%); }
+[data-theme="light"] .scroll-section--research { background: linear-gradient(135deg, #c4c1bf 0%, #b3b8c1 50%, #c4c1bf 100%); }
+[data-theme="light"] .scroll-section--publications { background: linear-gradient(135deg, #c4c1bf 0%, #b1b9b4 50%, #c4c1bf 100%); }
+[data-theme="light"] .scroll-section--blog { background: linear-gradient(135deg, #c4c1bf 0%, #b6b2b9 50%, #c4c1bf 100%); }
+[data-theme="light"] .scroll-section--art { background: linear-gradient(135deg, #c4c1bf 0%, #bbb7b1 50%, #c4c1bf 100%); }
 .scroll-section-text, .scroll-section-media {
   opacity: 0; transform: translateY(40px);
   transition: opacity 0.8s var(--ease-out), transform 0.8s var(--ease-out);
@@ -220,4 +220,4 @@
   line-height: 1.8; margin-bottom: 0;
 }
 [data-theme="light"] .featured-pub-card { background: var(--bg-card); border-color: var(--border-accent); }
-[data-theme="light"] .featured-pub-figure { background: #8c8c8c; }
+[data-theme="light"] .featured-pub-figure { background: #afafaf; }

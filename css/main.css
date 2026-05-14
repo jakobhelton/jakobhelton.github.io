@@ -100,15 +100,15 @@
 
 /* Light Mode */
 [data-theme="light"] {
-  --bg-primary:    #aba7a3;
-  --bg-secondary:  #918d89;
-  --bg-tertiary:   #716d69;
-  --bg-card:       #bcb8b4;
-  --bg-card-hover: #918d89;
+  --bg-primary:    #c4c1bf;
+  --bg-secondary:  #b2afac;
+  --bg-tertiary:   #9c9996;
+  --bg-card:       #d0cdcb;
+  --bg-card-hover: #b2afac;
   --text-primary:   #1c1917;
   --text-secondary: #44403c;
   --text-tertiary:  #78716c;
-  --text-inverse:   #aba7a3;
+  --text-inverse:   #c4c1bf;
   --accent:        var(--jade-700);
   --accent-light:  var(--jade-600);
   --accent-dark:   var(--jade-800);
@@ -230,7 +230,7 @@ strong { font-weight: 600; }
   border-bottom: 1px solid var(--border);
   transition: background var(--transition-med);
 }
-[data-theme="light"] .site-nav { background: rgba(171, 167, 163, 0.90); }
+[data-theme="light"] .site-nav { background: rgba(196, 193, 191, 0.90); }
 
 .nav-logo {
   font-family: var(--font-display);

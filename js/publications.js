@@ -85,8 +85,8 @@
       const faTokens = [];
       const yearTokens = [];
       const freeText = raw
-        .replace(/\bfirst_author:(\S+)/gi, (_, v) => { faTokens.push(v.toLowerCase()); return ''; })
-        .replace(/\byear:(\S+)/gi, (_, v) => { yearTokens.push(v); return ''; })
+        .replace(/\bfirst_author:\s*"?([^"\s]+)"?/gi, (_, v) => { faTokens.push(v.toLowerCase()); return ''; })
+        .replace(/\byear:\s*"?([^"\s]+)"?/gi, (_, v) => { yearTokens.push(v); return ''; })
         .trim();
 
       if (faTokens.length) {
