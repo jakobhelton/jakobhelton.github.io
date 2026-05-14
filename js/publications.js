@@ -80,9 +80,16 @@
     else if (currentFilter === 'co-author') f = f.filter(p => !isFA(p));
     if (searchQuery.trim()) {
       const q = searchQuery.toLowerCase();
+      const qWords = q.split(/\s+/).filter(Boolean);
+      const authorMatch = (a) => {
+        const raw = a.toLowerCase();
+        const norm = normalizeAuthor(a).toLowerCase();
+        return raw.includes(q) || norm.includes(q) ||
+          (qWords.length > 1 && qWords.every(w => norm.includes(w)));
+      };
       f = f.filter(p =>
         (p.title || '').toLowerCase().includes(q) ||
-        (p.authors || []).some(a => a.toLowerCase().includes(q) || normalizeAuthor(a).toLowerCase().includes(q)) ||
+        (p.authors || []).some(authorMatch) ||
         String(p.year || '').includes(q) ||
         (p.journal || '').toLowerCase().includes(q) ||
         (p.abstract || '').toLowerCase().includes(q));

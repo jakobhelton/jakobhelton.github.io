@@ -65,6 +65,7 @@ button.pub-link:hover { background: var(--accent-glow-strong); border-color: var
 .pub-stat-row:last-child { margin-bottom: 0; }
 .pub-stat-row strong { color: var(--accent-light); font-weight: 600; }
 .pub-cites { color: var(--text-tertiary); }
+[data-theme="light"] .pub-stats { background: var(--bg-card); border-color: var(--border); }
 
 /* BLOG */
 .blog-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-xl); }
