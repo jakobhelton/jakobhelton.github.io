@@ -303,7 +303,7 @@
           <div class="pub-card-inner">
             ${figHtml}
             <div class="pub-details">
-              <div class="pub-year">${yr}${badgeHtml}${posHtml}${citeHtml}</div>
+              <div class="pub-year">${yr}${posHtml}${citeHtml}${badgeHtml}</div>
               <h3 class="pub-title">${titleHtml}</h3>
               <p class="pub-authors">${shortAuth}</p>
               ${refHtml}
