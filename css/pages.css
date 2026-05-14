@@ -28,8 +28,8 @@
 /* PUBLICATIONS */
 .pub-controls { display: flex; align-items: center; gap: var(--space-md); margin-bottom: var(--space-xl); flex-wrap: wrap; }
 .pub-filter { display: flex; gap: var(--space-xs); flex-wrap: wrap; }
-.pub-filter-btn { font-family: var(--font-mono); font-size: 0.75rem; padding: 0.4rem 0.8rem; border-radius: 100px; border: 1px solid var(--border); background: transparent; color: var(--text-secondary); cursor: pointer; transition: all var(--transition-fast); letter-spacing: 0.04em; }
-.pub-filter-btn:hover, .pub-filter-btn.active { border-color: var(--accent); color: var(--accent); background: var(--accent-glow); }
+.pub-filter-btn, .pub-sort-btn { font-family: var(--font-mono); font-size: 0.75rem; padding: 0.4rem 0.8rem; border-radius: 100px; border: 1px solid var(--border); background: transparent; color: var(--text-secondary); cursor: pointer; transition: all var(--transition-fast); letter-spacing: 0.04em; }
+.pub-filter-btn:hover, .pub-filter-btn.active, .pub-sort-btn:hover, .pub-sort-btn.active { border-color: var(--accent); color: var(--accent); background: var(--accent-glow); }
 .pub-search { flex: 1; min-width: 200px; max-width: 400px; padding: 0.5rem 1rem; border-radius: var(--border-radius); border: 1px solid var(--border); background: var(--bg-secondary); color: var(--text-primary); font-family: var(--font-body); font-size: 0.875rem; transition: border-color var(--transition-fast); }
 .pub-search:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
 .pub-search::placeholder { color: var(--text-tertiary); }

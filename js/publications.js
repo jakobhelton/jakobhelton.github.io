@@ -8,7 +8,7 @@
     const m = parseInt((pubdate.split('-')[1] || '0'), 10);
     return (m >= 1 && m <= 12) ? MONTH_ABBR[m - 1] : '';
   }
-  let allPubs = [], currentFilter = 'all', searchQuery = '';
+  let allPubs = [], currentFilter = 'all', currentSort = 'date', searchQuery = '';
   const bibtexCache = new Map();
 
   async function loadPublications() {
@@ -118,6 +118,17 @@
     return f;
   }
 
+  function sortPubs(f) {
+    if (currentSort === 'cited') {
+      return f.slice().sort((a, b) => (b.citation_count || 0) - (a.citation_count || 0) || (b.year || 0) - (a.year || 0));
+    }
+    return f.slice().sort((a, b) => {
+      const yd = (b.year || 0) - (a.year || 0);
+      if (yd !== 0) return yd;
+      return (b.pubdate || '').localeCompare(a.pubdate || '');
+    });
+  }
+
   function normalizeAuthor(name) {
     if (!name) return '';
     const comma = name.indexOf(',');
@@ -203,7 +214,7 @@
   }
 
   function render(c, cnt) {
-    const f = filter();
+    const f = sortPubs(filter());
     if (cnt) cnt.textContent = `${f.length} publication${f.length !== 1 ? 's' : ''}`;
     if (!f.length) {
       c.innerHTML = '<div class="card" style="text-align:center;padding:2rem;"><p class="text-secondary">No publications match your search.</p></div>';
@@ -342,6 +353,13 @@
       fb.forEach(x => x.classList.remove('active'));
       b.classList.add('active');
       currentFilter = b.dataset.filter;
+      render(c, cnt);
+    }));
+    const sb = document.querySelectorAll('.pub-sort-btn');
+    sb.forEach(b => b.addEventListener('click', () => {
+      sb.forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      currentSort = b.dataset.sort;
       render(c, cnt);
     }));
     if (si) {
