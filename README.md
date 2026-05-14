@@ -1,6 +1,6 @@
 # jakobhelton.github.io
 
-This is the source repository for my personal website at [jakobhelton.github.io](https://jakobhelton.github.io). I am an astrophysicist and Evolving Universe Postdoctoral Fellow at Penn State. The site covers my research, publications, presentations, blog, and art.
+This is the source repository for my personal website at [jakobhelton.github.io](https://jakobhelton.github.io). I am an astrophysicist and Evolving Universe Postdoctoral Fellow in the Department of Astronomy and Astrophysics at The Pennsylvania State University. The site covers my research, publications, presentations, blog, and art.
 
 ## Setup
 
@@ -152,6 +152,15 @@ All changes are committed and pushed automatically with the message `chore: dail
 ## Publications Page
 
 Publications are fetched from SciX/ADS daily and rendered dynamically from `data/publications.json` by `js/publications.js`. Each card shows the publication month and year (e.g., "Apr 2026"), with first-author papers indicated by a left accent stripe and "First Author" label. Clicking a card or the "Abstract" button expands an inline abstract panel. The "Cite" button copies a formatted BibTeX entry to the clipboard. A search box and filter buttons (All / First Author / Co-Author) are provided. Citation counts are pluralized correctly ("1 citation" vs. "2 citations"). Summary statistics (total papers, total citations, h-index) are displayed for both all papers and published-only papers.
+
+The search box supports ADS/SciX-style field-specific prefixes in addition to free-text search:
+
+| Prefix | Example | Matches |
+|--------|---------|---------|
+| `first_author:` | `first_author:helton` | Papers whose first author contains the given string |
+| `year:` | `year:2025` | Papers published in the given year |
+
+Prefix tokens can be combined with free-text and with each other (e.g., `first_author:helton year:2024`).
 
 ## Presentations
 

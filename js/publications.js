@@ -79,20 +79,41 @@
     if (currentFilter === 'first-author') f = f.filter(p => isFA(p));
     else if (currentFilter === 'co-author') f = f.filter(p => !isFA(p));
     if (searchQuery.trim()) {
-      const q = searchQuery.toLowerCase();
-      const qWords = q.split(/\s+/).filter(Boolean);
-      const authorMatch = (a) => {
-        const raw = a.toLowerCase();
-        const norm = normalizeAuthor(a).toLowerCase();
-        return raw.includes(q) || norm.includes(q) ||
-          (qWords.length > 1 && qWords.every(w => norm.includes(w)));
-      };
-      f = f.filter(p =>
-        (p.title || '').toLowerCase().includes(q) ||
-        (p.authors || []).some(authorMatch) ||
-        String(p.year || '').includes(q) ||
-        (p.journal || '').toLowerCase().includes(q) ||
-        (p.abstract || '').toLowerCase().includes(q));
+      const raw = searchQuery.trim();
+
+      // Extract field-specific tokens: first_author:value and year:value
+      const faTokens = [];
+      const yearTokens = [];
+      const freeText = raw
+        .replace(/\bfirst_author:(\S+)/gi, (_, v) => { faTokens.push(v.toLowerCase()); return ''; })
+        .replace(/\byear:(\S+)/gi, (_, v) => { yearTokens.push(v); return ''; })
+        .trim();
+
+      if (faTokens.length) {
+        f = f.filter(p => {
+          const fa = normalizeAuthor(p.first_author || (p.authors && p.authors[0]) || '').toLowerCase();
+          return faTokens.every(t => fa.includes(t));
+        });
+      }
+      if (yearTokens.length) {
+        f = f.filter(p => yearTokens.some(t => String(p.year || '') === t));
+      }
+
+      if (freeText) {
+        const q = freeText.toLowerCase();
+        const qWords = q.split(/\s+/).filter(Boolean);
+        const authorMatch = (a) => {
+          const norm = normalizeAuthor(a).toLowerCase();
+          return a.toLowerCase().includes(q) || norm.includes(q) ||
+            (qWords.length > 1 && qWords.every(w => norm.includes(w)));
+        };
+        f = f.filter(p =>
+          (p.title || '').toLowerCase().includes(q) ||
+          (p.authors || []).some(authorMatch) ||
+          String(p.year || '').includes(q) ||
+          (p.journal || '').toLowerCase().includes(q) ||
+          (p.abstract || '').toLowerCase().includes(q));
+      }
     }
     return f;
   }

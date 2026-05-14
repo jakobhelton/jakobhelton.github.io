@@ -109,8 +109,8 @@
   --text-secondary: #44403c;
   --text-tertiary:  #78716c;
   --text-inverse:   #aba7a3;
-  --accent:        var(--jade-600);
-  --accent-light:  var(--jade-500);
+  --accent:        var(--jade-700);
+  --accent-light:  var(--jade-600);
   --accent-dark:   var(--jade-800);
   --accent-glow:   rgba(5, 150, 105, 0.12);
   --accent-glow-strong: rgba(5, 150, 105, 0.22);
