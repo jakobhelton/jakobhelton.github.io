@@ -131,6 +131,6 @@ To add a new presentation, edit `presentations/index.html` using the template in
 
 ## License
 
-© 2026 Jakob M. Helton. Content licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0).
-
 This website was built with the assistance of [Claude Code](https://claude.ai/code) (Claude Sonnet 4.6).
+
+© 2026 Jakob M. Helton. Content licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0).
