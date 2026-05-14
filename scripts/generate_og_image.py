@@ -4,7 +4,6 @@ Background: assets/images/hero_2.png (JADES NIRCam Compass Image)
 Output: assets/images/og_image.png
 """
 import os
-import re
 import urllib.request
 from PIL import Image, ImageDraw, ImageFont
 
@@ -51,7 +50,7 @@ for _url, _fname in GOOGLE_FONTS:
     _dest = os.path.join(FONT_CACHE, _fname)
     _gf[_fname] = _dest if _fetch_font(_url, _dest) else None
 
-def load_font(size, kind='serif'):
+def load_font(size, kind='serif', bold=False):
     """kind: 'serif' → Playfair Display, 'sans' → Libre Franklin, 'mono' → JetBrains Mono"""
     gf_key = {'serif': 'PlayfairDisplay.ttf',
                'sans':  'LibreFranklin.ttf',
@@ -59,7 +58,13 @@ def load_font(size, kind='serif'):
     path = _gf.get(gf_key)
     if path and os.path.exists(path):
         try:
-            return ImageFont.truetype(path, size)
+            font = ImageFont.truetype(path, size)
+            if bold:
+                try:
+                    font.set_variation_by_axes([700])
+                except Exception:
+                    pass
+            return font
         except Exception:
             pass
     fallbacks = {
@@ -104,11 +109,10 @@ bg   = bg.crop((left, top, left + W, top + H))
 img  = bg.copy()
 draw = ImageDraw.Draw(img)
 
-# ── Fonts ─────────────────────────────────────────────────────────────────────
-f_role = load_font(18, 'mono')
-f_name = load_font(60, 'serif')
-f_url  = load_font(16, 'mono')
-f_sub  = load_font(20, 'sans')
+# ── Base fonts ────────────────────────────────────────────────────────────────
+f_role = load_font(18, 'mono', bold=True)
+f_sub  = load_font(20, 'sans', bold=True)
+f_url  = load_font(18, 'mono', bold=True)
 
 # Credit: auto-shrink to fit one line across full width (with 32 px side padding)
 for _sz in range(13, 6, -1):
@@ -116,48 +120,56 @@ for _sz in range(13, 6, -1):
     if draw.textlength(CREDIT_LINE, font=f_credit) <= W - 32:
         break
 
-# ── Layout (all centered) ─────────────────────────────────────────────────────
-y = 110
-
-# Role
+# ── Text content ──────────────────────────────────────────────────────────────
 role_text = "Astrophysicist  ·  Science Communicator  ·  Visual Artist"
-draw_centered(draw, y, role_text, f_role, ACCENT)
-y += text_height(draw, role_text, f_role) + 22
-
-# Name
 name_text = "Jakob M. Helton"
-draw_centered(draw, y, name_text, f_name, TEXT_PRI)
-y += text_height(draw, name_text, f_name) + 22
-
-# URL
-url_text = "jakobhelton.github.io"
-draw_centered(draw, y, url_text, f_url, ACCENT)
-y += text_height(draw, url_text, f_url) + 32
-
-# Subtitle (centered, wrapped at 900 px)
-subtitle = (
+url_text  = "jakobhelton.github.io"
+subtitle  = (
     "Studying the first stars, galaxies, galaxy clusters, and large-scale structure "
     "of the Universe using observations from the James Webb Space Telescope."
 )
-words = subtitle.split()
-lines, current = [], ""
-for word in words:
-    test = (current + " " + word).strip()
-    if draw.textlength(test, font=f_sub) > 900 and current:
-        lines.append(current)
-        current = word
-    else:
-        current = test
-if current:
-    lines.append(current)
-for line in lines:
-    draw_centered(draw, y, line, f_sub, TEXT_PRI)
-    y += text_height(draw, line, f_sub) + 8
 
-# Credit — single centered line at bottom
+# Auto-size name so it is slightly wider than the role line
+role_w   = draw.textlength(role_text, font=f_role)
+target_w = role_w * 1.08
+f_name   = load_font(60, 'serif', bold=True)
+for _sz in range(60, 110):
+    _f = load_font(_sz, 'serif', bold=True)
+    if draw.textlength(name_text, font=_f) >= target_w:
+        f_name = _f
+        break
+
+# Subtitle split so "Universe" is first word of line 2
+sub_lines = [
+    "Studying the first stars, galaxies, galaxy clusters, and large-scale structure of the",
+    "Universe using observations from the James Webb Space Telescope.",
+]
+
+# ── Layout: equal gap between lines; extra gap after the name ─────────────────
+# Each entry: (text, font, color, gap_after)
+gap       = 24
+name_gap  = 52   # extra breathing room between name and description
+all_lines = [
+    (role_text,     f_role, ACCENT,   gap),
+    (name_text,     f_name, TEXT_PRI, name_gap),
+    (sub_lines[0],  f_sub,  TEXT_PRI, gap),
+    (sub_lines[1],  f_sub,  TEXT_PRI, gap),
+    (url_text,      f_url,  ACCENT,   0),
+]
+
+total_h  = sum(text_height(draw, t, f) for t, f, _, _ in all_lines)
+total_h += sum(g for _, _, _, g in all_lines[:-1])
+usable_h = H - 40   # leave 40 px at bottom for credit line
+y = (usable_h - total_h) // 2
+
+for text, font, color, gap_after in all_lines:
+    draw_centered(draw, y, text, font, color)
+    y += text_height(draw, text, font) + gap_after
+
+# Credit — single centered line near the bottom
 draw_centered(draw, H - 26, CREDIT_LINE, f_credit, TEXT_SEC)
 
-# ── Save ─────────────────────────────────────────────────────────────────────
+# ── Save ──────────────────────────────────────────────────────────────────────
 os.makedirs(IMG_DIR, exist_ok=True)
 img.save(OUT_PATH, 'PNG', optimize=True, compress_level=9)
 print(f'OG image saved to {OUT_PATH}')
