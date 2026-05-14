@@ -11,3 +11,6 @@
 
 # Misc
 Thumbs.db
+
+# Font cache (downloaded at OG image build time)
+.font_cache/
