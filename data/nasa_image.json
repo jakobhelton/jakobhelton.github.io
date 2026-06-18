@@ -1,9 +1,9 @@
 {
-  "title": "Aurora Australis",
-  "caption": "The aurora australis arcs over Earth during an active solar event in this photograph taken on June 5, 2026, from the International Space Station as it orbited 271 miles above the Indian Ocean southwest of Perth, Australia.\n\n<a href=\"https://science.nasa.gov/sun/auroras/\" target=\"_blank\" rel=\"noopener\">Auroras</a> are colorful, dynamic, and often visually delicate displays of an intricate dance of particles and magnetism between the Sun and Earth called space weather.",
-  "credit": "NASA",
-  "image_url": "https://www.nasa.gov/wp-content/uploads/2026/06/iss074e0672727orig.jpg",
-  "source_url": "https://www.nasa.gov/image-article/aurora-australis-7/",
-  "fetched_at": "2026-06-17T11:10:43.272758+00:00",
+  "title": "Hubble Sees Swarm of Galaxies",
+  "caption": "Looking somewhat like a swarm of bees returning to their hive, this NASA <a href=\"https://science.nasa.gov/mission/hubble/\" target=\"_blank\" rel=\"noopener\">Hubble Space Telescope</a> image released on June 12, 2026, features the galaxy cluster MACS0329-0211. Galaxy clusters like MACS0329-0211 are important signposts in the story of how the structure of the universe evolved, and are the ultimate telescopic lenses, placing gravitationally lensed galaxies from the earliest stages of the universe into our view.\n\nZoom into this galaxy swarm and you will find large, oval-shaped elliptical galaxies, and thin spiral and lenticular galaxies viewed from the edge. We can also see the full, face-on view of spiral galaxies and their curving spiral arms. The image’s upper-right quadrant holds faint arcs of distant galaxies gravitationally lensed by the cluster’s massive gravity. The largest of these arcs appears above the bright oval shape of a giant elliptical galaxy. Closer inspection of the image’s center reveals several bright-white intersecting curves that appear as a distorted figure eight. This may be another distant galaxy whose light was magnified and distorted by this massive cluster’s gravity.\n\nHubble looked at MACS0329-0211 as part of an observing program of X-ray bright galaxy clusters. Researchers used Hubble’s two main cameras, the <a href=\"https://science.nasa.gov/mission/hubble/observatory/design/advanced-camera-for-surveys/\" target=\"_blank\" rel=\"noopener\">Advanced Camera for Surveys</a> and its <a href=\"https://science.nasa.gov/mission/hubble/observatory/design/wide-field-camera-3/\" target=\"_blank\" rel=\"noopener\">Wide Field Camera 3</a>, to gather data visible and infrared light from the cluster. Hubble’s ability to see such a broad spectrum of light makes it a valuable tool in understanding the very nature of these galaxy clusters.",
+  "credit": "NASA, ESA, M. Postman (STScI); Image Processing: G. Kober (NASA/Catholic University of America)",
+  "image_url": "https://www.nasa.gov/wp-content/uploads/2026/06/macs0329-0211-sky-sreg-flat-final.jpg",
+  "source_url": "https://www.nasa.gov/image-article/hubble-sees-swarm-of-galaxies/",
+  "fetched_at": "2026-06-18T10:41:47.745250+00:00",
   "local_image": "assets/images/hero_0.jpg"
 }
