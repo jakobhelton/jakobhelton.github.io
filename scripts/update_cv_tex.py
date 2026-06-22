@@ -215,6 +215,10 @@ def sanitize_title(title: str) -> str:
                        ('&ndash;', '--'), ('&mdash;', '---'), ('&alpha;', 'α')]:
         title = title.replace(html, tex)
 
+    # Bare <, >, = must be in math mode in LaTeX; \mathit keeps italic style inside \textit{} titles
+    for char, cmd in [('<', '<'), ('>', '>'), ('=', '=')]:
+        title = title.replace(char, f'$\\mathit{{{cmd}}}$')
+
     # Greek/math Unicode → $\mathit{cmd}$
     for char, cmd in GREEK_TO_LATEX.items():
         if char in title:
