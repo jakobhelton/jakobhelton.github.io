@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """fetch_nasa_image.py — Fetches the NASA Image of the Day from nasa.gov."""
 
-import json, os, re, requests
+import io, json, os, re, requests
 from datetime import datetime, timezone
 from bs4 import BeautifulSoup, NavigableString, Tag
+from PIL import Image
 
 IOTD_PAGE = "https://www.nasa.gov/image-of-the-day/"
 JSON_OUT = "data/nasa_image.json"
@@ -104,25 +105,40 @@ def parse_article(url):
         "fetched_at": datetime.now(timezone.utc).isoformat(),
     }
 
+MAX_PX = 3840       # cap longest edge at 4K
+JPEG_QUALITY = 85   # JPEG quality for saved output
+
 def download_image(url):
     r = requests.get(url, headers=UA, timeout=45, stream=True)
     r.raise_for_status()
-    ct = r.headers.get("content-type", "image/jpeg")
-    ext = "jpg"
-    if "png" in ct:
-        ext = "png"
-    elif "webp" in ct:
-        ext = "webp"
-    # Remove any stale hero_0 files with other extensions
+    raw = io.BytesIO(r.content)
+
+    img = Image.open(raw)
+    # Flatten transparency (PNG/WebP with alpha → white background)
+    if img.mode in ("RGBA", "LA", "P"):
+        bg = Image.new("RGB", img.size, (255, 255, 255))
+        bg.paste(img, mask=img.split()[-1] if img.mode in ("RGBA", "LA") else None)
+        img = bg
+    elif img.mode != "RGB":
+        img = img.convert("RGB")
+
+    # Downscale if either dimension exceeds MAX_PX
+    w, h = img.size
+    if max(w, h) > MAX_PX:
+        scale = MAX_PX / max(w, h)
+        img = img.resize((int(w * scale), int(h * scale)), Image.LANCZOS)
+
+    # Remove stale hero_0 files with other extensions; we always write .jpg now
     for old_ext in ("jpg", "png", "webp"):
         old = os.path.join(IMG_DIR, f"hero_0.{old_ext}")
-        if old_ext != ext and os.path.exists(old):
+        if os.path.exists(old):
             os.remove(old)
-    path = os.path.join(IMG_DIR, f"hero_0.{ext}")
-    with open(path, "wb") as f:
-        for chunk in r.iter_content(1 << 16):
-            f.write(chunk)
-    return f"assets/images/hero_0.{ext}"
+
+    path = os.path.join(IMG_DIR, "hero_0.jpg")
+    img.save(path, "JPEG", quality=JPEG_QUALITY, optimize=True)
+    size_mb = os.path.getsize(path) / 1_000_000
+    print(f"  Compressed to {img.size[0]}×{img.size[1]} px, {size_mb:.2f} MB")
+    return "assets/images/hero_0.jpg"
 
 def main():
     print("Fetching NASA Image of the Day…")
