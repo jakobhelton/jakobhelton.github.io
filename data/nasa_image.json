@@ -1,9 +1,9 @@
 {
-  "title": "Young Galaxy Cluster",
-  "caption": "NASA’s James Webb Space Telescope takes us 4.4 billion years in the past with this July 3, 2026, image of a young galaxy cluster, MACS J0553.4-3342. The cluster is composed of two actively merging sub-clusters, roughly equal in mass. Each sub-cluster is anchored on an immensely bright and massive elliptical galaxy, easily identifiable as the two brightest points in the center of this scene with the largest glowing halos around them.\n\n<a href=\"https://esawebb.org/images/potm2606a/\" target=\"_blank\" rel=\"noopener\">Read more about the image.</a>",
-  "credit": "ESA/Webb, NASA & CSA, S. Fujimoto",
-  "image_url": "https://www.nasa.gov/wp-content/uploads/2026/07/55380623885-a00df544bb-o.jpg",
-  "source_url": "https://www.nasa.gov/image-article/young-galaxy-cluster/",
-  "fetched_at": "2026-07-17T08:21:26.376784+00:00",
+  "title": "NASA’s Chandra and IXPE Study Pulsar in Lighthouse Nebula",
+  "caption": "This composite image, released on July 9, 2026, shows the region around a <a href=\"https://science.nasa.gov/mission/hubble/science/science-behind-the-discoveries/hubble-pulsars/\" target=\"_blank\" rel=\"noopener\">pulsar</a> – a neutron star with a strong magnetic field that spins incredibly fast – within the Lighthouse nebula. The image contains X-ray data from NASA’s <a href=\"https://science.nasa.gov/mission/chandra/\" target=\"_blank\" rel=\"noopener\">Chandra X-ray Observatory</a> in purple, X-rays from NASA’s <a href=\"https://www.nasa.gov/ixpe\" target=\"_blank\" rel=\"noopener\">IXPE</a> (Imaging X-ray Polarimetry Explorer) in blue, and radio emission captured by the Australia Compact Telescope Array in green.\n\nScientists used IXPE – for the first time ever – to directly measure the magnetic fields of the pulsar. The results provide new insight into the structure of some of the most extreme objects in the cosmos, as NASA continues to explore the secrets of how the universe works. A <a href=\"https://iopscience.iop.org/article/10.3847/1538-4357/ae64f3\" target=\"_blank\" rel=\"noopener\">paper describing the results</a> published July 9 in the Astrophysical Journal.\n\n<a href=\"https://science.nasa.gov/missions/ixpe/nasa-space-telescope-maps-magnetic-fields-of-lighthouse-pulsar/\" target=\"_blank\" rel=\"noopener\">Read more about this novel use of IXPE.</a>",
+  "credit": "X-ray: Chandra: NASA/CXC/Stanford Univ./J. Dinsmore et al.; IXPE: NASA/MSFC/J. Dinsmore et al., Radio: CSIRO/ATNF/ATCA; Optical: 2MASS/UMass/IPAC-Caltech/NASA/NSF; Image processing: NASA/CXC/SAO/L. Frattare",
+  "image_url": "https://www.nasa.gov/wp-content/uploads/2026/07/lighthouse-lg.jpg",
+  "source_url": "https://www.nasa.gov/image-article/nasas-chandra-and-ixpe-study-pulsar-in-lighthouse-nebula/",
+  "fetched_at": "2026-07-18T08:03:27.975481+00:00",
   "local_image": "assets/images/hero_0.jpg"
 }
