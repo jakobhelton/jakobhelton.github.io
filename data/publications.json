@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-03T09:58:59.049599+00:00",
+  "last_updated": "2026-08-04T08:49:02.109570+00:00",
   "total_count": 92,
   "first_author_count": 7,
   "publications": [
@@ -561,6 +561,50 @@
       "detail_url": ""
     },
     {
+      "bibcode": "2026arXiv260530410C",
+      "title": "RUBIES: The Evolution of the Ionization Parameter from 0 &lt; z &lt; 9",
+      "authors": [
+        "Cleri, Nikko J.",
+        "Lewis, Zach J.",
+        "Leja, Joel",
+        "Helton, Jakob M.",
+        "Burnham, Emilie",
+        "Curtis, Olivia",
+        "de Graaff, Anna",
+        "Hirschmann, Michaela",
+        "Katz, Harley",
+        "Maseda, Michael V.",
+        "McConachie, Ian",
+        "Plat, Adele",
+        "Scharre, Lucie"
+      ],
+      "first_author": "Cleri, Nikko J.",
+      "year": "2026",
+      "pubdate": "2026-05-00",
+      "journal": "arXiv e-prints",
+      "doi": "10.48550/arXiv.2605.30410",
+      "arxiv_id": "2605.30410",
+      "citation_count": 0,
+      "abstract": "The dimensionless ionization parameter, U=q/c, where q is the ratio of the local ionizing photon flux to the local hydrogen density, is a key metric to parameterize nebular conditions. Prior to JWST, the rest-frame optical emission lines and their ratios which trace the ionization parameter (e.g., O32=[OIII]/[OII]) were inaccessible at high redshifts. Here we quantify, for the first time, the evolution of the ionization parameter in galaxies across the last 13 billion years of cosmic time by comparing JWST/NIRSpec PRISM and G395M spectroscopy of 434 galaxies at 3&lt;z&lt;9 from the RUBIES survey with z&lt;3 samples from SDSS, LEGA-C, and KBSS. We leverage a large suite of photoionization models to infer U from [OIII] and [OII]. We find that U increases with redshift and specific star formation rate (sSFR), and decreases with stellar mass. Crucially, and in contrast to previous linear best-fit calibrations, our inference results in a systematic uncertainty in logU of ~0.3 dex at zero measurement uncertainty due to the wide range of models that predict the same O32 ratio without informative priors. We compare to SPHINX20 and LUMEN simulations and find that the simulated galaxies exhibit higher O32 ratios at fixed redshift and stellar mass compared to RUBIES observations. Finally, we combine the predictive power of observed and inferred quantities with multivariate relations to estimate U from redshift, stellar mass, and sSFR for use where O32 is not available. We find that U increases at fixed stellar mass and sSFR by a factor of ~4 from z=2 to z=6, demonstrating that the redshift evolution encapsulates physics beyond that traced by stellar mass and sSFR alone. Finally, we show that a toy model with the first order assumption that HII region volume is proportional to galaxy volume can explain the excess redshift dependence of logU as being consistent with observed evolution in galaxy sizes.",
+      "keywords": [
+        "Astrophysics of Galaxies"
+      ],
+      "volume": "",
+      "page": [
+        "arXiv:2605.30410"
+      ],
+      "property": [
+        "ARTICLE",
+        "EPRINT_OPENACCESS",
+        "ESOURCE",
+        "NOT REFEREED",
+        "OPENACCESS"
+      ],
+      "is_first_author": false,
+      "figure_url": "",
+      "detail_url": ""
+    },
+    {
       "bibcode": "2026arXiv260521599D",
       "title": "JWST Advanced Deep Extragalactic Survey (JADES) Data Release 5: stellar population catalogue for galaxies in GOODS-N and GOODS-S",
       "authors": [
@@ -675,37 +719,58 @@
       "detail_url": ""
     },
     {
-      "bibcode": "2026arXiv260530410C",
-      "title": "RUBIES: The Evolution of the Ionization Parameter from 0 &lt; z &lt; 9",
+      "bibcode": "2026arXiv260411899C",
+      "title": "Intense and extended CIII] emission suggests a strong outflow in JADES-GS-z14-0",
       "authors": [
-        "Cleri, Nikko J.",
-        "Lewis, Zach J.",
-        "Leja, Joel",
+        "Carniani, Stefano",
+        "Jakobsen, Peter",
+        "Venturi, Giacomo",
+        "D'Eugenio, Francesco",
+        "Looser, Tobias J.",
+        "Witstok, Joris",
+        "Willmer, Christopher N. A.",
+        "Ferrara, Andrea",
+        "Wu, Zihao",
+        "Arribas, Santiago",
+        "Bunker, Andrew J.",
+        "Charlot, Stéphane",
+        "Chevallard, Jacopo",
+        "Curti, Mirko",
+        "Curtis-Lake, Emma",
+        "Eisenstein, Daniel J.",
+        "Hainline, Kevin",
         "Helton, Jakob M.",
-        "Burnham, Emilie",
-        "Curtis, Olivia",
-        "de Graaff, Anna",
-        "Hirschmann, Michaela",
-        "Katz, Harley",
-        "Maseda, Michael V.",
-        "McConachie, Ian",
-        "Plat, Adele",
-        "Scharre, Lucie"
+        "Ji, Zhiyuan",
+        "Ji, Xihan",
+        "Johnson, Benjamin D.",
+        "Kohandel, Mahsa",
+        "Kumari, Nimisha",
+        "Maiolino, Roberto",
+        "Pallottini, Andrea",
+        "Parlanti, Eleonora",
+        "Pérez-González, Pablo G.",
+        "Rieke, Marcia",
+        "Rinaldi, Pierluigi",
+        "Robertson, Brant",
+        "Scholtz, Jan",
+        "Tacchella, Sandro",
+        "Übler, Hannah",
+        "Willot, Chris"
       ],
-      "first_author": "Cleri, Nikko J.",
+      "first_author": "Carniani, Stefano",
       "year": "2026",
-      "pubdate": "2026-05-00",
+      "pubdate": "2026-04-00",
       "journal": "arXiv e-prints",
-      "doi": "10.48550/arXiv.2605.30410",
-      "arxiv_id": "2605.30410",
+      "doi": "10.48550/arXiv.2604.11899",
+      "arxiv_id": "2604.11899",
       "citation_count": 0,
-      "abstract": "The dimensionless ionization parameter, U=q/c, where q is the ratio of the local ionizing photon flux to the local hydrogen density, is a key metric to parameterize nebular conditions. Prior to JWST, the rest-frame optical emission lines and their ratios which trace the ionization parameter (e.g., O32=[OIII]/[OII]) were inaccessible at high redshifts. Here we quantify, for the first time, the evolution of the ionization parameter in galaxies across the last 13 billion years of cosmic time by comparing JWST/NIRSpec PRISM and G395M spectroscopy of 434 galaxies at 3&lt;z&lt;9 from the RUBIES survey with z&lt;3 samples from SDSS, LEGA-C, and KBSS. We leverage a large suite of photoionization models to infer U from [OIII] and [OII]. We find that U increases with redshift and specific star formation rate (sSFR), and decreases with stellar mass. Crucially, and in contrast to previous linear best-fit calibrations, our inference results in a systematic uncertainty in logU of ~0.3 dex at zero measurement uncertainty due to the wide range of models that predict the same O32 ratio without informative priors. We compare to SPHINX20 and LUMEN simulations and find that the simulated galaxies exhibit higher O32 ratios at fixed redshift and stellar mass compared to RUBIES observations. Finally, we combine the predictive power of observed and inferred quantities with multivariate relations to estimate U from redshift, stellar mass, and sSFR for use where O32 is not available. We find that U increases at fixed stellar mass and sSFR by a factor of ~4 from z=2 to z=6, demonstrating that the redshift evolution encapsulates physics beyond that traced by stellar mass and sSFR alone. Finally, we show that a toy model with the first order assumption that HII region volume is proportional to galaxy volume can explain the excess redshift dependence of logU as being consistent with observed evolution in galaxy sizes.",
+      "abstract": "JWST has revealed an overabundance of very bright, blue galaxies at z&gt;10, raising fundamental questions about how star formation and feedback operate at Cosmic Dawn. We present new JWST/NIRSpec MSA PRISM/CLEAR spectroscopy of JADES-GS-z14-0 (z=14.18) obtained with the JADES and OASIS programmes. While the rest-frame UV continuum flux level and shape are consistent between the two datasets, the OASIS spectrum shows a 10$σ$ detection of the CIII]$λ\\lambda1907,1909$ emission line, with a luminosity three times higher than that measured in the JADES data. This difference is naturally explained by the offset in shutter placement between OASIS and JADES, implying that the CIII] emission is spatially displaced by $\\sim400$ pc from the stellar continuum. The non-detection of CIII] in NIRCam medium-band imaging indicates that the emitting region is extended on scales $\\gtrsim165$ pc, with a surface brightness below the detection threshold. Interpreting this diffuse, carbon-enriched gas as the result of ongoing or past outflows, we infer a mass outflow rate of $\\dot{M}_{\\rm out}\\sim160~{\\rm M_\\odot\\,yr^{-1}}$. We compare it with the star-formation rate (SFR) and derive a mass-loading factor of $η= \\dot{M}_{\\rm out}/{\\rm SFR} = 4-15$, suggesting highly efficient feedback at very early times. Finally, we show that, if outflows are one of the mechanisms regulating star formation in JADES-GS-z14-0, the instantaneous star-formation efficiency in massive haloes is constrained to $∊_\\star\\lesssim0.08$. These results support a scenario in which outflows play a crucial role during the earliest phases of galaxy formation. Comparing our results with the current theoretical galaxy formation model, we conclude that a combination of moderate star-formation efficiency and reduced dust attenuation can account for the emergence of luminous galaxies at the highest redshifts.",
       "keywords": [
         "Astrophysics of Galaxies"
       ],
       "volume": "",
       "page": [
-        "arXiv:2605.30410"
+        "arXiv:2604.11899"
       ],
       "property": [
         "ARTICLE",
@@ -815,71 +880,6 @@
       "volume": "",
       "page": [
         "arXiv:2604.07138"
-      ],
-      "property": [
-        "ARTICLE",
-        "EPRINT_OPENACCESS",
-        "ESOURCE",
-        "NOT REFEREED",
-        "OPENACCESS"
-      ],
-      "is_first_author": false,
-      "figure_url": "",
-      "detail_url": ""
-    },
-    {
-      "bibcode": "2026arXiv260411899C",
-      "title": "Intense and extended CIII] emission suggests a strong outflow in JADES-GS-z14-0",
-      "authors": [
-        "Carniani, Stefano",
-        "Jakobsen, Peter",
-        "Venturi, Giacomo",
-        "D'Eugenio, Francesco",
-        "Looser, Tobias J.",
-        "Witstok, Joris",
-        "Willmer, Christopher N. A.",
-        "Ferrara, Andrea",
-        "Wu, Zihao",
-        "Arribas, Santiago",
-        "Bunker, Andrew J.",
-        "Charlot, Stéphane",
-        "Chevallard, Jacopo",
-        "Curti, Mirko",
-        "Curtis-Lake, Emma",
-        "Eisenstein, Daniel J.",
-        "Hainline, Kevin",
-        "Helton, Jakob M.",
-        "Ji, Zhiyuan",
-        "Ji, Xihan",
-        "Johnson, Benjamin D.",
-        "Kohandel, Mahsa",
-        "Kumari, Nimisha",
-        "Maiolino, Roberto",
-        "Pallottini, Andrea",
-        "Parlanti, Eleonora",
-        "Pérez-González, Pablo G.",
-        "Rieke, Marcia",
-        "Rinaldi, Pierluigi",
-        "Robertson, Brant",
-        "Scholtz, Jan",
-        "Tacchella, Sandro",
-        "Übler, Hannah",
-        "Willot, Chris"
-      ],
-      "first_author": "Carniani, Stefano",
-      "year": "2026",
-      "pubdate": "2026-04-00",
-      "journal": "arXiv e-prints",
-      "doi": "10.48550/arXiv.2604.11899",
-      "arxiv_id": "2604.11899",
-      "citation_count": 0,
-      "abstract": "JWST has revealed an overabundance of very bright, blue galaxies at z&gt;10, raising fundamental questions about how star formation and feedback operate at Cosmic Dawn. We present new JWST/NIRSpec MSA PRISM/CLEAR spectroscopy of JADES-GS-z14-0 (z=14.18) obtained with the JADES and OASIS programmes. While the rest-frame UV continuum flux level and shape are consistent between the two datasets, the OASIS spectrum shows a 10$σ$ detection of the CIII]$λ\\lambda1907,1909$ emission line, with a luminosity three times higher than that measured in the JADES data. This difference is naturally explained by the offset in shutter placement between OASIS and JADES, implying that the CIII] emission is spatially displaced by $\\sim400$ pc from the stellar continuum. The non-detection of CIII] in NIRCam medium-band imaging indicates that the emitting region is extended on scales $\\gtrsim165$ pc, with a surface brightness below the detection threshold. Interpreting this diffuse, carbon-enriched gas as the result of ongoing or past outflows, we infer a mass outflow rate of $\\dot{M}_{\\rm out}\\sim160~{\\rm M_\\odot\\,yr^{-1}}$. We compare it with the star-formation rate (SFR) and derive a mass-loading factor of $η= \\dot{M}_{\\rm out}/{\\rm SFR} = 4-15$, suggesting highly efficient feedback at very early times. Finally, we show that, if outflows are one of the mechanisms regulating star formation in JADES-GS-z14-0, the instantaneous star-formation efficiency in massive haloes is constrained to $∊_\\star\\lesssim0.08$. These results support a scenario in which outflows play a crucial role during the earliest phases of galaxy formation. Comparing our results with the current theoretical galaxy formation model, we conclude that a combination of moderate star-formation efficiency and reduced dust attenuation can account for the emergence of luminous galaxies at the highest redshifts.",
-      "keywords": [
-        "Astrophysics of Galaxies"
-      ],
-      "volume": "",
-      "page": [
-        "arXiv:2604.11899"
       ],
       "property": [
         "ARTICLE",
