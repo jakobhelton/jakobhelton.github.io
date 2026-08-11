@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10T07:53:45.033952+00:00",
+  "last_updated": "2026-08-11T07:18:03.655787+00:00",
   "total_count": 92,
   "first_author_count": 7,
   "publications": [
@@ -64,6 +64,51 @@
         "OPENACCESS",
         "PUB_OPENACCESS",
         "REFEREED"
+      ],
+      "is_first_author": false,
+      "figure_url": "",
+      "detail_url": ""
+    },
+    {
+      "bibcode": "2026arXiv260711182L",
+      "title": "A Compact Proto-group at $z \\sim 5$: A Massive Galaxy Caught in Formation",
+      "authors": [
+        "Laishram, Ronaldo",
+        "Koyama, Yusei",
+        "Sun, Fengwu",
+        "Morishita, Takahiro",
+        "Fudamoto, Yoshinobu",
+        "Kusakabe, Haruka",
+        "Helton, Jakob M.",
+        "Lin, Xiaojing",
+        "Kodama, Tadayuki",
+        "Egami, Eiichi",
+        "Takahashi, Kosuke",
+        "Sutanto, Ryo Albert",
+        "Saputra Haryana, Novan",
+        "Chen, Zhengyi"
+      ],
+      "first_author": "Laishram, Ronaldo",
+      "year": "2026",
+      "pubdate": "2026-07-00",
+      "journal": "arXiv e-prints",
+      "doi": "10.48550/arXiv.2607.11182",
+      "arxiv_id": "2607.11182",
+      "citation_count": 0,
+      "abstract": "We report the discovery of SCGG-z5, a compact galaxy proto-group at $z = 4.97$ in the MACS0416 field, identified from the SAPPHIRES Early Data Release. Six members are spectroscopically confirmed via H$α$ emission, spanning $4.96 \\leq z_{\\rm spec} \\leq 4.98$ within a projected diameter of $\\sim16$ pkpc. Spectral energy distribution (SED) fitting yields individual stellar masses $8.4 \\leq \\log(M_*/M_{\\odot}) \\leq 9.8$, a total group stellar mass of $\\log(M_*/M_{\\odot}) = 10.07 \\pm 0.04$; three of the six members lie above or on the star-forming main sequence at $z \\sim 5$, by up to $0.5$ dex. Pixel-by-pixel analysis reveals diverse resolved radial star-formation profiles: three members show declining specific SFR radial profiles and outward-rising stellar age gradients, consistent with inside-out stellar mass growth, while the most massive member shows a tentative inverted sSFR profile suggestive of reduced central star formation. The line-of-sight velocity dispersion over all six members is $σ_v = 375^{+55}_{-195}$ km s$^{-1}$. The projected mass estimator yields $\\log(M_{\\rm PM}/M_{\\odot}) \\approx 12.30^{+0.30}_{-0.25}$, consistent with a dark-matter-dominated group halo. EAGLE simulations of structurally similar groups predict full coalescence by $z \\sim 3$--$4$, with the merged remnant reaching $\\log(M_*/M_{\\odot}) &gt; 11$ by $z \\sim 1$, consistent with SCGG-z5 representing a rare pre-coalescence phase of early massive galaxy formation, possibly tracing the assembly of a future brightest group or cluster galaxy.",
+      "keywords": [
+        "Astrophysics of Galaxies"
+      ],
+      "volume": "",
+      "page": [
+        "arXiv:2607.11182"
+      ],
+      "property": [
+        "ARTICLE",
+        "EPRINT_OPENACCESS",
+        "ESOURCE",
+        "NOT REFEREED",
+        "OPENACCESS"
       ],
       "is_first_author": false,
       "figure_url": "",
@@ -142,51 +187,6 @@
       "detail_url": ""
     },
     {
-      "bibcode": "2026arXiv260711182L",
-      "title": "A Compact Proto-group at $z \\sim 5$: A Massive Galaxy Caught in Formation",
-      "authors": [
-        "Laishram, Ronaldo",
-        "Koyama, Yusei",
-        "Sun, Fengwu",
-        "Morishita, Takahiro",
-        "Fudamoto, Yoshinobu",
-        "Kusakabe, Haruka",
-        "Helton, Jakob M.",
-        "Lin, Xiaojing",
-        "Kodama, Tadayuki",
-        "Egami, Eiichi",
-        "Takahashi, Kosuke",
-        "Sutanto, Ryo Albert",
-        "Saputra Haryana, Novan",
-        "Chen, Zhengyi"
-      ],
-      "first_author": "Laishram, Ronaldo",
-      "year": "2026",
-      "pubdate": "2026-07-00",
-      "journal": "arXiv e-prints",
-      "doi": "10.48550/arXiv.2607.11182",
-      "arxiv_id": "2607.11182",
-      "citation_count": 0,
-      "abstract": "We report the discovery of SCGG-z5, a compact galaxy proto-group at $z = 4.97$ in the MACS0416 field, identified from the SAPPHIRES Early Data Release. Six members are spectroscopically confirmed via H$α$ emission, spanning $4.96 \\leq z_{\\rm spec} \\leq 4.98$ within a projected diameter of $\\sim16$ pkpc. Spectral energy distribution (SED) fitting yields individual stellar masses $8.4 \\leq \\log(M_*/M_{\\odot}) \\leq 9.8$, a total group stellar mass of $\\log(M_*/M_{\\odot}) = 10.07 \\pm 0.04$; three of the six members lie above or on the star-forming main sequence at $z \\sim 5$, by up to $0.5$ dex. Pixel-by-pixel analysis reveals diverse resolved radial star-formation profiles: three members show declining specific SFR radial profiles and outward-rising stellar age gradients, consistent with inside-out stellar mass growth, while the most massive member shows a tentative inverted sSFR profile suggestive of reduced central star formation. The line-of-sight velocity dispersion over all six members is $σ_v = 375^{+55}_{-195}$ km s$^{-1}$. The projected mass estimator yields $\\log(M_{\\rm PM}/M_{\\odot}) \\approx 12.30^{+0.30}_{-0.25}$, consistent with a dark-matter-dominated group halo. EAGLE simulations of structurally similar groups predict full coalescence by $z \\sim 3$--$4$, with the merged remnant reaching $\\log(M_*/M_{\\odot}) &gt; 11$ by $z \\sim 1$, consistent with SCGG-z5 representing a rare pre-coalescence phase of early massive galaxy formation, possibly tracing the assembly of a future brightest group or cluster galaxy.",
-      "keywords": [
-        "Astrophysics of Galaxies"
-      ],
-      "volume": "",
-      "page": [
-        "arXiv:2607.11182"
-      ],
-      "property": [
-        "ARTICLE",
-        "EPRINT_OPENACCESS",
-        "ESOURCE",
-        "NOT REFEREED",
-        "OPENACCESS"
-      ],
-      "is_first_author": false,
-      "figure_url": "",
-      "detail_url": ""
-    },
-    {
       "bibcode": "2026ApJ..1006...18W",
       "title": "JADES: A Prominent Galaxy Overdensity Candidate within the First 500 Myr",
       "authors": [
@@ -234,6 +234,69 @@
       "volume": "1006",
       "page": [
         "18"
+      ],
+      "property": [
+        "ARTICLE",
+        "DATA",
+        "EPRINT_OPENACCESS",
+        "ESOURCE",
+        "OPENACCESS",
+        "PUB_OPENACCESS",
+        "REFEREED"
+      ],
+      "is_first_author": false,
+      "figure_url": "",
+      "detail_url": ""
+    },
+    {
+      "bibcode": "2026ApJ..1004..223H",
+      "title": "JADES: An Abundance of Ultradistant T and Y Dwarfs in Deep Extragalactic Data",
+      "authors": [
+        "Hainline, Kevin N.",
+        "Helton, Jakob M.",
+        "Miles, Brittany E.",
+        "Leisenring, Jarron",
+        "Marley, Mark S.",
+        "Mukherjee, Sagnick",
+        "Wogan, Nicholas F.",
+        "Bunker, Andrew J.",
+        "Johnson, Benjamin D.",
+        "Maiolino, Roberto",
+        "Rieke, Marcia",
+        "Rinaldi, Pierluigi",
+        "Robertson, Brant",
+        "Sun, Fengwu",
+        "Tacchella, Sandro",
+        "Williams, Christina C.",
+        "Willmer, Christopher N. A."
+      ],
+      "first_author": "Hainline, Kevin N.",
+      "year": "2026",
+      "pubdate": "2026-06-00",
+      "journal": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/ae6ce0",
+      "arxiv_id": "2510.00111",
+      "citation_count": 10,
+      "abstract": "Ultracool T (T<SUB>eff</SUB> ≍ 500─1200 K) and Y dwarfs (T<SUB>eff</SUB> ⪅ 500 K) have historically been found only a few hundred parsecs from the Sun. The sensitivity and wavelength coverage of the NIRCam instrument on board the James Webb Space Telescope offer a unique method for finding low-temperature brown dwarfs in deep extragalactic datasets out to multiple kiloparsecs. Here we report on the selection of a sample of 41 brown dwarfs and brown dwarf candidates across the JWST Advanced Deep Extragalactic Survey in the GOODS-S and GOODS-N regions. We introduce a new open-source Bayesian tool, Near-Infrared Fitting for T and Y dwarfs (NIFTY), to derive effective temperatures, metallicities, and distances from JWST photometry. We find that 31 candidates have fits consistent with T dwarf temperatures out to 5─6 kpc, and 10 candidates have fits consistent with Y dwarf temperatures out to 1─2 kpc. The majority of the sources are best fit with subsolar metallicity models. We report proper motions for 10 brown dwarf candidates (three are newly presented), and calculate the number density of T and Y dwarfs as a function of temperature and distance above the Milky Way midplane. We further discuss how Y dwarfs can serve as contaminants in the search for ultra-high-redshift galaxies. Together, these results demonstrate the power of deep JWST extragalactic imaging to probe the coldest substellar populations far beyond the solar neighborhood, providing new constraints on the Milky Way's structure and brown dwarf demographics.",
+      "keywords": [
+        "Brown dwarfs",
+        "T dwarfs",
+        "Y dwarfs",
+        "Halo stars",
+        "Infrared astronomy",
+        "James Webb Space Telescope",
+        "185",
+        "1679",
+        "1827",
+        "699",
+        "786",
+        "2291",
+        "Solar and Stellar Astrophysics",
+        "Astrophysics of Galaxies"
+      ],
+      "volume": "1004",
+      "page": [
+        "223"
       ],
       "property": [
         "ARTICLE",
@@ -421,69 +484,6 @@
       "detail_url": ""
     },
     {
-      "bibcode": "2026ApJ..1004..223H",
-      "title": "JADES: An Abundance of Ultradistant T and Y Dwarfs in Deep Extragalactic Data",
-      "authors": [
-        "Hainline, Kevin N.",
-        "Helton, Jakob M.",
-        "Miles, Brittany E.",
-        "Leisenring, Jarron",
-        "Marley, Mark S.",
-        "Mukherjee, Sagnick",
-        "Wogan, Nicholas F.",
-        "Bunker, Andrew J.",
-        "Johnson, Benjamin D.",
-        "Maiolino, Roberto",
-        "Rieke, Marcia",
-        "Rinaldi, Pierluigi",
-        "Robertson, Brant",
-        "Sun, Fengwu",
-        "Tacchella, Sandro",
-        "Williams, Christina C.",
-        "Willmer, Christopher N. A."
-      ],
-      "first_author": "Hainline, Kevin N.",
-      "year": "2026",
-      "pubdate": "2026-06-00",
-      "journal": "The Astrophysical Journal",
-      "doi": "10.3847/1538-4357/ae6ce0",
-      "arxiv_id": "2510.00111",
-      "citation_count": 10,
-      "abstract": "Ultracool T (T<SUB>eff</SUB> ≍ 500─1200 K) and Y dwarfs (T<SUB>eff</SUB> ⪅ 500 K) have historically been found only a few hundred parsecs from the Sun. The sensitivity and wavelength coverage of the NIRCam instrument on board the James Webb Space Telescope offer a unique method for finding low-temperature brown dwarfs in deep extragalactic datasets out to multiple kiloparsecs. Here we report on the selection of a sample of 41 brown dwarfs and brown dwarf candidates across the JWST Advanced Deep Extragalactic Survey in the GOODS-S and GOODS-N regions. We introduce a new open-source Bayesian tool, Near-Infrared Fitting for T and Y dwarfs (NIFTY), to derive effective temperatures, metallicities, and distances from JWST photometry. We find that 31 candidates have fits consistent with T dwarf temperatures out to 5─6 kpc, and 10 candidates have fits consistent with Y dwarf temperatures out to 1─2 kpc. The majority of the sources are best fit with subsolar metallicity models. We report proper motions for 10 brown dwarf candidates (three are newly presented), and calculate the number density of T and Y dwarfs as a function of temperature and distance above the Milky Way midplane. We further discuss how Y dwarfs can serve as contaminants in the search for ultra-high-redshift galaxies. Together, these results demonstrate the power of deep JWST extragalactic imaging to probe the coldest substellar populations far beyond the solar neighborhood, providing new constraints on the Milky Way's structure and brown dwarf demographics.",
-      "keywords": [
-        "Brown dwarfs",
-        "T dwarfs",
-        "Y dwarfs",
-        "Halo stars",
-        "Infrared astronomy",
-        "James Webb Space Telescope",
-        "185",
-        "1679",
-        "1827",
-        "699",
-        "786",
-        "2291",
-        "Solar and Stellar Astrophysics",
-        "Astrophysics of Galaxies"
-      ],
-      "volume": "1004",
-      "page": [
-        "223"
-      ],
-      "property": [
-        "ARTICLE",
-        "DATA",
-        "EPRINT_OPENACCESS",
-        "ESOURCE",
-        "OPENACCESS",
-        "PUB_OPENACCESS",
-        "REFEREED"
-      ],
-      "is_first_author": false,
-      "figure_url": "",
-      "detail_url": ""
-    },
-    {
       "bibcode": "2026MNRAS.549ag824D",
       "title": "JADES Dark Horse: demonstrating high-multiplex observations with JWST/NIRSpec dense-shutter spectroscopy in the JADES Origins Field",
       "authors": [
@@ -567,77 +567,6 @@
       "detail_url": ""
     },
     {
-      "bibcode": "2026arXiv260521599D",
-      "title": "JWST Advanced Deep Extragalactic Survey (JADES) Data Release 5: stellar population catalogue for galaxies in GOODS-N and GOODS-S",
-      "authors": [
-        "Duan, Qiao",
-        "Tacchella, Sandro",
-        "Johnson, Benjamin D.",
-        "Robertson, Brant",
-        "Simmonds, Charlotte",
-        "Baker, William M.",
-        "Bunker, Andrew J.",
-        "Carniani, Stefano",
-        "Carreira, Courtney",
-        "Charlot, Stéphane",
-        "Chevallard, Jacopo",
-        "Curtis-Lake, Emma",
-        "Danhaive, A. Lola",
-        "D'Eugenio, Francesco",
-        "Eisenstein, Daniel J.",
-        "Geris, Sophia",
-        "Hainline, Kevin N.",
-        "Hausen, Ryan",
-        "Helton, Jakob M.",
-        "Iglesias-Navarro, Patricia",
-        "Isobe, Yuki",
-        "Ji, Zhiyuan",
-        "Koller, Maria",
-        "Looser, Tobias J.",
-        "Maiolino, Roberto",
-        "Pascalau, Robert G.",
-        "Pérez-González, Pablo G.",
-        "Puskás, Dávid",
-        "Rieke, Marcia",
-        "Rodríguez Del Pino, Bruno",
-        "Rinaldi, Pierluigi",
-        "Scholtz, Jan",
-        "Stoffers, Amanda",
-        "Sun, Yang",
-        "Trussler, James A. A.",
-        "Übler, Hannah",
-        "Williams, Christina C.",
-        "Whitler, Lily",
-        "Wu, Zihao",
-        "Zhu, Yongda"
-      ],
-      "first_author": "Duan, Qiao",
-      "year": "2026",
-      "pubdate": "2026-05-00",
-      "journal": "arXiv e-prints",
-      "doi": "10.48550/arXiv.2605.21599",
-      "arxiv_id": "2605.21599",
-      "citation_count": 2,
-      "abstract": "We present the galaxy stellar population catalogue from the JWST Advanced Deep Extragalactic Survey (JADES) Data Release 5 (DR5), providing homogeneous Bayesian inference of physical galaxy properties in GOODS-N and GOODS-S. Using deep JWST/NIRCam and MIRI imaging combined with ancillary multi-wavelength data, we model the spectral energy distributions of ~500,000 sources with the Prospector framework. Our modelling incorporates flexible non-parametric star-formation histories (SFHs), nebular emission, dust attenuation, metallicities, and mid-infrared AGN and dust emission. We adopt an evolving star-forming main sequence (SFMS) prior for modelling the SFHs, which provides a physically-motivated long-term shape of SFHs while retaining non-parametric flexibility. The prior links stellar mass growth and SFR through the observed redshift-dependent SFMS, shaping the global behaviour of the inferred SFHs but allowing substantial deviations and scatters wherever supported by the data. We derive posterior distributions for stellar masses, SFRs, SFHs, dust attenuation, metallicities, and AGN contributions. The depth and wavelength coverage of JADES enable robust stellar mass measurements down to low-mass limits, as well as improved constraints on recent star-formation activity for ~350,000 galaxies at z = 1 - 9. The adoption of a physically motivated prior mitigates unphysical solutions and reduces degeneracies between redshift, age, dust, and metallicity, particularly for faint sources. We validate the catalogue through consistency checks and comparison to spectroscopic redshifts where available. The resulting value-added catalogue provides a uniform set of stellar population parameters suitable for statistical studies of galaxy growth, quenching, and the build-up of stellar mass across cosmic time. The full catalogue and posterior summaries are publicly released as part of JADES DR5.",
-      "keywords": [
-        "Astrophysics of Galaxies"
-      ],
-      "volume": "",
-      "page": [
-        "arXiv:2605.21599"
-      ],
-      "property": [
-        "ARTICLE",
-        "EPRINT_OPENACCESS",
-        "ESOURCE",
-        "NOT REFEREED",
-        "OPENACCESS"
-      ],
-      "is_first_author": false,
-      "figure_url": "",
-      "detail_url": ""
-    },
-    {
       "bibcode": "2026arXiv260528930W",
       "title": "Too many protoclusters? Reconciling the overabundance of cluster progenitors within the first billion years of the Universe",
       "authors": [
@@ -712,6 +641,77 @@
       "volume": "",
       "page": [
         "arXiv:2605.30410"
+      ],
+      "property": [
+        "ARTICLE",
+        "EPRINT_OPENACCESS",
+        "ESOURCE",
+        "NOT REFEREED",
+        "OPENACCESS"
+      ],
+      "is_first_author": false,
+      "figure_url": "",
+      "detail_url": ""
+    },
+    {
+      "bibcode": "2026arXiv260521599D",
+      "title": "JWST Advanced Deep Extragalactic Survey (JADES) Data Release 5: stellar population catalogue for galaxies in GOODS-N and GOODS-S",
+      "authors": [
+        "Duan, Qiao",
+        "Tacchella, Sandro",
+        "Johnson, Benjamin D.",
+        "Robertson, Brant",
+        "Simmonds, Charlotte",
+        "Baker, William M.",
+        "Bunker, Andrew J.",
+        "Carniani, Stefano",
+        "Carreira, Courtney",
+        "Charlot, Stéphane",
+        "Chevallard, Jacopo",
+        "Curtis-Lake, Emma",
+        "Danhaive, A. Lola",
+        "D'Eugenio, Francesco",
+        "Eisenstein, Daniel J.",
+        "Geris, Sophia",
+        "Hainline, Kevin N.",
+        "Hausen, Ryan",
+        "Helton, Jakob M.",
+        "Iglesias-Navarro, Patricia",
+        "Isobe, Yuki",
+        "Ji, Zhiyuan",
+        "Koller, Maria",
+        "Looser, Tobias J.",
+        "Maiolino, Roberto",
+        "Pascalau, Robert G.",
+        "Pérez-González, Pablo G.",
+        "Puskás, Dávid",
+        "Rieke, Marcia",
+        "Rodríguez Del Pino, Bruno",
+        "Rinaldi, Pierluigi",
+        "Scholtz, Jan",
+        "Stoffers, Amanda",
+        "Sun, Yang",
+        "Trussler, James A. A.",
+        "Übler, Hannah",
+        "Williams, Christina C.",
+        "Whitler, Lily",
+        "Wu, Zihao",
+        "Zhu, Yongda"
+      ],
+      "first_author": "Duan, Qiao",
+      "year": "2026",
+      "pubdate": "2026-05-00",
+      "journal": "arXiv e-prints",
+      "doi": "10.48550/arXiv.2605.21599",
+      "arxiv_id": "2605.21599",
+      "citation_count": 2,
+      "abstract": "We present the galaxy stellar population catalogue from the JWST Advanced Deep Extragalactic Survey (JADES) Data Release 5 (DR5), providing homogeneous Bayesian inference of physical galaxy properties in GOODS-N and GOODS-S. Using deep JWST/NIRCam and MIRI imaging combined with ancillary multi-wavelength data, we model the spectral energy distributions of ~500,000 sources with the Prospector framework. Our modelling incorporates flexible non-parametric star-formation histories (SFHs), nebular emission, dust attenuation, metallicities, and mid-infrared AGN and dust emission. We adopt an evolving star-forming main sequence (SFMS) prior for modelling the SFHs, which provides a physically-motivated long-term shape of SFHs while retaining non-parametric flexibility. The prior links stellar mass growth and SFR through the observed redshift-dependent SFMS, shaping the global behaviour of the inferred SFHs but allowing substantial deviations and scatters wherever supported by the data. We derive posterior distributions for stellar masses, SFRs, SFHs, dust attenuation, metallicities, and AGN contributions. The depth and wavelength coverage of JADES enable robust stellar mass measurements down to low-mass limits, as well as improved constraints on recent star-formation activity for ~350,000 galaxies at z = 1 - 9. The adoption of a physically motivated prior mitigates unphysical solutions and reduces degeneracies between redshift, age, dust, and metallicity, particularly for faint sources. We validate the catalogue through consistency checks and comparison to spectroscopic redshifts where available. The resulting value-added catalogue provides a uniform set of stellar population parameters suitable for statistical studies of galaxy growth, quenching, and the build-up of stellar mass across cosmic time. The full catalogue and posterior summaries are publicly released as part of JADES DR5.",
+      "keywords": [
+        "Astrophysics of Galaxies"
+      ],
+      "volume": "",
+      "page": [
+        "arXiv:2605.21599"
       ],
       "property": [
         "ARTICLE",
@@ -1272,6 +1272,66 @@
       "detail_url": ""
     },
     {
+      "bibcode": "2026ApJ...997..250Z",
+      "title": "Abundant Population of Broad Hα Emitters in the GOODS-N Field Revealed by CONGRESS, FRESCO, and JADES",
+      "authors": [
+        "Zhang, Junyu",
+        "Egami, Eiichi",
+        "Sun, Fengwu",
+        "Lin, Xiaojing",
+        "Lyu, Jianwei",
+        "Zhu, Yongda",
+        "Rinaldi, Pierluigi",
+        "Sun, Yang",
+        "Bunker, Andrew J.",
+        "Bhatawdekar, Rachana",
+        "Helton, Jakob M.",
+        "Maiolino, Roberto",
+        "Ma, Zheng",
+        "Robertson, Brant",
+        "Tacchella, Sandro",
+        "Venturi, Giacomo",
+        "Williams, Christina C.",
+        "Willott, Chris"
+      ],
+      "first_author": "Zhang, Junyu",
+      "year": "2026",
+      "pubdate": "2026-02-00",
+      "journal": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/ae2681",
+      "arxiv_id": "2505.02895",
+      "citation_count": 28,
+      "abstract": "We present a spectroscopic search for broad Hα emitters at z ≍ 3.7─6.5 in the GOODS-N field, utilizing JWST/NIRCam slitless spectroscopy from FRESCO and CONGRESS, complemented by JADES imaging. We identify 19 broad Hα emitters with FWHM &gt; 1000 km s<SUP>−1</SUP> at z ≍ 4─5.5, including nine new sources. The broad Hα luminosity function derived from our sample is consistent with those of other JWST-selected broad-line active galactic nuclei (AGN) reported in the literature. The black hole masses and AGN bolometric luminosities inferred from the broad Hα components indicate that most sources are accreting at ∼10% of the Eddington limit. We derive their host stellar masses via spectral energy distribution (SED) fitting and find higher M<SUB>BH</SUB>/M<SUB>*</SUB> ratios relative to the local M<SUB>BH</SUB>─M<SUB>*</SUB> relations, consistent with previous studies. We find that 42% of the sample do not satisfy the widely used color selection criteria for little red dots (LRDs), with the majority of these sources lacking the characteristic steep rest-optical red slope, indicating that the LRD selection is highly incomplete when selecting AGN galaxies. A comparison of the average SEDs between our sample and LRDs selected in the same field reveals that the steep red slopes observed in some LRDs are likely due to line-boosting effects as previously suggested. Furthermore, we find that 68% of color-selected LRDs with Hα detections in the NIRCam/grism spectra do not exhibit broad-line features. While the limited sensitivity of the grism spectra may hinder the detection of broad-line components in faint sources, our findings still highlight the enigmatic nature of the LRD population.",
+      "keywords": [
+        "AGN host galaxies",
+        "Active galactic nuclei",
+        "Supermassive black holes",
+        "High-redshift galaxies",
+        "2017",
+        "16",
+        "1663",
+        "734",
+        "Astrophysics of Galaxies",
+        "Cosmology and Nongalactic Astrophysics"
+      ],
+      "volume": "997",
+      "page": [
+        "250"
+      ],
+      "property": [
+        "ARTICLE",
+        "DATA",
+        "EPRINT_OPENACCESS",
+        "ESOURCE",
+        "OPENACCESS",
+        "PUB_OPENACCESS",
+        "REFEREED"
+      ],
+      "is_first_author": false,
+      "figure_url": "",
+      "detail_url": ""
+    },
+    {
       "bibcode": "2026ApJ...998..239J",
       "title": "JADES: Rest-frame UV-to-NIR Size Evolution of Massive Quiescent Galaxies from Redshift z = 5 to z = 0.5",
       "authors": [
@@ -1462,66 +1522,6 @@
       "volume": "997",
       "page": [
         "207"
-      ],
-      "property": [
-        "ARTICLE",
-        "DATA",
-        "EPRINT_OPENACCESS",
-        "ESOURCE",
-        "OPENACCESS",
-        "PUB_OPENACCESS",
-        "REFEREED"
-      ],
-      "is_first_author": false,
-      "figure_url": "",
-      "detail_url": ""
-    },
-    {
-      "bibcode": "2026ApJ...997..250Z",
-      "title": "Abundant Population of Broad Hα Emitters in the GOODS-N Field Revealed by CONGRESS, FRESCO, and JADES",
-      "authors": [
-        "Zhang, Junyu",
-        "Egami, Eiichi",
-        "Sun, Fengwu",
-        "Lin, Xiaojing",
-        "Lyu, Jianwei",
-        "Zhu, Yongda",
-        "Rinaldi, Pierluigi",
-        "Sun, Yang",
-        "Bunker, Andrew J.",
-        "Bhatawdekar, Rachana",
-        "Helton, Jakob M.",
-        "Maiolino, Roberto",
-        "Ma, Zheng",
-        "Robertson, Brant",
-        "Tacchella, Sandro",
-        "Venturi, Giacomo",
-        "Williams, Christina C.",
-        "Willott, Chris"
-      ],
-      "first_author": "Zhang, Junyu",
-      "year": "2026",
-      "pubdate": "2026-02-00",
-      "journal": "The Astrophysical Journal",
-      "doi": "10.3847/1538-4357/ae2681",
-      "arxiv_id": "2505.02895",
-      "citation_count": 28,
-      "abstract": "We present a spectroscopic search for broad Hα emitters at z ≍ 3.7─6.5 in the GOODS-N field, utilizing JWST/NIRCam slitless spectroscopy from FRESCO and CONGRESS, complemented by JADES imaging. We identify 19 broad Hα emitters with FWHM &gt; 1000 km s<SUP>−1</SUP> at z ≍ 4─5.5, including nine new sources. The broad Hα luminosity function derived from our sample is consistent with those of other JWST-selected broad-line active galactic nuclei (AGN) reported in the literature. The black hole masses and AGN bolometric luminosities inferred from the broad Hα components indicate that most sources are accreting at ∼10% of the Eddington limit. We derive their host stellar masses via spectral energy distribution (SED) fitting and find higher M<SUB>BH</SUB>/M<SUB>*</SUB> ratios relative to the local M<SUB>BH</SUB>─M<SUB>*</SUB> relations, consistent with previous studies. We find that 42% of the sample do not satisfy the widely used color selection criteria for little red dots (LRDs), with the majority of these sources lacking the characteristic steep rest-optical red slope, indicating that the LRD selection is highly incomplete when selecting AGN galaxies. A comparison of the average SEDs between our sample and LRDs selected in the same field reveals that the steep red slopes observed in some LRDs are likely due to line-boosting effects as previously suggested. Furthermore, we find that 68% of color-selected LRDs with Hα detections in the NIRCam/grism spectra do not exhibit broad-line features. While the limited sensitivity of the grism spectra may hinder the detection of broad-line components in faint sources, our findings still highlight the enigmatic nature of the LRD population.",
-      "keywords": [
-        "AGN host galaxies",
-        "Active galactic nuclei",
-        "Supermassive black holes",
-        "High-redshift galaxies",
-        "2017",
-        "16",
-        "1663",
-        "734",
-        "Astrophysics of Galaxies",
-        "Cosmology and Nongalactic Astrophysics"
-      ],
-      "volume": "997",
-      "page": [
-        "250"
       ],
       "property": [
         "ARTICLE",
