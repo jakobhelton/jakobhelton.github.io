@@ -1,8 +1,65 @@
 {
-  "last_updated": "2026-08-18T06:54:37.654955+00:00",
-  "total_count": 93,
+  "last_updated": "2026-08-19T06:54:52.799862+00:00",
+  "total_count": 94,
   "first_author_count": 7,
   "publications": [
+    {
+      "bibcode": "2026ApJ..1007L..35L",
+      "title": "A Compact Protogroup at z ∼ 5: A Massive Galaxy Caught in Formation",
+      "authors": [
+        "Laishram, Ronaldo",
+        "Koyama, Yusei",
+        "Sun, Fengwu",
+        "Morishita, Takahiro",
+        "Fudamoto, Yoshinobu",
+        "Kusakabe, Haruka",
+        "Helton, Jakob M.",
+        "Lin, Xiaojing",
+        "Kodama, Tadayuki",
+        "Egami, Eiichi",
+        "Takahashi, Kosuke",
+        "Sutanto, Ryo Albert",
+        "Haryana, Novan Saputra",
+        "Chen, Zhengyi"
+      ],
+      "first_author": "Laishram, Ronaldo",
+      "year": "2026",
+      "pubdate": "2026-08-00",
+      "journal": "The Astrophysical Journal Letters",
+      "doi": "10.3847/2041-8213/ae88ff",
+      "arxiv_id": "2607.11182",
+      "citation_count": 0,
+      "abstract": "We report the discovery of SCGG-z5 (nicknamed the Shirui Group), a compact galaxy protogroup at z = 4.97 in the MACS0416 field, identified from the SAPPHIRES Early Data Release. Six members are spectroscopically confirmed via Hα emission, spanning 4.96 ≤ z<SUB>spec</SUB> ≤ 4.98 within a projected diameter of ∼16 pkpc. Spectral energy distribution fitting yields individual stellar masses <inline-formula> <mml:math><mml:mn>8.4</mml:mn><mml:mspace></mml:mspace><mml:mo>≤</mml:mo><mml:mspace></mml:mspace><mml:mi>log</mml:mi><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mo>∗</mml:mo></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mo>⊙</mml:mo></mml:mrow></mml:msub><mml:mo>)</mml:mo><mml:mspace></mml:mspace><mml:mo>≤</mml:mo><mml:mspace></mml:mspace><mml:mn>9.8</mml:mn></mml:math> </inline-formula>, a total group stellar mass of <inline-formula> <mml:math><mml:mi>log</mml:mi><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mo>∗</mml:mo></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mo>⊙</mml:mo></mml:mrow></mml:msub><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mn>10.07</mml:mn><mml:mo>±</mml:mo><mml:mn>0.04</mml:mn></mml:math> </inline-formula>; three of the six members lie above or on the star-forming main sequence at z ∼ 5, by up to 0.5 dex. Pixel-by-pixel analysis reveals diverse resolved radial star formation profiles; three members show declining specific star formation rate (sSFR) radial profiles and outward-rising stellar age gradients, consistent with inside-out stellar mass growth, while the most massive member shows a tentative inverted sSFR profile suggestive of reduced central star formation. The line-of-sight velocity dispersion over all six members is <inline-formula> <mml:math><mml:msub><mml:mrow><mml:mi>σ</mml:mi></mml:mrow><mml:mrow><mml:mi>v</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>37</mml:mn><mml:msubsup><mml:mrow><mml:mn>5</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>195</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>55</mml:mn></mml:mrow></mml:msubsup></mml:math> </inline-formula> km s<SUP>−1</SUP>. The projected mass estimator yields <inline-formula> <mml:math><mml:mi>log</mml:mi><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mi>PM</mml:mi></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mo>⊙</mml:mo></mml:mrow></mml:msub><mml:mo>)</mml:mo><mml:mo>≍</mml:mo><mml:mn>12.3</mml:mn><mml:msubsup><mml:mrow><mml:mn>0</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>0.25</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>0.30</mml:mn></mml:mrow></mml:msubsup></mml:math> </inline-formula>, consistent with a dark-matter-dominated group halo. EAGLE simulations of structurally similar groups predict full coalescence by z ∼ 3─4, with the merged remnant reaching <inline-formula> <mml:math><mml:mi>log</mml:mi><mml:mo>(</mml:mo><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mo>∗</mml:mo></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mrow><mml:mi>M</mml:mi></mml:mrow><mml:mrow><mml:mo>⊙</mml:mo></mml:mrow></mml:msub><mml:mo>)</mml:mo><mml:mo>&gt;</mml:mo><mml:mn>11</mml:mn></mml:math> </inline-formula> by z ∼ 1, consistent with SCGG-z5 representing a rare pre-coalescence phase of early massive galaxy formation, possibly tracing the assembly of a future brightest group or cluster galaxy.",
+      "keywords": [
+        "High-redshift galaxies",
+        "Galaxy groups",
+        "Galaxy formation",
+        "Galaxy evolution",
+        "Interacting galaxies",
+        "Star formation",
+        "734",
+        "597",
+        "595",
+        "594",
+        "802",
+        "1569",
+        "Astrophysics of Galaxies"
+      ],
+      "volume": "1007",
+      "page": [
+        "L35"
+      ],
+      "property": [
+        "ARTICLE",
+        "ESOURCE",
+        "OPENACCESS",
+        "PUB_OPENACCESS",
+        "REFEREED"
+      ],
+      "is_first_author": false,
+      "figure_url": "",
+      "detail_url": ""
+    },
     {
       "bibcode": "2026MNRAS.550g1360T",
       "title": "Out of oxygen: extremely metal-poor galaxy candidates identified at 2.5 &lt; z &lt; 6.5 with deep JADES medium-band imaging",
@@ -109,44 +166,47 @@
       "detail_url": ""
     },
     {
-      "bibcode": "2026arXiv260711182L",
-      "title": "A Compact Proto-group at $z \\sim 5$: A Massive Galaxy Caught in Formation",
+      "bibcode": "2026arXiv260814786H",
+      "title": "JWST/NIRSpec Spectra for Three Ultracool Brown Dwarfs Detected in Extragalactic Surveys: Further Evidence for Phosphine Absorption",
       "authors": [
-        "Laishram, Ronaldo",
-        "Koyama, Yusei",
-        "Sun, Fengwu",
-        "Morishita, Takahiro",
-        "Fudamoto, Yoshinobu",
-        "Kusakabe, Haruka",
+        "Hainline, Kevin N.",
+        "Beiler, Samuel A.",
+        "Burgasser, Adam J.",
+        "Chen, Evan S.",
         "Helton, Jakob M.",
-        "Lin, Xiaojing",
-        "Kodama, Tadayuki",
+        "Leisenring, Jarron",
+        "Miles, Brittany E.",
+        "Marley, Mark S.",
+        "Mukherjee, Sagnick",
+        "Baum, Stefi",
+        "Bunker, Andrew J.",
+        "Carniani, Stefano",
+        "D'Eugenio, Francesco",
         "Egami, Eiichi",
-        "Takahashi, Kosuke",
-        "Sutanto, Ryo Albert",
-        "Saputra Haryana, Novan",
-        "Chen, Zhengyi"
+        "Looser, Tobias J.",
+        "Rinaldi, Pierluigi",
+        "Willmer, Christopher N. A."
       ],
-      "first_author": "Laishram, Ronaldo",
+      "first_author": "Hainline, Kevin N.",
       "year": "2026",
-      "pubdate": "2026-07-00",
+      "pubdate": "2026-08-00",
       "journal": "arXiv e-prints",
-      "doi": "10.48550/arXiv.2607.11182",
-      "arxiv_id": "2607.11182",
+      "doi": "",
+      "arxiv_id": "2608.14786",
       "citation_count": 0,
-      "abstract": "We report the discovery of SCGG-z5, a compact galaxy proto-group at $z = 4.97$ in the MACS0416 field, identified from the SAPPHIRES Early Data Release. Six members are spectroscopically confirmed via H$α$ emission, spanning $4.96 \\leq z_{\\rm spec} \\leq 4.98$ within a projected diameter of $\\sim16$ pkpc. Spectral energy distribution (SED) fitting yields individual stellar masses $8.4 \\leq \\log(M_*/M_{\\odot}) \\leq 9.8$, a total group stellar mass of $\\log(M_*/M_{\\odot}) = 10.07 \\pm 0.04$; three of the six members lie above or on the star-forming main sequence at $z \\sim 5$, by up to $0.5$ dex. Pixel-by-pixel analysis reveals diverse resolved radial star-formation profiles: three members show declining specific SFR radial profiles and outward-rising stellar age gradients, consistent with inside-out stellar mass growth, while the most massive member shows a tentative inverted sSFR profile suggestive of reduced central star formation. The line-of-sight velocity dispersion over all six members is $σ_v = 375^{+55}_{-195}$ km s$^{-1}$. The projected mass estimator yields $\\log(M_{\\rm PM}/M_{\\odot}) \\approx 12.30^{+0.30}_{-0.25}$, consistent with a dark-matter-dominated group halo. EAGLE simulations of structurally similar groups predict full coalescence by $z \\sim 3$--$4$, with the merged remnant reaching $\\log(M_*/M_{\\odot}) &gt; 11$ by $z \\sim 1$, consistent with SCGG-z5 representing a rare pre-coalescence phase of early massive galaxy formation, possibly tracing the assembly of a future brightest group or cluster galaxy.",
+      "abstract": "We present JWST NIRSpec prism spectra for three ultracool brown dwarfs discovered in extragalactic survey data, two from the JWST Advanced Deep Extragalactic Survey (JADES), and one from Public Release IMaging for Extragalactic Research (PRIMER) survey observed as part of the Mirage or Miracle (MoM) program. The spectra for these sources indicate that one is a T6 dwarf (JADES-GS-BD-11, T$_{\\mathrm{eff}} = \\sim 700$ K) and two are Y0-Y1 dwarfs (JADES-GS-BD-5, T$_{\\mathrm{eff}} = \\sim 400$ K, and MoM-239450, T$_{\\mathrm{eff}} = \\sim 500$ K). Model atmospheric fits with $\\texttt{NIFTY}$ to the spectra are consistent with this classification, and indicate that JADES-GS-BD-5 is only $\\sim 150$ pc from the Sun, MoM-239450 is $\\sim 700 - 800$ pc from the Sun, and JADES-GS-BD-11 is $\\sim 1$ kpc from the Sun, with these latter two more distant sources being best fit at sub-solar metallicities. JADES-GS-BD-5 has an observed spectrum with significantly weaker J and H band emission than Y dwarf atmospheric models, potentially indicating the presence of water ice clouds in the brown dwarf. The spectrum for JADES-GS-BD-11 has a feature at 4.3$μ$m consistent with absorption from the rarely seen phosphine molecule at $2.6σ$ confidence. Given the low metallicity for this source ([M/H] $ = -0.7$), our finding supports the theory that detecting phosphine in brown dwarf atmospheres is tied to atmospheric metallicity. JWST/NIRSpec spectroscopy continues to be a powerful tool for understanding the properties of these distant, and very cold brown dwarfs.",
       "keywords": [
-        "Astrophysics of Galaxies"
+        "Solar and Stellar Astrophysics"
       ],
       "volume": "",
       "page": [
-        "arXiv:2607.11182"
+        "arXiv:2608.14786"
       ],
       "property": [
-        "ARTICLE",
-        "EPRINT_OPENACCESS",
         "ESOURCE",
+        "ARTICLE",
         "NOT REFEREED",
+        "EPRINT_OPENACCESS",
         "OPENACCESS"
       ],
       "is_first_author": false,
