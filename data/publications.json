@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28T18:29:33.832799+00:00",
+  "last_updated": "2026-08-29T12:35:31.960823+00:00",
   "total_count": 95,
   "first_author_count": 7,
   "publications": [
@@ -111,6 +111,97 @@
       "detail_url": ""
     },
     {
+      "bibcode": "2026arXiv260819311Z",
+      "title": "Low Ly$α$ Visibility in Galaxy Overdensities: Reionization Topology and Neutral-Fraction Ceilings from DIVER over $4.8&lt;z&lt;11$",
+      "authors": [
+        "Zhu, Yongda",
+        "Fan, Xiaohui",
+        "Keating, Laura C.",
+        "Becker, George D.",
+        "Egami, Eiichi",
+        "Lin, Xiaojing",
+        "Sun, Fengwu",
+        "Cain, Christopher",
+        "Rieke, Marcia J.",
+        "Bunker, Andrew J.",
+        "Cai, Sijia",
+        "D'Eugenio, Francesco",
+        "Helton, Jakob M.",
+        "Jin, Xiangyu",
+        "Li, Mingyu",
+        "Ma, Zheng",
+        "Maiolino, Roberto",
+        "Rinaldi, Pierluigi",
+        "Willmer, Christopher N. A.",
+        "Wu, Yunjing",
+        "Wu, Zihao",
+        "Zhang, Junyu"
+      ],
+      "first_author": "Zhu, Yongda",
+      "year": "2026",
+      "pubdate": "2026-08-00",
+      "journal": "arXiv e-prints",
+      "doi": "10.48550/arXiv.2608.19311",
+      "arxiv_id": "2608.19311",
+      "citation_count": 0,
+      "abstract": "Ly-alpha emission is widely used to trace cosmic reionization, but its interpretation depends on how Ly-alpha visibility varies with galaxy environment. We use deep JWST/NIRSpec observations from Deep Insights into UV Spectroscopy at the Epoch of Reionization (DIVER) in GOODS-N to measure Ly-alpha visibility for 250 galaxies at 4.8&lt;z&lt;11. The sample contains 84 Ly-alpha detections, including 44 strong emitters with rest-frame Ly-alpha equivalent width W_Lyalpha&gt;25 A. We combine these measurements with H-alpha and [O III] emitters from JWST/NIRCam wide-field slitless spectroscopy to map the density field around each DIVER galaxy. Galaxies with high Ly-alpha equivalent widths (W_Lyalpha&gt;25 A) or high effective Ly-alpha escape fractions (f_esc,Lyalpha^eff&gt;0.05) tend to lie farther from nearby H-alpha and [O III] emitters than galaxies with lower Ly-alpha visibility. The clearest signal occurs near the prominent GOODS-N overdensity at z~5.2, where fewer than 15% of galaxies show strong Ly-alpha emission. This trend is opposite to the simplest inside-out reionization expectation that overdensities produce larger ionized regions and enhance Ly-alpha visibility. Possible explanations include circumgalactic and local intergalactic opacity, dense absorbers, and gas kinematics. We also derive an empirical upper envelope for f_esc,Lyalpha^eff and calibrate it with reionization simulations. Interpreting this envelope as a limiting IGM-attenuation signal gives neutral-fraction ceilings of &lt;x_HI&gt;_max=0.36, 0.76, 0.74, 0.84, and 1.0 at z~5.2, 5.8, 6.7, 7.7, and 9.8, respectively. The z~8 ceiling disfavors an almost completely neutral IGM at this epoch. These results support patchy reionization already underway by z~8 and show that galaxy Ly-alpha visibility encodes both large-scale ionization topology and near-source gas structure.",
+      "keywords": [
+        "Astrophysics of Galaxies",
+        "Cosmology and Nongalactic Astrophysics"
+      ],
+      "volume": "",
+      "page": [
+        "arXiv:2608.19311"
+      ],
+      "property": [
+        "ARTICLE",
+        "EPRINT_OPENACCESS",
+        "ESOURCE",
+        "NOT REFEREED",
+        "OPENACCESS"
+      ],
+      "is_first_author": false,
+      "figure_url": "",
+      "detail_url": ""
+    },
+    {
+      "bibcode": "2026arXiv260812458C",
+      "title": "The Ĝ Infrared Search for Extraterrestrial Civilizations with Large Energy Supplies. V. When Galaxies Glow with Industry",
+      "authors": [
+        "Curtis, Olivia",
+        "Rowland, Aidan J.",
+        "Wright, Jason T.",
+        "Gronwall, Caryl",
+        "Helton, Jakob M.",
+        "Leja, Joel"
+      ],
+      "first_author": "Curtis, Olivia",
+      "year": "2026",
+      "pubdate": "2026-08-00",
+      "journal": "arXiv e-prints",
+      "doi": "10.48550/arXiv.2608.12458",
+      "arxiv_id": "2608.12458",
+      "citation_count": 0,
+      "abstract": "We present the most robust stellar population synthesis (SPS)-based search for galaxy-spanning technological waste heat to date, applied to 129 nearby galaxies spanning a wide range of spectral energy distribution (SED) types, including ultraluminous IR galaxies and MIR-luminous active galactic nuclei (AGN). We incorporate the AGENT Dyson sphere formalism into the Flexible Stellar Population Synthesis code at the stellar population level, so nebular and dust emission respond self-consistently to Dyson sphere reprocessing. With \\texttt{Prospector}, we perform a suite of 1,419 injection recovery tests across a range of covering fractions, $α$, where we successfully recover the injected covering fractions (best-fit slope $m = 0.92$) and detect them through Bayesian model selection down to $α\\sim 4$--$5\\%$ in quiescent galaxies. None of our 129 galaxies prefer a Dyson sphere component, and we place the first per-galaxy 95\\% upper limits on warm ($T_{\\rm BB} \\gtrsim 100$K) swarms, reaching a median $α&lt; 0.3\\%$ across quiescent hosts without a dominant AGN. Our injection-calibrated detection rates convert these zero detections into a population bound of $&lt;2.6\\%$ of galaxies hosting $α= 25\\%$ swarms ($95\\%$ confidence). Because survey colors cannot separate waste heat from starbursts and AGN, we develop a scaffold for future searches, running from inexpensive archival screens such as the Balmer decrement and the stellar-to-dynamical-mass offset a swarm leaves behind, through resolved fitting with nuclear excision, to PRIMA FIR photometry that makes targeted JWST imaging decisive. We find that the outskirts of quiescent galaxies are the best hunting grounds for future technosignature searches.",
+      "keywords": [
+        "Astrophysics of Galaxies"
+      ],
+      "volume": "",
+      "page": [
+        "arXiv:2608.12458"
+      ],
+      "property": [
+        "ARTICLE",
+        "EPRINT_OPENACCESS",
+        "ESOURCE",
+        "NOT REFEREED",
+        "OPENACCESS"
+      ],
+      "is_first_author": false,
+      "figure_url": "",
+      "detail_url": ""
+    },
+    {
       "bibcode": "2026MNRAS.550g1360T",
       "title": "Out of oxygen: extremely metal-poor galaxy candidates identified at 2.5 &lt; z &lt; 6.5 with deep JADES medium-band imaging",
       "authors": [
@@ -173,97 +264,6 @@
         "OPENACCESS",
         "PUB_OPENACCESS",
         "REFEREED"
-      ],
-      "is_first_author": false,
-      "figure_url": "",
-      "detail_url": ""
-    },
-    {
-      "bibcode": "2026arXiv260812458C",
-      "title": "The Ĝ Infrared Search for Extraterrestrial Civilizations with Large Energy Supplies. V. When Galaxies Glow with Industry",
-      "authors": [
-        "Curtis, Olivia",
-        "Rowland, Aidan J.",
-        "Wright, Jason T.",
-        "Gronwall, Caryl",
-        "Helton, Jakob M.",
-        "Leja, Joel"
-      ],
-      "first_author": "Curtis, Olivia",
-      "year": "2026",
-      "pubdate": "2026-08-00",
-      "journal": "arXiv e-prints",
-      "doi": "10.48550/arXiv.2608.12458",
-      "arxiv_id": "2608.12458",
-      "citation_count": 0,
-      "abstract": "We present the most robust stellar population synthesis (SPS)-based search for galaxy-spanning technological waste heat to date, applied to 129 nearby galaxies spanning a wide range of spectral energy distribution (SED) types, including ultraluminous IR galaxies and MIR-luminous active galactic nuclei (AGN). We incorporate the AGENT Dyson sphere formalism into the Flexible Stellar Population Synthesis code at the stellar population level, so nebular and dust emission respond self-consistently to Dyson sphere reprocessing. With \\texttt{Prospector}, we perform a suite of 1,419 injection recovery tests across a range of covering fractions, $α$, where we successfully recover the injected covering fractions (best-fit slope $m = 0.92$) and detect them through Bayesian model selection down to $α\\sim 4$--$5\\%$ in quiescent galaxies. None of our 129 galaxies prefer a Dyson sphere component, and we place the first per-galaxy 95\\% upper limits on warm ($T_{\\rm BB} \\gtrsim 100$K) swarms, reaching a median $α&lt; 0.3\\%$ across quiescent hosts without a dominant AGN. Our injection-calibrated detection rates convert these zero detections into a population bound of $&lt;2.6\\%$ of galaxies hosting $α= 25\\%$ swarms ($95\\%$ confidence). Because survey colors cannot separate waste heat from starbursts and AGN, we develop a scaffold for future searches, running from inexpensive archival screens such as the Balmer decrement and the stellar-to-dynamical-mass offset a swarm leaves behind, through resolved fitting with nuclear excision, to PRIMA FIR photometry that makes targeted JWST imaging decisive. We find that the outskirts of quiescent galaxies are the best hunting grounds for future technosignature searches.",
-      "keywords": [
-        "Astrophysics of Galaxies"
-      ],
-      "volume": "",
-      "page": [
-        "arXiv:2608.12458"
-      ],
-      "property": [
-        "ARTICLE",
-        "EPRINT_OPENACCESS",
-        "ESOURCE",
-        "NOT REFEREED",
-        "OPENACCESS"
-      ],
-      "is_first_author": false,
-      "figure_url": "",
-      "detail_url": ""
-    },
-    {
-      "bibcode": "2026arXiv260819311Z",
-      "title": "Low Ly$α$ Visibility in Galaxy Overdensities: Reionization Topology and Neutral-Fraction Ceilings from DIVER over $4.8&lt;z&lt;11$",
-      "authors": [
-        "Zhu, Yongda",
-        "Fan, Xiaohui",
-        "Keating, Laura C.",
-        "Becker, George D.",
-        "Egami, Eiichi",
-        "Lin, Xiaojing",
-        "Sun, Fengwu",
-        "Cain, Christopher",
-        "Rieke, Marcia J.",
-        "Bunker, Andrew J.",
-        "Cai, Sijia",
-        "D'Eugenio, Francesco",
-        "Helton, Jakob M.",
-        "Jin, Xiangyu",
-        "Li, Mingyu",
-        "Ma, Zheng",
-        "Maiolino, Roberto",
-        "Rinaldi, Pierluigi",
-        "Willmer, Christopher N. A.",
-        "Wu, Yunjing",
-        "Wu, Zihao",
-        "Zhang, Junyu"
-      ],
-      "first_author": "Zhu, Yongda",
-      "year": "2026",
-      "pubdate": "2026-08-00",
-      "journal": "arXiv e-prints",
-      "doi": "10.48550/arXiv.2608.19311",
-      "arxiv_id": "2608.19311",
-      "citation_count": 0,
-      "abstract": "Ly-alpha emission is widely used to trace cosmic reionization, but its interpretation depends on how Ly-alpha visibility varies with galaxy environment. We use deep JWST/NIRSpec observations from Deep Insights into UV Spectroscopy at the Epoch of Reionization (DIVER) in GOODS-N to measure Ly-alpha visibility for 250 galaxies at 4.8&lt;z&lt;11. The sample contains 84 Ly-alpha detections, including 44 strong emitters with rest-frame Ly-alpha equivalent width W_Lyalpha&gt;25 A. We combine these measurements with H-alpha and [O III] emitters from JWST/NIRCam wide-field slitless spectroscopy to map the density field around each DIVER galaxy. Galaxies with high Ly-alpha equivalent widths (W_Lyalpha&gt;25 A) or high effective Ly-alpha escape fractions (f_esc,Lyalpha^eff&gt;0.05) tend to lie farther from nearby H-alpha and [O III] emitters than galaxies with lower Ly-alpha visibility. The clearest signal occurs near the prominent GOODS-N overdensity at z~5.2, where fewer than 15% of galaxies show strong Ly-alpha emission. This trend is opposite to the simplest inside-out reionization expectation that overdensities produce larger ionized regions and enhance Ly-alpha visibility. Possible explanations include circumgalactic and local intergalactic opacity, dense absorbers, and gas kinematics. We also derive an empirical upper envelope for f_esc,Lyalpha^eff and calibrate it with reionization simulations. Interpreting this envelope as a limiting IGM-attenuation signal gives neutral-fraction ceilings of &lt;x_HI&gt;_max=0.36, 0.76, 0.74, 0.84, and 1.0 at z~5.2, 5.8, 6.7, 7.7, and 9.8, respectively. The z~8 ceiling disfavors an almost completely neutral IGM at this epoch. These results support patchy reionization already underway by z~8 and show that galaxy Ly-alpha visibility encodes both large-scale ionization topology and near-source gas structure.",
-      "keywords": [
-        "Astrophysics of Galaxies",
-        "Cosmology and Nongalactic Astrophysics"
-      ],
-      "volume": "",
-      "page": [
-        "arXiv:2608.19311"
-      ],
-      "property": [
-        "ARTICLE",
-        "EPRINT_OPENACCESS",
-        "ESOURCE",
-        "NOT REFEREED",
-        "OPENACCESS"
       ],
       "is_first_author": false,
       "figure_url": "",
@@ -575,69 +575,6 @@
       "detail_url": ""
     },
     {
-      "bibcode": "2026ApJ..1004..223H",
-      "title": "JADES: An Abundance of Ultradistant T and Y Dwarfs in Deep Extragalactic Data",
-      "authors": [
-        "Hainline, Kevin N.",
-        "Helton, Jakob M.",
-        "Miles, Brittany E.",
-        "Leisenring, Jarron",
-        "Marley, Mark S.",
-        "Mukherjee, Sagnick",
-        "Wogan, Nicholas F.",
-        "Bunker, Andrew J.",
-        "Johnson, Benjamin D.",
-        "Maiolino, Roberto",
-        "Rieke, Marcia",
-        "Rinaldi, Pierluigi",
-        "Robertson, Brant",
-        "Sun, Fengwu",
-        "Tacchella, Sandro",
-        "Williams, Christina C.",
-        "Willmer, Christopher N. A."
-      ],
-      "first_author": "Hainline, Kevin N.",
-      "year": "2026",
-      "pubdate": "2026-06-00",
-      "journal": "The Astrophysical Journal",
-      "doi": "10.3847/1538-4357/ae6ce0",
-      "arxiv_id": "2510.00111",
-      "citation_count": 10,
-      "abstract": "Ultracool T (T<SUB>eff</SUB> ≍ 500─1200 K) and Y dwarfs (T<SUB>eff</SUB> ⪅ 500 K) have historically been found only a few hundred parsecs from the Sun. The sensitivity and wavelength coverage of the NIRCam instrument on board the James Webb Space Telescope offer a unique method for finding low-temperature brown dwarfs in deep extragalactic datasets out to multiple kiloparsecs. Here we report on the selection of a sample of 41 brown dwarfs and brown dwarf candidates across the JWST Advanced Deep Extragalactic Survey in the GOODS-S and GOODS-N regions. We introduce a new open-source Bayesian tool, Near-Infrared Fitting for T and Y dwarfs (NIFTY), to derive effective temperatures, metallicities, and distances from JWST photometry. We find that 31 candidates have fits consistent with T dwarf temperatures out to 5─6 kpc, and 10 candidates have fits consistent with Y dwarf temperatures out to 1─2 kpc. The majority of the sources are best fit with subsolar metallicity models. We report proper motions for 10 brown dwarf candidates (three are newly presented), and calculate the number density of T and Y dwarfs as a function of temperature and distance above the Milky Way midplane. We further discuss how Y dwarfs can serve as contaminants in the search for ultra-high-redshift galaxies. Together, these results demonstrate the power of deep JWST extragalactic imaging to probe the coldest substellar populations far beyond the solar neighborhood, providing new constraints on the Milky Way's structure and brown dwarf demographics.",
-      "keywords": [
-        "Brown dwarfs",
-        "T dwarfs",
-        "Y dwarfs",
-        "Halo stars",
-        "Infrared astronomy",
-        "James Webb Space Telescope",
-        "185",
-        "1679",
-        "1827",
-        "699",
-        "786",
-        "2291",
-        "Solar and Stellar Astrophysics",
-        "Astrophysics of Galaxies"
-      ],
-      "volume": "1004",
-      "page": [
-        "223"
-      ],
-      "property": [
-        "ARTICLE",
-        "DATA",
-        "EPRINT_OPENACCESS",
-        "ESOURCE",
-        "OPENACCESS",
-        "PUB_OPENACCESS",
-        "REFEREED"
-      ],
-      "is_first_author": false,
-      "figure_url": "",
-      "detail_url": ""
-    },
-    {
       "bibcode": "2026ApJ..1004..161H",
       "title": "JWST Advanced Deep Extragalactic Survey Data Release 5: Photometrically Selected Galaxy Candidates at z &gt; 8",
       "authors": [
@@ -722,6 +659,69 @@
       "detail_url": ""
     },
     {
+      "bibcode": "2026ApJ..1004..223H",
+      "title": "JADES: An Abundance of Ultradistant T and Y Dwarfs in Deep Extragalactic Data",
+      "authors": [
+        "Hainline, Kevin N.",
+        "Helton, Jakob M.",
+        "Miles, Brittany E.",
+        "Leisenring, Jarron",
+        "Marley, Mark S.",
+        "Mukherjee, Sagnick",
+        "Wogan, Nicholas F.",
+        "Bunker, Andrew J.",
+        "Johnson, Benjamin D.",
+        "Maiolino, Roberto",
+        "Rieke, Marcia",
+        "Rinaldi, Pierluigi",
+        "Robertson, Brant",
+        "Sun, Fengwu",
+        "Tacchella, Sandro",
+        "Williams, Christina C.",
+        "Willmer, Christopher N. A."
+      ],
+      "first_author": "Hainline, Kevin N.",
+      "year": "2026",
+      "pubdate": "2026-06-00",
+      "journal": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/ae6ce0",
+      "arxiv_id": "2510.00111",
+      "citation_count": 10,
+      "abstract": "Ultracool T (T<SUB>eff</SUB> ≍ 500─1200 K) and Y dwarfs (T<SUB>eff</SUB> ⪅ 500 K) have historically been found only a few hundred parsecs from the Sun. The sensitivity and wavelength coverage of the NIRCam instrument on board the James Webb Space Telescope offer a unique method for finding low-temperature brown dwarfs in deep extragalactic datasets out to multiple kiloparsecs. Here we report on the selection of a sample of 41 brown dwarfs and brown dwarf candidates across the JWST Advanced Deep Extragalactic Survey in the GOODS-S and GOODS-N regions. We introduce a new open-source Bayesian tool, Near-Infrared Fitting for T and Y dwarfs (NIFTY), to derive effective temperatures, metallicities, and distances from JWST photometry. We find that 31 candidates have fits consistent with T dwarf temperatures out to 5─6 kpc, and 10 candidates have fits consistent with Y dwarf temperatures out to 1─2 kpc. The majority of the sources are best fit with subsolar metallicity models. We report proper motions for 10 brown dwarf candidates (three are newly presented), and calculate the number density of T and Y dwarfs as a function of temperature and distance above the Milky Way midplane. We further discuss how Y dwarfs can serve as contaminants in the search for ultra-high-redshift galaxies. Together, these results demonstrate the power of deep JWST extragalactic imaging to probe the coldest substellar populations far beyond the solar neighborhood, providing new constraints on the Milky Way's structure and brown dwarf demographics.",
+      "keywords": [
+        "Brown dwarfs",
+        "T dwarfs",
+        "Y dwarfs",
+        "Halo stars",
+        "Infrared astronomy",
+        "James Webb Space Telescope",
+        "185",
+        "1679",
+        "1827",
+        "699",
+        "786",
+        "2291",
+        "Solar and Stellar Astrophysics",
+        "Astrophysics of Galaxies"
+      ],
+      "volume": "1004",
+      "page": [
+        "223"
+      ],
+      "property": [
+        "ARTICLE",
+        "DATA",
+        "EPRINT_OPENACCESS",
+        "ESOURCE",
+        "OPENACCESS",
+        "PUB_OPENACCESS",
+        "REFEREED"
+      ],
+      "is_first_author": false,
+      "figure_url": "",
+      "detail_url": ""
+    },
+    {
       "bibcode": "2026arXiv260530410C",
       "title": "RUBIES: The Evolution of the Ionization Parameter from 0 &lt; z &lt; 9",
       "authors": [
@@ -753,49 +753,6 @@
       "volume": "",
       "page": [
         "arXiv:2605.30410"
-      ],
-      "property": [
-        "ARTICLE",
-        "EPRINT_OPENACCESS",
-        "ESOURCE",
-        "NOT REFEREED",
-        "OPENACCESS"
-      ],
-      "is_first_author": false,
-      "figure_url": "",
-      "detail_url": ""
-    },
-    {
-      "bibcode": "2026arXiv260528930W",
-      "title": "Too many protoclusters? Reconciling the overabundance of cluster progenitors within the first billion years of the Universe",
-      "authors": [
-        "Witten, Callum",
-        "Bennett, Jake S.",
-        "Oesch, Pascal A.",
-        "Lim, Seunghwan",
-        "Terp, Chamilla",
-        "Helton, Jakob M.",
-        "Heintz, Kasper E.",
-        "Meyer, Romain A.",
-        "McClymont, William",
-        "Herard-Demanche, Thomas",
-        "Giovinazzo, Emma"
-      ],
-      "first_author": "Witten, Callum",
-      "year": "2026",
-      "pubdate": "2026-05-00",
-      "journal": "arXiv e-prints",
-      "doi": "10.48550/arXiv.2605.28930",
-      "arxiv_id": "2605.28930",
-      "citation_count": 3,
-      "abstract": "JWST has revealed an overabundance of apparent (`Coma'-like) cluster progenitors at $z&gt;5$ that is $\\sim$ two (300) times in excess of, and in $2.3σ$ ($4σ$) tension with, the number density of such objects at present day and theoretical predictions from $Λ$CDM. We present an analysis of protocluster candidates between $5&lt;z&lt;9$ from the literature, and in the TNG-Cluster and TNG300 simulations, aimed at resolving this tension. We first identify an inconsistency in how protocluster candidates are characterised: observational halo masses are estimated by summing the stellar mass over very large apertures ($\\gtrsim 50\\, R_{\\rm vir}$), but are compared to the halo mass within the virial radius from simulations. In addition, these halo masses are commonly compared to the backward-tracked halo mass evolution of clusters, whereas a forward-tracked evolution of massive high-redshift haloes is more appropriate. Correcting these inconsistencies, while accounting for the merging of coincident protoclusters and the fluctuations associated with cosmic variance, entirely alleviates the tension. Ultimately, we find that $64\\%$ of the protocluster candidates are instead likely to be proto-groups (i.e., $M_{200c}&lt;10^{14}\\, {\\rm M_{\\odot}}$) and none appear likely to become Coma-like clusters (i.e., $M_{200c}&gt;10^{15}\\, {\\rm M_{\\odot}}$) by $z=0$. Although some of these overdensities may not become clusters, they still trace extreme nodes of the cosmic web that may host early environmental effects, drive the first ionised regions, and contribute significantly to the cosmic star-formation rate density. These results demonstrate the need for more careful comparisons between observations and simulations of high-redshift protoclusters, and that improved selection criteria, potentially using the summation of the halo mass on Lagrangian scales, are vital for high-redshift protocluster science.",
-      "keywords": [
-        "Astrophysics of Galaxies",
-        "Cosmology and Nongalactic Astrophysics"
-      ],
-      "volume": "",
-      "page": [
-        "arXiv:2605.28930"
       ],
       "property": [
         "ARTICLE",
@@ -867,6 +824,49 @@
       "volume": "",
       "page": [
         "arXiv:2605.21599"
+      ],
+      "property": [
+        "ARTICLE",
+        "EPRINT_OPENACCESS",
+        "ESOURCE",
+        "NOT REFEREED",
+        "OPENACCESS"
+      ],
+      "is_first_author": false,
+      "figure_url": "",
+      "detail_url": ""
+    },
+    {
+      "bibcode": "2026arXiv260528930W",
+      "title": "Too many protoclusters? Reconciling the overabundance of cluster progenitors within the first billion years of the Universe",
+      "authors": [
+        "Witten, Callum",
+        "Bennett, Jake S.",
+        "Oesch, Pascal A.",
+        "Lim, Seunghwan",
+        "Terp, Chamilla",
+        "Helton, Jakob M.",
+        "Heintz, Kasper E.",
+        "Meyer, Romain A.",
+        "McClymont, William",
+        "Herard-Demanche, Thomas",
+        "Giovinazzo, Emma"
+      ],
+      "first_author": "Witten, Callum",
+      "year": "2026",
+      "pubdate": "2026-05-00",
+      "journal": "arXiv e-prints",
+      "doi": "10.48550/arXiv.2605.28930",
+      "arxiv_id": "2605.28930",
+      "citation_count": 3,
+      "abstract": "JWST has revealed an overabundance of apparent (`Coma'-like) cluster progenitors at $z&gt;5$ that is $\\sim$ two (300) times in excess of, and in $2.3σ$ ($4σ$) tension with, the number density of such objects at present day and theoretical predictions from $Λ$CDM. We present an analysis of protocluster candidates between $5&lt;z&lt;9$ from the literature, and in the TNG-Cluster and TNG300 simulations, aimed at resolving this tension. We first identify an inconsistency in how protocluster candidates are characterised: observational halo masses are estimated by summing the stellar mass over very large apertures ($\\gtrsim 50\\, R_{\\rm vir}$), but are compared to the halo mass within the virial radius from simulations. In addition, these halo masses are commonly compared to the backward-tracked halo mass evolution of clusters, whereas a forward-tracked evolution of massive high-redshift haloes is more appropriate. Correcting these inconsistencies, while accounting for the merging of coincident protoclusters and the fluctuations associated with cosmic variance, entirely alleviates the tension. Ultimately, we find that $64\\%$ of the protocluster candidates are instead likely to be proto-groups (i.e., $M_{200c}&lt;10^{14}\\, {\\rm M_{\\odot}}$) and none appear likely to become Coma-like clusters (i.e., $M_{200c}&gt;10^{15}\\, {\\rm M_{\\odot}}$) by $z=0$. Although some of these overdensities may not become clusters, they still trace extreme nodes of the cosmic web that may host early environmental effects, drive the first ionised regions, and contribute significantly to the cosmic star-formation rate density. These results demonstrate the need for more careful comparisons between observations and simulations of high-redshift protoclusters, and that improved selection criteria, potentially using the summation of the halo mass on Lagrangian scales, are vital for high-redshift protocluster science.",
+      "keywords": [
+        "Astrophysics of Galaxies",
+        "Cosmology and Nongalactic Astrophysics"
+      ],
+      "volume": "",
+      "page": [
+        "arXiv:2605.28930"
       ],
       "property": [
         "ARTICLE",
@@ -1157,6 +1157,90 @@
       "detail_url": ""
     },
     {
+      "bibcode": "2026arXiv260320362M",
+      "title": "The search for Population III: Confirmation of a HeII emitter with no metal lines at z=10.6",
+      "authors": [
+        "Maiolino, Roberto",
+        "Übler, Hannah",
+        "Perna, Michele",
+        "Witstok, Joris",
+        "Jones, Gareth C.",
+        "Perez-Gonzalez, Pablo G.",
+        "Nakajima, Kimihiko",
+        "Rusta, Elka",
+        "Salvadori, Stefania",
+        "Tacchella, Sandro",
+        "Madau, Piero",
+        "Trussler, James A. A.",
+        "D'Eugenio, Francesco",
+        "Ji, Xihan",
+        "Scholtz, Jan",
+        "Carniani, Stefano",
+        "Isobe, Yuki",
+        "Katz, Harley",
+        "Arribas, Santiago",
+        "Baker, William M.",
+        "Böker, Torsten",
+        "Bromm, Volker",
+        "Bunker, Andrew J.",
+        "Charlot, Stephane",
+        "Chevallard, Jacopo",
+        "Curti, Mirko",
+        "Curtis-Lake, Emma",
+        "Eisenstein, Daniel",
+        "Egami, Eiichi",
+        "Ferrara, Andrea",
+        "Graziani, Luca",
+        "Hainline, Kevin",
+        "Helton, Jakob M.",
+        "Ivey, Lucy",
+        "Jonson, Benjamin",
+        "Koller, Maria",
+        "Kumari, Nimisha",
+        "Marconi, Alessandro",
+        "Mazzolari, Giovanni",
+        "Laporte, Nicolas",
+        "Parlanti, Eleonora",
+        "Pascalau, Robert",
+        "Pentericci, Laura",
+        "Rinaldi, Pierluigi",
+        "Robertson, Brant",
+        "Rodríguez Del Pino, Bruno",
+        "Schneider, Raffaella",
+        "Venditti, Alessandra",
+        "Venturi, Giacomo",
+        "Willmer, Christopher N. A.",
+        "Witten, Callum",
+        "Zamora, Sandra"
+      ],
+      "first_author": "Maiolino, Roberto",
+      "year": "2026",
+      "pubdate": "2026-03-00",
+      "journal": "arXiv e-prints",
+      "doi": "10.48550/arXiv.2603.20362",
+      "arxiv_id": "2603.20362",
+      "citation_count": 18,
+      "abstract": "We report the confirmation of a HeII$λ$1640 emitter located at 3 pkpc from the galaxy GN-z11, at z=10.6. The detection, based on JWST NIRSpec-IFU high-resolution spectroscopy, confirms a previous claim based on medium-resolution spectroscopy. The HeII$λ$1640 identification is further supported by the independent detection of H$γ$ obtained by Übler et al. (2026) at the same location. The HeII emission is spectrally resolved in two components separated by 120 km/s. The Equivalent Width of the HeII emission is extremely high ($&gt;$20 A). No metal lines are detected. We argue that Population III stars are the most plausible explanation for the observed He II emission, with no satisfactory alternative from other classes of sources or mechanisms.",
+      "keywords": [
+        "Astrophysics of Galaxies",
+        "Cosmology and Nongalactic Astrophysics"
+      ],
+      "volume": "",
+      "page": [
+        "arXiv:2603.20362"
+      ],
+      "property": [
+        "ARTICLE",
+        "EPRINT_OPENACCESS",
+        "ESOURCE",
+        "NOT REFEREED",
+        "OPENACCESS"
+      ],
+      "is_first_author": false,
+      "figure_url": "",
+      "detail_url": ""
+    },
+    {
       "bibcode": "2026ApJS..283....6E",
       "title": "Overview of the JWST Advanced Deep Extragalactic Survey (JADES)",
       "authors": [
@@ -1268,90 +1352,6 @@
         "OPENACCESS",
         "PUB_OPENACCESS",
         "REFEREED"
-      ],
-      "is_first_author": false,
-      "figure_url": "",
-      "detail_url": ""
-    },
-    {
-      "bibcode": "2026arXiv260320362M",
-      "title": "The search for Population III: Confirmation of a HeII emitter with no metal lines at z=10.6",
-      "authors": [
-        "Maiolino, Roberto",
-        "Übler, Hannah",
-        "Perna, Michele",
-        "Witstok, Joris",
-        "Jones, Gareth C.",
-        "Perez-Gonzalez, Pablo G.",
-        "Nakajima, Kimihiko",
-        "Rusta, Elka",
-        "Salvadori, Stefania",
-        "Tacchella, Sandro",
-        "Madau, Piero",
-        "Trussler, James A. A.",
-        "D'Eugenio, Francesco",
-        "Ji, Xihan",
-        "Scholtz, Jan",
-        "Carniani, Stefano",
-        "Isobe, Yuki",
-        "Katz, Harley",
-        "Arribas, Santiago",
-        "Baker, William M.",
-        "Böker, Torsten",
-        "Bromm, Volker",
-        "Bunker, Andrew J.",
-        "Charlot, Stephane",
-        "Chevallard, Jacopo",
-        "Curti, Mirko",
-        "Curtis-Lake, Emma",
-        "Eisenstein, Daniel",
-        "Egami, Eiichi",
-        "Ferrara, Andrea",
-        "Graziani, Luca",
-        "Hainline, Kevin",
-        "Helton, Jakob M.",
-        "Ivey, Lucy",
-        "Jonson, Benjamin",
-        "Koller, Maria",
-        "Kumari, Nimisha",
-        "Marconi, Alessandro",
-        "Mazzolari, Giovanni",
-        "Laporte, Nicolas",
-        "Parlanti, Eleonora",
-        "Pascalau, Robert",
-        "Pentericci, Laura",
-        "Rinaldi, Pierluigi",
-        "Robertson, Brant",
-        "Rodríguez Del Pino, Bruno",
-        "Schneider, Raffaella",
-        "Venditti, Alessandra",
-        "Venturi, Giacomo",
-        "Willmer, Christopher N. A.",
-        "Witten, Callum",
-        "Zamora, Sandra"
-      ],
-      "first_author": "Maiolino, Roberto",
-      "year": "2026",
-      "pubdate": "2026-03-00",
-      "journal": "arXiv e-prints",
-      "doi": "10.48550/arXiv.2603.20362",
-      "arxiv_id": "2603.20362",
-      "citation_count": 18,
-      "abstract": "We report the confirmation of a HeII$λ$1640 emitter located at 3 pkpc from the galaxy GN-z11, at z=10.6. The detection, based on JWST NIRSpec-IFU high-resolution spectroscopy, confirms a previous claim based on medium-resolution spectroscopy. The HeII$λ$1640 identification is further supported by the independent detection of H$γ$ obtained by Übler et al. (2026) at the same location. The HeII emission is spectrally resolved in two components separated by 120 km/s. The Equivalent Width of the HeII emission is extremely high ($&gt;$20 A). No metal lines are detected. We argue that Population III stars are the most plausible explanation for the observed He II emission, with no satisfactory alternative from other classes of sources or mechanisms.",
-      "keywords": [
-        "Astrophysics of Galaxies",
-        "Cosmology and Nongalactic Astrophysics"
-      ],
-      "volume": "",
-      "page": [
-        "arXiv:2603.20362"
-      ],
-      "property": [
-        "ARTICLE",
-        "EPRINT_OPENACCESS",
-        "ESOURCE",
-        "NOT REFEREED",
-        "OPENACCESS"
       ],
       "is_first_author": false,
       "figure_url": "",
