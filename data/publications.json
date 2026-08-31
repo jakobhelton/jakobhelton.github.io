@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30T11:43:33.279506+00:00",
+  "last_updated": "2026-08-31T13:23:22.055061+00:00",
   "total_count": 95,
   "first_author_count": 7,
   "publications": [
@@ -4472,7 +4472,7 @@
       "journal": "Nature",
       "doi": "10.1038/s41586-024-07860-9",
       "arxiv_id": "2405.18485",
-      "citation_count": 354,
+      "citation_count": 353,
       "abstract": "The first observations of the James Webb Space Telescope (JWST) have revolutionized our understanding of the Universe by identifying galaxies at redshift z ≍ 13 (refs. <SUP>1, 2─3</SUP>). In addition, the discovery of many luminous galaxies at Cosmic Dawn (z &gt; 10) has suggested that galaxies developed rapidly, in apparent tension with many standard models<SUP>4, 5, 6, 7─8</SUP>. However, most of these galaxies lack spectroscopic confirmation, so their distances and properties are uncertain. Here we present JWST Advanced Deep Extragalactic Survey─Near-Infrared Spectrograph spectroscopic confirmation of two luminous galaxies at <inline-formula id=\"IEq1\"><mml:math id=\"IEq1_Math\"><mml:mrow><mml:mi>z</mml:mi><mml:mo>=</mml:mo><mml:msubsup><mml:mrow><mml:mn>14.32</mml:mn></mml:mrow><mml:mrow><mml:mo>−</mml:mo><mml:mn>0.20</mml:mn></mml:mrow><mml:mrow><mml:mo>+</mml:mo><mml:mn>0.08</mml:mn></mml:mrow></mml:msubsup></mml:mrow></mml:math></inline-formula> and z = 13.90 ± 0.17. The spectra reveal ultraviolet continua with prominent Lyman-α breaks but no detected emission lines. This discovery proves that luminous galaxies were already in place 300 million years after the Big Bang and are more common than what was expected before JWST. The most distant of the two galaxies is unexpectedly luminous and is spatially resolved with a radius of 260 parsecs. Considering also the very steep ultraviolet slope of the second galaxy, we conclude that both are dominated by stellar continuum emission, showing that the excess of luminous galaxies in the early Universe cannot be entirely explained by accretion onto black holes. Galaxy formation models will need to address the existence of such large and luminous galaxies so early in cosmic history.",
       "keywords": [
         "Physical Sciences",
@@ -4548,7 +4548,7 @@
       "journal": "Monthly Notices of the Royal Astronomical Society",
       "doi": "10.1093/mnras/stae1857",
       "arxiv_id": "2306.05295",
-      "citation_count": 220,
+      "citation_count": 219,
       "abstract": "Reionization is thought to be driven by faint star-forming galaxies, but characterizing this population has long remained very challenging. Here, we utilize deep nine-band JADES (JWST Advanced Deep Extragalactic Survey)/NIRCam (Near-Infrared Camera) imaging to study the star-forming and ionizing properties of 756 $z\\sim 6-9$ galaxies, including hundreds of very ultraviolet (UV)-faint objects ($M_\\mathrm{UV}\\gt -18$). The faintest ($m\\sim 30$) galaxies in our sample typically have stellar masses of $M_\\ast \\sim (1-3)\\times 10^7\\ \\mathrm{ M}_\\odot$ and young light-weighted ages ($\\sim$50 Myr), though some show strong Balmer breaks implying much older ages ($\\sim$500 Myr). We find no evidence for extremely massive galaxies ($\\gt 3\\times 10^{10}\\ \\mathrm{ M}_\\odot$) in our sample. We infer a strong (factor $\\gt $2) decline in the typical [O III]$+$H $\\beta$ equivalent widths (EWs) towards very faint $z\\sim 6-9$ galaxies, yet a weak UV luminosity dependence on the H $\\alpha$ EWs at $z\\sim 6$. We demonstrate that these EW trends can be explained if fainter galaxies have systematically lower metallicities as well as more recently declining star formation histories relative to the most UV-luminous galaxies. Our data provide evidence that the brightest galaxies are frequently experiencing a recent strong upturn in star formation rate. We also discuss how the EW trends may be influenced by a strong correlation between $M_\\mathrm{UV}$ and Lyman continuum escape fraction. This alternative explanation has dramatically different implications for the contribution of galaxies along the luminosity function to cosmic reionization. Finally, we quantify the photometric overdensities around two $z\\,\\gt\\,7$ strong Ly $\\alpha$ emitters. One Ly $\\alpha$ emitter lies close to a strong photometric overdensity, while the other shows no significant nearby overdensity, perhaps implying that not all strong $z\\,\\gt\\, 7$ Ly $\\alpha$ emitters reside in large ionized bubbles.",
       "keywords": [
         "Astrophysics - Astrophysics of Galaxies"
