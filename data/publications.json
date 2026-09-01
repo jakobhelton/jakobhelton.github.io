@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T13:23:22.055061+00:00",
+  "last_updated": "2026-09-01T11:29:37.319042+00:00",
   "total_count": 95,
   "first_author_count": 7,
   "publications": [
@@ -4983,47 +4983,6 @@
       "detail_url": ""
     },
     {
-      "bibcode": "2024MNRAS.528.5783S",
-      "title": "Evolution of gas flows along the starburst to post-starburst to quiescent galaxy sequence",
-      "authors": [
-        "Sun, Yang",
-        "Lee, Gwang-Ho",
-        "Zabludoff, Ann I.",
-        "French, K. Decker",
-        "Helton, Jakob M.",
-        "Kerrison, Nicole A.",
-        "Tremonti, Christy A.",
-        "Yang, Yujin"
-      ],
-      "first_author": "Sun, Yang",
-      "year": "2024",
-      "pubdate": "2024-03-00",
-      "journal": "Monthly Notices of the Royal Astronomical Society",
-      "doi": "10.1093/mnras/stae366",
-      "arxiv_id": "2310.00424",
-      "citation_count": 13,
-      "abstract": "We measure velocity offsets in the $\\rm{Na {}\\rm {\\small I}}$ λλ5890, 5896 ($\\rm{Na {}\\rm {\\small D}}$) interstellar medium absorption lines to track how neutral galactic winds change as their host galaxies evolve. Our sample of ~80 000 SDSS spectra at 0.010 &lt; z &lt; 0.325 includes starburst, post-starburst, and quiescent galaxies, forming an evolutionary sequence of declining star formation rate (SFR). We detect bulk flows across this sequence, mostly at higher host stellar masses (log(M<SUB>*</SUB>/M<SUB>☉</SUB>)) &gt; 10). Along this sequence, the fraction of outflows decreases (76 ± 2 per cent to 65 ± 4 per cent to a 3σ upper limit of 34 per cent), and the mean velocity offset changes from outflowing to inflowing (-84.6 ± 5.9 to -71.6 ± 11.4 to $76.6\\pm 2.3\\, \\rm km s^{-1}$). Even within the post-starburst sample, wind speed decreases with time elapsed since the starburst ended. These results reveal that outflows diminish as galaxies age. For post-starbursts, there is evidence for an AGN contribution, especially to the speediest outflows: (1) SFR declines faster in time than outflow velocity, a decoupling arguing against massive stellar feedback; (2) of the few outflows strong enough to escape the interstellar medium (9/105), three of the four hosts with measured emission lines are Seyfert galaxies. For discy starburst galaxies, however, the trends suggest flows out of the stellar disc plane (with outflow 1/2-opening angle &gt; 45°) instead of from the nucleus: the wind velocity decreases as the disc becomes more edge-on, and the outflow fraction, constant at $\\sim 90~{{\\ \\rm per\\ cent}}$ for disc inclinations i &lt; 45°, steadily decreases from $\\sim 90~{{\\ \\rm per\\ cent}}$ to 20 per cent for i &gt; 45°.",
-      "keywords": [
-        "ISM: jets and outflows - ISM: kinematics and dynamics - galaxies: evolution - galaxies: ISM",
-        "Astrophysics - Astrophysics of Galaxies"
-      ],
-      "volume": "528",
-      "page": [
-        "5783"
-      ],
-      "property": [
-        "ARTICLE",
-        "EPRINT_OPENACCESS",
-        "ESOURCE",
-        "OPENACCESS",
-        "PUB_OPENACCESS",
-        "REFEREED"
-      ],
-      "is_first_author": false,
-      "figure_url": "",
-      "detail_url": ""
-    },
-    {
       "bibcode": "2024ApJ...964...71H",
       "title": "The Cosmos in Its Infancy: JADES Galaxy Candidates at z &gt; 8 in GOODS-S and GOODS-N",
       "authors": [
@@ -5182,6 +5141,47 @@
         "ESOURCE",
         "OPENACCESS",
         "PMC_OPENACCESS",
+        "PUB_OPENACCESS",
+        "REFEREED"
+      ],
+      "is_first_author": false,
+      "figure_url": "",
+      "detail_url": ""
+    },
+    {
+      "bibcode": "2024MNRAS.528.5783S",
+      "title": "Evolution of gas flows along the starburst to post-starburst to quiescent galaxy sequence",
+      "authors": [
+        "Sun, Yang",
+        "Lee, Gwang-Ho",
+        "Zabludoff, Ann I.",
+        "French, K. Decker",
+        "Helton, Jakob M.",
+        "Kerrison, Nicole A.",
+        "Tremonti, Christy A.",
+        "Yang, Yujin"
+      ],
+      "first_author": "Sun, Yang",
+      "year": "2024",
+      "pubdate": "2024-03-00",
+      "journal": "Monthly Notices of the Royal Astronomical Society",
+      "doi": "10.1093/mnras/stae366",
+      "arxiv_id": "2310.00424",
+      "citation_count": 13,
+      "abstract": "We measure velocity offsets in the $\\rm{Na {}\\rm {\\small I}}$ λλ5890, 5896 ($\\rm{Na {}\\rm {\\small D}}$) interstellar medium absorption lines to track how neutral galactic winds change as their host galaxies evolve. Our sample of ~80 000 SDSS spectra at 0.010 &lt; z &lt; 0.325 includes starburst, post-starburst, and quiescent galaxies, forming an evolutionary sequence of declining star formation rate (SFR). We detect bulk flows across this sequence, mostly at higher host stellar masses (log(M<SUB>*</SUB>/M<SUB>☉</SUB>)) &gt; 10). Along this sequence, the fraction of outflows decreases (76 ± 2 per cent to 65 ± 4 per cent to a 3σ upper limit of 34 per cent), and the mean velocity offset changes from outflowing to inflowing (-84.6 ± 5.9 to -71.6 ± 11.4 to $76.6\\pm 2.3\\, \\rm km s^{-1}$). Even within the post-starburst sample, wind speed decreases with time elapsed since the starburst ended. These results reveal that outflows diminish as galaxies age. For post-starbursts, there is evidence for an AGN contribution, especially to the speediest outflows: (1) SFR declines faster in time than outflow velocity, a decoupling arguing against massive stellar feedback; (2) of the few outflows strong enough to escape the interstellar medium (9/105), three of the four hosts with measured emission lines are Seyfert galaxies. For discy starburst galaxies, however, the trends suggest flows out of the stellar disc plane (with outflow 1/2-opening angle &gt; 45°) instead of from the nucleus: the wind velocity decreases as the disc becomes more edge-on, and the outflow fraction, constant at $\\sim 90~{{\\ \\rm per\\ cent}}$ for disc inclinations i &lt; 45°, steadily decreases from $\\sim 90~{{\\ \\rm per\\ cent}}$ to 20 per cent for i &gt; 45°.",
+      "keywords": [
+        "ISM: jets and outflows - ISM: kinematics and dynamics - galaxies: evolution - galaxies: ISM",
+        "Astrophysics - Astrophysics of Galaxies"
+      ],
+      "volume": "528",
+      "page": [
+        "5783"
+      ],
+      "property": [
+        "ARTICLE",
+        "EPRINT_OPENACCESS",
+        "ESOURCE",
+        "OPENACCESS",
         "PUB_OPENACCESS",
         "REFEREED"
       ],
@@ -5933,62 +5933,6 @@
       "detail_url": ""
     },
     {
-      "bibcode": "2023arXiv230708633S",
-      "title": "JADES: deep spectroscopy of a low-mass galaxy at redshift 2.3 quenched by environment",
-      "authors": [
-        "Sandles, Lester",
-        "D'Eugenio, Francesco",
-        "Helton, Jakob M.",
-        "Maiolino, Roberto",
-        "Hainline, Kevin",
-        "Baker, William M.",
-        "Williams, Christina C.",
-        "Alberts, Stacey",
-        "Bunker, Andrew J.",
-        "Carniani, Stefano",
-        "Charlot, Stephane",
-        "Chevallard, Jacopo",
-        "Curti, Mirko",
-        "Curtis-Lake, Emma",
-        "Eisenstein, Daniel J.",
-        "Ji, Zhiyuan",
-        "Johnson, Benjamin D.",
-        "Looser, Tobias J.",
-        "Rawle, Tim",
-        "Robertson, Brant",
-        "Rodríguez Del Pino, Bruno",
-        "Tacchella, Sandro",
-        "Übler, Hannah",
-        "Willmer, Christopher N. A.",
-        "Willott, Chris"
-      ],
-      "first_author": "Sandles, Lester",
-      "year": "2023",
-      "pubdate": "2023-07-00",
-      "journal": "arXiv e-prints",
-      "doi": "10.48550/arXiv.2307.08633",
-      "arxiv_id": "2307.08633",
-      "citation_count": 12,
-      "abstract": "We report the discovery of a quiescent galaxy at $z=2.34$ with a stellar mass of only $M_\\star = 9.5^{+1.8}_{-1.2} \\times 10^{8} \\mathrm{M}_\\odot$, based on deep JWST/NIRSpec spectroscopy. This is the least massive quiescent galaxy found so far at high redshift. We use a Bayesian approach to model the spectrum and photometry, and find the target to have been quiescent for 0.6 Gyr with a mass-weighted average stellar age of 0.8-1.7 Gyr (dominated by systematics). The galaxy displays an inverse colour gradient with radius, consistent with environment-driven quenching. Based on a combination of spectroscopic and robust (medium- and broad-band) photometric redshifts, we identify a galaxy overdensity near the location of the target (5-$\\sigma$ above the background level at this redshift). We stress that had we been specifically targetting galaxies within overdensities, the main target would not have been selected on photometry alone; therefore, environment studies based on photometric redshifts are biased against low-mass quiescent galaxies. The overdensity contains three spectroscopically confirmed, massive, old galaxies ($M_\\star = 8-17 \\times 10^{10} \\mathrm{M}_\\odot$). The presence of these evolved systems points to accelerated galaxy evolution in overdensities at redshifts z &gt; 2, in agreement with previous works. In projection, our target lies only 35 pkpc away from the most massive galaxy in this overdensity (spectroscopic redshift z = 2.349) which is located close to overdensity's centre. This suggests the low-mass galaxy was quenched by environment, making it possibly the earliest evidence for environment-driven quenching to date.",
-      "keywords": [
-        "Astrophysics - Astrophysics of Galaxies"
-      ],
-      "volume": "",
-      "page": [
-        "arXiv:2307.08633"
-      ],
-      "property": [
-        "ARTICLE",
-        "EPRINT_OPENACCESS",
-        "ESOURCE",
-        "NOT REFEREED",
-        "OPENACCESS"
-      ],
-      "is_first_author": false,
-      "figure_url": "",
-      "detail_url": ""
-    },
-    {
       "bibcode": "2023MNRAS.522.6236T",
       "title": "JWST NIRCam + NIRSpec: interstellar medium and stellar populations of young galaxies with rising star formation and evolving gas reservoirs",
       "authors": [
@@ -6061,6 +6005,62 @@
         "OPENACCESS",
         "PUB_OPENACCESS",
         "REFEREED"
+      ],
+      "is_first_author": false,
+      "figure_url": "",
+      "detail_url": ""
+    },
+    {
+      "bibcode": "2023arXiv230708633S",
+      "title": "JADES: deep spectroscopy of a low-mass galaxy at redshift 2.3 quenched by environment",
+      "authors": [
+        "Sandles, Lester",
+        "D'Eugenio, Francesco",
+        "Helton, Jakob M.",
+        "Maiolino, Roberto",
+        "Hainline, Kevin",
+        "Baker, William M.",
+        "Williams, Christina C.",
+        "Alberts, Stacey",
+        "Bunker, Andrew J.",
+        "Carniani, Stefano",
+        "Charlot, Stephane",
+        "Chevallard, Jacopo",
+        "Curti, Mirko",
+        "Curtis-Lake, Emma",
+        "Eisenstein, Daniel J.",
+        "Ji, Zhiyuan",
+        "Johnson, Benjamin D.",
+        "Looser, Tobias J.",
+        "Rawle, Tim",
+        "Robertson, Brant",
+        "Rodríguez Del Pino, Bruno",
+        "Tacchella, Sandro",
+        "Übler, Hannah",
+        "Willmer, Christopher N. A.",
+        "Willott, Chris"
+      ],
+      "first_author": "Sandles, Lester",
+      "year": "2023",
+      "pubdate": "2023-07-00",
+      "journal": "arXiv e-prints",
+      "doi": "10.48550/arXiv.2307.08633",
+      "arxiv_id": "2307.08633",
+      "citation_count": 12,
+      "abstract": "We report the discovery of a quiescent galaxy at $z=2.34$ with a stellar mass of only $M_\\star = 9.5^{+1.8}_{-1.2} \\times 10^{8} \\mathrm{M}_\\odot$, based on deep JWST/NIRSpec spectroscopy. This is the least massive quiescent galaxy found so far at high redshift. We use a Bayesian approach to model the spectrum and photometry, and find the target to have been quiescent for 0.6 Gyr with a mass-weighted average stellar age of 0.8-1.7 Gyr (dominated by systematics). The galaxy displays an inverse colour gradient with radius, consistent with environment-driven quenching. Based on a combination of spectroscopic and robust (medium- and broad-band) photometric redshifts, we identify a galaxy overdensity near the location of the target (5-$\\sigma$ above the background level at this redshift). We stress that had we been specifically targetting galaxies within overdensities, the main target would not have been selected on photometry alone; therefore, environment studies based on photometric redshifts are biased against low-mass quiescent galaxies. The overdensity contains three spectroscopically confirmed, massive, old galaxies ($M_\\star = 8-17 \\times 10^{10} \\mathrm{M}_\\odot$). The presence of these evolved systems points to accelerated galaxy evolution in overdensities at redshifts z &gt; 2, in agreement with previous works. In projection, our target lies only 35 pkpc away from the most massive galaxy in this overdensity (spectroscopic redshift z = 2.349) which is located close to overdensity's centre. This suggests the low-mass galaxy was quenched by environment, making it possibly the earliest evidence for environment-driven quenching to date.",
+      "keywords": [
+        "Astrophysics - Astrophysics of Galaxies"
+      ],
+      "volume": "",
+      "page": [
+        "arXiv:2307.08633"
+      ],
+      "property": [
+        "ARTICLE",
+        "EPRINT_OPENACCESS",
+        "ESOURCE",
+        "NOT REFEREED",
+        "OPENACCESS"
       ],
       "is_first_author": false,
       "figure_url": "",
