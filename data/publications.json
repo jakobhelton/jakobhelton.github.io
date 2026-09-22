@@ -1,45 +1,8 @@
 {
-  "last_updated": "2026-09-21T12:34:18.508787+00:00",
+  "last_updated": "2026-09-22T11:22:12.282192+00:00",
   "total_count": 98,
   "first_author_count": 7,
   "publications": [
-    {
-      "bibcode": "2026arXiv260909265C",
-      "title": "A Spectral Framework for Testing the Quasi-Star Hypothesis in Little Red Dots I: Weighing LRDs by Their Super-Eddington Luminosity Ratios---No Signs of Overmassive Black Holes",
-      "authors": [
-        "Curtis, Olivia",
-        "Cleri, Nikko J.",
-        "Helton, Jakob M.",
-        "Leja, Joel",
-        "Wright, Jason T."
-      ],
-      "first_author": "Curtis, Olivia",
-      "year": "2026",
-      "pubdate": "2026-09-00",
-      "journal": "arXiv e-prints",
-      "doi": "10.48550/arXiv.2609.09265",
-      "arxiv_id": "2609.09265",
-      "citation_count": 0,
-      "abstract": "We present a spectral test of the quasi-star hypothesis for Little Red Dots (LRDs) whereby a black hole grows inside a stellar-like envelope. We use \\texttt{Prospector} to fit host galaxies and \\texttt{TLUSTY} photospheres to four LRDs that show strong molecular or atomic absorption. We approximate each object's electron-scattered Eddington luminosity ratio, $ϕ\\equiv κ_{\\rm es}σT_{\\rm eff}^{4}/(gc)$, and we use \\texttt{MESA-QUEST} to simulate their envelopes. All four are super-Eddington at $ϕ= 4.0$--$299$, although the largest value sits at the edge of our atmosphere grid and beyond our simulations. We derive envelope masses between $700$--$27{,}000\\,M_\\odot$, where quasi-star theory requires the black hole to be less than a third of that. GN-28074 falls five decades below its published virial mass estimate, alleviating the overmassive black hole problem. Their black holes double in mass every $\\sim0.05$--$3.5$~Myr and can produce intermediate-mass black holes in $\\lesssim30$~Myr. The two fitted components of the water-absorbing object WIDE-EGS-2974 share a single $ϕ$, consistent with our hypothesis that the absorption originates in an extended atmosphere. We then extend our measurements to 82 archival LRDs, finding super-Eddington photospheres throughout the population that launch winds at $1$--$3\\times$ their own escape speeds, which implies that LRDs evolve from being massive, continuum-driven sources to more eruptive winds as they mature and shed their outer envelopes. We thus constrain the Eddington ratios and masses of LRDs, and, for the first time, show self-consistently that quasi-stars may be the central engines powering LRDs.",
-      "keywords": [
-        "Astrophysics of Galaxies",
-        "Cosmology and Nongalactic Astrophysics"
-      ],
-      "volume": "",
-      "page": [
-        "arXiv:2609.09265"
-      ],
-      "property": [
-        "ARTICLE",
-        "EPRINT_OPENACCESS",
-        "ESOURCE",
-        "NOT REFEREED",
-        "OPENACCESS"
-      ],
-      "is_first_author": false,
-      "figure_url": "",
-      "detail_url": ""
-    },
     {
       "bibcode": "2026arXiv260914574P",
       "title": "PRISMS. GHZ1. A standard tale of galaxy evolution with atypical ionizing conditions at $z=9.878$",
@@ -164,6 +127,43 @@
         "OPENACCESS",
         "PUB_OPENACCESS",
         "REFEREED"
+      ],
+      "is_first_author": false,
+      "figure_url": "",
+      "detail_url": ""
+    },
+    {
+      "bibcode": "2026arXiv260909265C",
+      "title": "A Spectral Framework for Testing the Quasi-Star Hypothesis in Little Red Dots I: Weighing LRDs by Their Super-Eddington Luminosity Ratios---No Signs of Overmassive Black Holes",
+      "authors": [
+        "Curtis, Olivia",
+        "Cleri, Nikko J.",
+        "Helton, Jakob M.",
+        "Leja, Joel",
+        "Wright, Jason T."
+      ],
+      "first_author": "Curtis, Olivia",
+      "year": "2026",
+      "pubdate": "2026-09-00",
+      "journal": "arXiv e-prints",
+      "doi": "10.48550/arXiv.2609.09265",
+      "arxiv_id": "2609.09265",
+      "citation_count": 0,
+      "abstract": "We present a spectral test of the quasi-star hypothesis for Little Red Dots (LRDs) whereby a black hole grows inside a stellar-like envelope. We use \\texttt{Prospector} to fit host galaxies and \\texttt{TLUSTY} photospheres to four LRDs that show strong molecular or atomic absorption. We approximate each object's electron-scattered Eddington luminosity ratio, $ϕ\\equiv κ_{\\rm es}σT_{\\rm eff}^{4}/(gc)$, and we use \\texttt{MESA-QUEST} to simulate their envelopes. All four are super-Eddington at $ϕ= 4.0$--$299$, although the largest value sits at the edge of our atmosphere grid and beyond our simulations. We derive envelope masses between $700$--$27{,}000\\,M_\\odot$, where quasi-star theory requires the black hole to be less than a third of that. GN-28074 falls five decades below its published virial mass estimate, alleviating the overmassive black hole problem. Their black holes double in mass every $\\sim0.05$--$3.5$~Myr and can produce intermediate-mass black holes in $\\lesssim30$~Myr. The two fitted components of the water-absorbing object WIDE-EGS-2974 share a single $ϕ$, consistent with our hypothesis that the absorption originates in an extended atmosphere. We then extend our measurements to 82 archival LRDs, finding super-Eddington photospheres throughout the population that launch winds at $1$--$3\\times$ their own escape speeds, which implies that LRDs evolve from being massive, continuum-driven sources to more eruptive winds as they mature and shed their outer envelopes. We thus constrain the Eddington ratios and masses of LRDs, and, for the first time, show self-consistently that quasi-stars may be the central engines powering LRDs.",
+      "keywords": [
+        "Astrophysics of Galaxies",
+        "Cosmology and Nongalactic Astrophysics"
+      ],
+      "volume": "",
+      "page": [
+        "arXiv:2609.09265"
+      ],
+      "property": [
+        "ARTICLE",
+        "EPRINT_OPENACCESS",
+        "ESOURCE",
+        "NOT REFEREED",
+        "OPENACCESS"
       ],
       "is_first_author": false,
       "figure_url": "",
