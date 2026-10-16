@@ -2,7 +2,8 @@
 """
 update_cv_tex.py — Syncs data/publications.json → assets/cv/JMH_CV.tex
 
-Adds new publications, updates arXiv citations to published journal references,
+Adds new publications (First/Second-Author by position, otherwise Co-Minor),
+re-sorts all non-first-author sections by date, updates arXiv citations to published journal references,
 and refreshes the total count, citation count, h-index, and date.
 
 Run after fetch_publications.py. New entries may need manual review in Overleaf
@@ -18,15 +19,9 @@ CV_TEX = Path("assets/cv/JMH_CV.tex")
 HELTON_LAST = "Helton"
 SCIX_BASE = "https://www.scixplorer.org/abs"
 
-# Author position thresholds
-# pos 1 → First-Author, pos 2 → Second-Author,
-# pos 3–MAJOR_THRESHOLD → Co-Major, pos > MAJOR_THRESHOLD → Co-Minor
-MAJOR_THRESHOLD = 10
-
-# Bibcodes manually kept in Co-Major despite position > MAJOR_THRESHOLD
-MAJOR_OVERRIDE_BIBCODES = {
-    "2026arXiv260115960W",  # Wu et al. galaxy overdensities — Helton's primary research area
-}
+# Author position → section for NEW entries
+# pos 1 → First-Author, pos 2 → Second-Author, otherwise Co-Minor.
+# Promote an entry to Co-Major by hand in the TeX; the script never moves existing entries.
 
 SECTION_NAMES = {
     "first":    "First-Author",
@@ -131,16 +126,12 @@ def get_helton_position(authors: list) -> int:
     return 0
 
 
-def determine_category(helton_pos: int, bibcode: str = '') -> str:
-    if helton_pos == 0:
-        return 'co_minor'
+def determine_category(helton_pos: int) -> str:
     if helton_pos == 1:
         return 'first'
     if helton_pos == 2:
         return 'second'
-    if bibcode in MAJOR_OVERRIDE_BIBCODES:
-        return 'co_major'
-    return 'co_major' if helton_pos <= MAJOR_THRESHOLD else 'co_minor'
+    return 'co_minor'
 
 
 def format_author_list(authors: list, helton_pos: int) -> str:
@@ -306,6 +297,52 @@ def update_published_citation(tex: str, pub: dict) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Date-based reordering
+# ---------------------------------------------------------------------------
+
+# First-Author keeps its hand-curated order; every other section is re-sorted.
+REORDER_SECTIONS = [SECTION_NAMES[k] for k in ('second', 'co_major', 'co_minor')]
+
+
+def sort_date(pub: dict) -> str:
+    """'YYYY-MM' sort key: journal publication date if published, else arXiv submission date."""
+    bibcode = pub.get('bibcode', '')
+    arxiv_id = pub.get('arxiv_id', '')
+    if 'arXiv' in bibcode and re.match(r'\d{4}\.\d{4,5}$', arxiv_id):
+        return f'20{arxiv_id[:2]}-{arxiv_id[2:4]}'
+    return (pub.get('pubdate') or '0000-00')[:7]
+
+
+def entry_sort_date(item: str, by_bibcode: dict, by_arxiv: dict) -> str:
+    """Look up an entry's sort date from the JSON; fall back to the year printed in the entry."""
+    m = re.search(r'/abs/([^/]+)/abstract', item)
+    pub = by_bibcode.get(m.group(1)) if m else None
+    if pub is None:
+        m = re.search(r'\\ul\{arXiv:(\d{4}\.\d{4,5})\}', item)
+        pub = by_arxiv.get(m.group(1)) if m else None
+    if pub is not None:
+        return sort_date(pub)
+    m = re.search(r', (\d{4}), \\href', item)
+    return f'{m.group(1)}-00' if m else '0000-00'
+
+
+def reorder_section(tex: str, section_name: str, by_bibcode: dict, by_arxiv: dict) -> tuple:
+    """Stable-sort the entries of one subsection newest-first. Returns (tex, changed)."""
+    sec_start = tex.find(f'\\begin{{rSubsection}}{{{section_name}}}')
+    if sec_start == -1:
+        return tex, False
+    body_start = tex.find('\n', tex.find(r'\begin{etaremune}', sec_start)) + 1
+    body_end = tex.find(r'\end{etaremune}', body_start)
+
+    items = [i.strip() for i in re.split(r'(?m)^\s*\\item ', tex[body_start:body_end])[1:]]
+    ordered = sorted(items, key=lambda i: entry_sort_date(i, by_bibcode, by_arxiv), reverse=True)
+    if ordered == items:
+        return tex, False
+    new_body = '\n' + '\n\n'.join(f'    \\item {i}' for i in ordered) + '\n\n'
+    return tex[:body_start] + new_body + tex[body_end:], True
+
+
+# ---------------------------------------------------------------------------
 # Statistics helpers
 # ---------------------------------------------------------------------------
 
@@ -409,7 +446,7 @@ def main():
             print(f'  WARNING: Helton not in author list for {bibcode}; skipping')
             continue
 
-        cat = determine_category(helton_pos, bibcode)
+        cat = determine_category(helton_pos)
         entry = format_item(pub)
         pubdate = pub.get('pubdate', '0000-00')
         new_entries[cat].append((pubdate, entry, bibcode))
@@ -425,6 +462,14 @@ def main():
         for _, entry, bibcode in reversed(entries):       # insert oldest first
             tex = insert_entry_at_section_top(tex, section_name, entry)
             print(f'  Added [{cat}]: {bibcode}')
+
+    # Re-sort by date (published date, or arXiv submission date for preprints)
+    by_bibcode = {p['bibcode']: p for p in pubs}
+    by_arxiv = {p['arxiv_id']: p for p in pubs if p.get('arxiv_id')}
+    for name in REORDER_SECTIONS:
+        tex, changed = reorder_section(tex, name, by_bibcode, by_arxiv)
+        if changed:
+            print(f'  Reordered section: {name}')
 
     # Update date and publication statistics
     tex = update_metadata(tex, pubs)

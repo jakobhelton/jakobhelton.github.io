@@ -98,9 +98,9 @@ A GitHub Actions workflow (`.github/workflows/update_data.yml`) runs daily at 06
 
 **`fetch_publications.py`** queries the SciX/ADS API for my public library (`LIBRARY_ID = "57nm1ouuTMusp62fvjiXYg"`) and writes `data/publications.json`.
 
-**`update_cv_tex.py`** syncs `data/publications.json` into `assets/cv/JMH_CV.tex`. It recomputes summary statistics (total papers, first-author papers, refereed papers, h-index, total citations) and detects/updates arXiv-only entries once a DOI and volume are available. The script is idempotent.
+**`update_cv_tex.py`** syncs `data/publications.json` into `assets/cv/JMH_CV.tex`. It adds new papers (First/Second-Author by author position, otherwise Co-Author with Minor Contributions), re-sorts every section except First-Author by date (journal publication date, or arXiv submission date for preprints), and recomputes summary statistics (total papers, first-author papers, refereed papers, h-index, total citations) and detects/updates arXiv-only entries once a DOI and volume are available. The script is idempotent.
 
-**`extract_figures.py`** downloads arXiv PDFs for my first-author papers and extracts the first figure from each, storing them at `assets/papers/<arxiv_id>/figures/fig1.png`.
+**`extract_figures.py`** downloads the arXiv PDF and TeX source for each first-author paper, resolves the figures referenced in the TeX (PNG, JPG, or PDF, rasterized if vector) in paper order, and stores them at `assets/papers/<arxiv_id>/figures/figN.png`. Use `--force` to re-extract.
 
 **`fetch_nasa_image.py`** scrapes the NASA Image of the Day, downloads the image to `assets/images/hero_0.jpg`, and writes `data/nasa_image.json` with title, caption, credit, and source URL.
 
