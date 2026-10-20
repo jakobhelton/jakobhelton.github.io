@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T12:49:22.186579+00:00",
+  "last_updated": "2026-10-20T11:19:06.271569+00:00",
   "total_count": 100,
   "first_author_count": 8,
   "publications": [
@@ -65,6 +65,65 @@
         "ESOURCE",
         "NOT REFEREED",
         "OPENACCESS"
+      ],
+      "is_first_author": false,
+      "figure_url": "",
+      "detail_url": ""
+    },
+    {
+      "bibcode": "2026ApJ..1008..217F",
+      "title": "SAPPHIRES: A Galaxy Overdensity in the Heart of Cosmic Reionization at z = 8.47",
+      "authors": [
+        "Fudamoto, Yoshinobu",
+        "Helton, Jakob M.",
+        "Lin, Xiaojing",
+        "Sun, Fengwu",
+        "Behroozi, Peter",
+        "Hsiao, Tiger Yu-Yang",
+        "Egami, Eiichi",
+        "Bunker, Andrew J.",
+        "D'Eugenio, Francesco",
+        "Harikane, Yuichi",
+        "Ouchi, Masami",
+        "Liu, Yichen",
+        "Liu, Weizhe",
+        "Maiolino, Roberto",
+        "Ji, Zhiyuan",
+        "Jin, Xiangyu",
+        "Tee, Wei Leong",
+        "Wang, Feige",
+        "Willmer, Christopher N. A.",
+        "Xu, Yi",
+        "Yang, Jinyi",
+        "Zhu, Yongda"
+      ],
+      "first_author": "Fudamoto, Yoshinobu",
+      "year": "2026",
+      "pubdate": "2026-09-00",
+      "journal": "The Astrophysical Journal",
+      "doi": "10.3847/1538-4357/ae743f",
+      "arxiv_id": "2503.15597",
+      "citation_count": 23,
+      "abstract": "We report the discovery of a galaxy protocluster candidate (dubbed MACS0416-OD-z8p5) at a spectroscopic redshift of z ~ 8.47, dating back to ~550 Myr after the Big Bang. The observations are part of the JWST Cycle 3 Treasury Program Slitless Areal Pure-Parallel HIgh-Redshift Emission Survey (or SAPPHIRES) using NIRCam grism observations. Using wide-field slitless spectroscopy (WFSS) obtained in the MACS0416 parallel field, we robustly confirm nine galaxies at z<SUB>spec</SUB> ~ 8.47 via emission-line detections of [O III] 5008 Å (with &gt;5σ) and tentatively confirm one additional galaxy (at ~3σ). This discovery represents the highest-redshift spectroscopically confirmed galaxy overdensity known to date and is ~6--8 times more dense than the average number density of galaxies at the same redshift. Furthermore, a galaxy hosting a low-mass active galactic nucleus (a ``little red dot'') is found as a member, suggesting that black hole growth may already be underway in dense environments at early cosmic times. This finding of a massive dark matter halo hosting a galaxy overdensity at z ~ 8.5 is surprising given that our survey covered only a small, random field (<inline-formula> <mml:math><mml:mn>16.5</mml:mn><mml:mspace></mml:mspace><mml:msup><mml:mrow><mml:mi>arcmin</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:math> </inline-formula>) as part of a pure-parallel observation. Comparison with cosmological simulations shows that the likelihood of finding such a large-scale structure is &lt;5% under the current galaxy formation scenario and within the observed survey volume. Our results demonstrate the power of WFSS observations for building complete samples of line-emitting galaxies and suggest an important role for overdensities in enhancing galaxy formation by funneling large-scale gas supplies into small cosmological volumes.",
+      "keywords": [
+        "High-redshift galaxies",
+        "Galaxy formation",
+        "Reionization",
+        "High-redshift galaxy clusters",
+        "Astrophysics - Astrophysics of Galaxies"
+      ],
+      "volume": "1008",
+      "page": [
+        "217"
+      ],
+      "property": [
+        "ARTICLE",
+        "DATA",
+        "EPRINT_OPENACCESS",
+        "ESOURCE",
+        "OPENACCESS",
+        "PUB_OPENACCESS",
+        "REFEREED"
       ],
       "is_first_author": false,
       "figure_url": "",
@@ -238,65 +297,6 @@
         "ESOURCE",
         "NOT REFEREED",
         "OPENACCESS"
-      ],
-      "is_first_author": false,
-      "figure_url": "",
-      "detail_url": ""
-    },
-    {
-      "bibcode": "2026ApJ..1008..217F",
-      "title": "SAPPHIRES: A Galaxy Overdensity in the Heart of Cosmic Reionization at z = 8.47",
-      "authors": [
-        "Fudamoto, Yoshinobu",
-        "Helton, Jakob M.",
-        "Lin, Xiaojing",
-        "Sun, Fengwu",
-        "Behroozi, Peter",
-        "Hsiao, Tiger Yu-Yang",
-        "Egami, Eiichi",
-        "Bunker, Andrew J.",
-        "D'Eugenio, Francesco",
-        "Harikane, Yuichi",
-        "Ouchi, Masami",
-        "Liu, Yichen",
-        "Liu, Weizhe",
-        "Maiolino, Roberto",
-        "Ji, Zhiyuan",
-        "Jin, Xiangyu",
-        "Tee, Wei Leong",
-        "Wang, Feige",
-        "Willmer, Christopher N. A.",
-        "Xu, Yi",
-        "Yang, Jinyi",
-        "Zhu, Yongda"
-      ],
-      "first_author": "Fudamoto, Yoshinobu",
-      "year": "2026",
-      "pubdate": "2026-09-00",
-      "journal": "The Astrophysical Journal",
-      "doi": "10.3847/1538-4357/ae743f",
-      "arxiv_id": "2503.15597",
-      "citation_count": 23,
-      "abstract": "We report the discovery of a galaxy protocluster candidate (dubbed MACS0416-OD-z8p5) at a spectroscopic redshift of z ~ 8.47, dating back to ~550 Myr after the Big Bang. The observations are part of the JWST Cycle 3 Treasury Program Slitless Areal Pure-Parallel HIgh-Redshift Emission Survey (or SAPPHIRES) using NIRCam grism observations. Using wide-field slitless spectroscopy (WFSS) obtained in the MACS0416 parallel field, we robustly confirm nine galaxies at z<SUB>spec</SUB> ~ 8.47 via emission-line detections of [O III] 5008 Å (with &gt;5σ) and tentatively confirm one additional galaxy (at ~3σ). This discovery represents the highest-redshift spectroscopically confirmed galaxy overdensity known to date and is ~6--8 times more dense than the average number density of galaxies at the same redshift. Furthermore, a galaxy hosting a low-mass active galactic nucleus (a ``little red dot'') is found as a member, suggesting that black hole growth may already be underway in dense environments at early cosmic times. This finding of a massive dark matter halo hosting a galaxy overdensity at z ~ 8.5 is surprising given that our survey covered only a small, random field (<inline-formula> <mml:math><mml:mn>16.5</mml:mn><mml:mspace></mml:mspace><mml:msup><mml:mrow><mml:mi>arcmin</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msup></mml:math> </inline-formula>) as part of a pure-parallel observation. Comparison with cosmological simulations shows that the likelihood of finding such a large-scale structure is &lt;5% under the current galaxy formation scenario and within the observed survey volume. Our results demonstrate the power of WFSS observations for building complete samples of line-emitting galaxies and suggest an important role for overdensities in enhancing galaxy formation by funneling large-scale gas supplies into small cosmological volumes.",
-      "keywords": [
-        "High-redshift galaxies",
-        "Galaxy formation",
-        "Reionization",
-        "High-redshift galaxy clusters",
-        "Astrophysics - Astrophysics of Galaxies"
-      ],
-      "volume": "1008",
-      "page": [
-        "217"
-      ],
-      "property": [
-        "ARTICLE",
-        "DATA",
-        "EPRINT_OPENACCESS",
-        "ESOURCE",
-        "OPENACCESS",
-        "PUB_OPENACCESS",
-        "REFEREED"
       ],
       "is_first_author": false,
       "figure_url": "",
