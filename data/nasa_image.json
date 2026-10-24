@@ -1,9 +1,9 @@
 {
-  "title": "Spiral’s Edge",
-  "caption": "This NASA <a href=\"https://science.nasa.gov/mission/hubble/\" target=\"_blank\" rel=\"noopener\">Hubble Space Telescope</a> image released on Oct. 16, 2026, features the edge-on, intermediate spiral galaxy NGC 1827, located roughly 37 million light-years away in the constellation Columba, the Dove. Hubble captured the image as part of a survey looking at 260 satellite galaxies around 22 Milky Way-like host galaxies within a radius of about 32 million light-years from Earth. Low-mass galaxies like the ones in this Hubble observing program provide a way to test the predictions of cosmological models on small scales, which struggle to match observations.",
-  "credit": "NASA, ESA, Michael Jones (California Institute of Technology); Image Processing: Gladys Kober (NASA/Catholic University of America)",
-  "image_url": "https://www.nasa.gov/wp-content/uploads/2026/10/hubble-ngc1827-1-flat-final.jpg",
-  "source_url": "https://www.nasa.gov/image-article/spirals-edge/",
-  "fetched_at": "2026-10-23T11:24:01.742253+00:00",
+  "title": "RS-25 Engine Tests at NASA Stennis",
+  "caption": "Teams at <a href=\"https://www.nasa.gov/stennis/\" target=\"_blank\" rel=\"noopener\">NASA’s Stennis Space Center</a> near Bay St. Louis, Mississippi tested RS-25 engine No. 10001 on Oct. 21, 2026. The hot fire test lasted for almost eight-and-a-half minutes (500 seconds), the same amount of time RS-25 engines fire during launch of NASA’s SLS (Space Launch System) rocket, with a 111% power level. For each <a href=\"https://www.nasa.gov/humans-in-space/artemis/\" target=\"_blank\" rel=\"noopener\">Artemis</a> mission, four RS-25 engines produce up to 2 million pounds of combined thrust to help launch the SLS rocket.\n\nPrior to use, all RS-25 engines are proven flightworthy at NASA Stennis. While this developmental engine will not be used in flight, the hot fire test provides NASA and NASA’s prime engine contractor L3Harris Technologies with the capability to capture critical data to improve engine performance and reliability.",
+  "credit": "NASA",
+  "image_url": "https://www.nasa.gov/wp-content/uploads/2026/10/ssc-20261021-s00947horig.jpg",
+  "source_url": "https://www.nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis/",
+  "fetched_at": "2026-10-24T10:43:08.150446+00:00",
   "local_image": "assets/images/hero_0.jpg"
 }
